@@ -1,0 +1,182 @@
+{
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 Meu nome é Leonardo Pereira e tenho mais de 10 anos de experiência em gerenciamento de projetos e mais de 2 anos em desenvolvimento de software Full-Stack, com especialização em JavaScript, Node.js e React.js. Sou apaixonado por encontrar soluções inovadoras para desafios complexos e estou sempre em busca de aprimoramento e aprendizado contínuos. Meu histórico inclui a liderança de equipes de alto desempenho e a entrega bem-sucedida de projetos de grande escala para clientes em diversos setores. Estou sempre aberto a novas oportunidades e desafios emocionantes na minha carreira.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Projeto UTN",
+      "startDate": "2022",
+      "description": "Projeto de conclusão de curso de extensão: Programador Web Avançado da UTN - (Universidad Tecnológica Nacional - Buenos Aires).",
+      "images": [
+        "images/portfolio/UTN/utn.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React.js"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "EasyPool",
+      "startDate": "2021",
+      "description": "EasyPool é uma plataforma SaaS inovadora que oferece suporte aos lojistas do ramo de construção de piscinas de vinil, permitindo-lhes criar cotações de forma rápida e segura.",
+      "images": [
+        "images/portfolio/easy-pool/easypool.png"
+      ],
+      "video": [
+        "https://www.youtube.com/embed/EFTK-K8jWsI"
+
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-vuejs-plain",
+          "name": "Vue.js"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "title": "Contrasseco",
+      "startDate": "2015",
+      "description": "Dispositivo de monitoramento de fluxo de água para motobomba de piscina.",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-arduino-plain-wordmark colored"
+        },
+        {
+
+          "name": "C++"
+        },
+        {
+
+          "name": "Tinkercad"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Confitec",
+      "title": "Full Stack Developer",
+      "description": "Desenvolvimento e consumo de API Node.js; Criação de features com React e Bootstrap; Desenvolvimento de novas funcionalidades alinhadas com os projetos; Time ágil; Integração de sistemas a serviços Amazon.",
+      "years": "08/2021 - 05/2022",
+      "mainTech": [
+        "JavaScript"
+      ],
+      "technologies": [
+        "REST API",
+        "React.js",
+        "Node.js",
+        "Time ágil",
+        "Bootstrap",
+        "Amazon S3"
+      ]
+    },
+    {
+      "company": "Self Employed Freelancer",
+      "title": "Full Stack Developer",
+      "description": "Desenvolvedor full stack de uma plataforma de gestão SaaS. Criação de um protótipo em Excel para testar todos os cálculos envolvidos na plataforma, como levantamento de requisitos funcionais e não funcionais de sistema, desenvolvimento das telas de prototipagem, e desenvolvimento de funcionalidades no back-end e no front-end.",
+      "years": "11/2020 - 08/2021",
+      "mainTech": [
+        "JavaScript"
+      ],
+      "technologies": [
+        "Node.js",
+        "Vue.js",
+        "PostgreSQL",
+        "Excel",
+        "Amazon S3"
+      ]
+    },
+    {
+      "company": "Campos Piscinas - São Paulo",
+      "title": "Sócio Proprietário",
+      "description": "Gerenciamento de projetos de construção; Negociação comercial (compras, follow-up e gestão de contratos), Gestão de equipe, negociação orçamentária e acompanhamento de indicadores.",
+      "years": "01/2012 - 03/2019",
+      "mainTech":[
+        "Project Manager"
+      ],
+      "technologies":[
+        "Processos empresariais",
+        "Ciclo PDCA",
+        "Excel",
+        "Balanced Score Card",
+        "Microsoft Project",
+        "Gestão de estoque"
+      ]
+    },
+    {
+      "company": " Bradesco Cartões - Uberlândia ",
+      "title":"Gerente de Projetos",
+      "description":"Responsável pela criação, manutenção e apresentação mensal de indicadores de desempenho da área de cobrança do Bradesco Cartões, garantindo o alinhamento com as metas e estratégias da empresa. Gerenciei e liderei uma equipe multidisciplinar na implementação bem-sucedida de uma solução de análise de dados (QlikView ).",
+      "years": "02/2011 - 02/2012",
+      "mainTech":[
+        "Project Manager"
+      ],
+      "technologies":[
+        "Microsoft Project",
+        "Microsoft Office",
+        "Pivot Table"
+      ]
+    },
+    {
+      "company": "CJ Selecta - Araguari",
+      "title": "Analista de Suprimentos",
+      "description": "Participei da criação da carteira de fornecedores da fábrica em Araguari e a elaboração dos primeiros contratos. Principais atividades: Análise de fornecedores, controle de estoque, negociação de contratos e monitoramento de desempenho.",
+      "years": "09/2010 - 02/2011",
+      "mainTech":[
+        "Negociação"
+      ],
+      "technologies":[
+        "Compras",
+        "Administração de contratos",
+        "Gestão de estoque"
+
+      ]
+    },
+    {
+      "company":"Algar Tech - Uberlândia",
+      "title":"Analista de Processos",
+      "description": "Atuando com o cliente Bradesco Cartões, liderando uma criação de instruções de trabalho, e estudo dos processos do setor de recebíveis, utilizando a técnica de ciclo BPM. Gerando assim a eliminação do retrabalho nos processos de abordagem de clientes e automatização de geração de relatórios. ",
+      "years":"04/2008 - 05/2010",
+      "mainTech":[
+        "Ciclo BPM"
+      ],
+      "technologies":[
+        "Microsoft Visio",
+        "Green Belt - SIX SIGMA",
+        "VBA"
+      ]
+    }
+  ]
+}
