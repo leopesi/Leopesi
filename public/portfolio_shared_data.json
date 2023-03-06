@@ -1,0 +1,53 @@
+{
+    "basic_info": {
+      "name": "leopesi",
+      "titles": [ "Back-end Developer", "Project Manager" ],
+      "social": [
+        {
+          "name": "github",
+          "url": "https://github.com/leopesi",
+          "class": "fab fa-github"
+        },
+        {
+          "name": "instagram",
+          "url": "https://www.instagram.com/leopesi/",
+          "class": "fab fa-instagram"
+        }
+      ],
+      "image": "myProfile.jpg"
+    },
+    "skills": {
+      "icons": [
+        {
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
+        },
+        {
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
+        {
+          "name": "Node,js",
+          "class": "devicon-nodejs-plain",
+          "level": "80"
+        },
+        {
+          "name": "python",
+          "class": "devicon-python-plain",
+          "level": "90"
+        },
+        {
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "Bootstrap",
+          "class": "devicon-bootstrap-plain",
+          "level": "85"
+        }
+      ]
+    }
+  }
