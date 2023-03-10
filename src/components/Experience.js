@@ -4,7 +4,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import Badge from "react-bootstrap/Badge";
+import {Badge, Button} from "react-bootstrap/";
+
 
 class Experience extends Component {
   render() {
@@ -13,6 +14,7 @@ class Experience extends Component {
       var work = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech;
+        const mainProjects = work.mainProjects;
 
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
@@ -26,6 +28,13 @@ class Experience extends Component {
             <Badge pill className="experience-badge mr-2 mb-2" key={i}>
               {technology}
             </Badge>
+          );
+        });
+        var mainProj = mainProjects.map((technology, i) => {
+          return (
+            <Button href="#" variant="primary" key={i}>
+              {technology}
+            </Button>
           );
         });
         return (
@@ -63,6 +72,7 @@ class Experience extends Component {
               {work.description}
             </h5>
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
+            <div style={{ textAlign: "left", marginTop: "15px" }}>{mainProj}</div>
           </VerticalTimelineElement>
         );
       });
