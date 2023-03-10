@@ -100,7 +100,11 @@
         "Time ágil",
         "Bootstrap",
         "Amazon S3"
+      ],
+      "mainProjects": [
+        "Projeto x"
       ]
+
     },
     {
       "company": "Self Employed Freelancer",
@@ -116,6 +120,9 @@
         "PostgreSQL",
         "Excel",
         "Amazon S3"
+      ],
+      "mainProjects": [
+        "Projeto x"
       ]
     },
     {
@@ -133,6 +140,9 @@
         "Balanced Score Card",
         "Microsoft Project",
         "Gestão de estoque"
+      ],
+      "mainProjects": [
+        "Projeto x"
       ]
     },
     {
@@ -147,6 +157,9 @@
         "Microsoft Project",
         "Microsoft Office",
         "Pivot Table"
+      ],
+      "mainProjects": [
+        "Projeto x"
       ]
     },
     {
@@ -162,6 +175,9 @@
         "Administração de contratos",
         "Gestão de estoque"
 
+      ],
+      "mainProjects": [
+        "Projeto x"
       ]
     },
     {
@@ -176,6 +192,9 @@
         "Microsoft Visio",
         "Green Belt - SIX SIGMA",
         "VBA"
+      ],
+      "mainProjects": [
+        "Projeto x"
       ]
     }
   ]
