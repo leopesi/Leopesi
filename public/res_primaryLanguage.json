@@ -102,100 +102,28 @@
         "Amazon S3"
       ],
       "mainProjects": [
-        "Projeto x"
+        {
+          "tag": "Taxi",
+          "title": "Melhoria no processo de utilização de táxi.",
+          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in augue justo. Integer commodo, sapien eu lacinia tristique, augue nisl commodo libero, at malesuada dolor turpis vel nibh."
+        },
+        {
+          "tag": "Balanced ScoreCard",
+          "title": "Melhoria no processo de utilização de táxi.",
+          "text": [
+            {
+              "topic": "Problema",
+              "content": "Estabelecer um processo eficiente e transparente de autorização e utilização de taxis pelos colaboradores, com o objetivo de otimizar o uso desses recursos, reduzir os custos e evitar uso indevido."
+            },
+            {
+              "topic": "Objetivo",
+              "content": "Otimizar o uso de Taxi, reduzir os custos e melhorar a qualidade do serviço prestado."
+            }
+
+          ] 
+        }
       ]
 
-    },
-    {
-      "company": "Self Employed Freelancer",
-      "title": "Full Stack Developer",
-      "description": "Desenvolvedor full stack de uma plataforma de gestão SaaS. Criação de um protótipo em Excel para testar todos os cálculos envolvidos na plataforma, como levantamento de requisitos funcionais e não funcionais de sistema, desenvolvimento das telas de prototipagem, e desenvolvimento de funcionalidades no back-end e no front-end.",
-      "years": "11/2020 - 08/2021",
-      "mainTech": [
-        "JavaScript"
-      ],
-      "technologies": [
-        "Node.js",
-        "Vue.js",
-        "PostgreSQL",
-        "Excel",
-        "Amazon S3"
-      ],
-      "mainProjects": [
-        "Projeto x"
-      ]
-    },
-    {
-      "company": "Campos Piscinas - São Paulo",
-      "title": "Sócio Proprietário",
-      "description": "Gerenciamento de projetos de construção; Negociação comercial (compras, follow-up e gestão de contratos), Gestão de equipe, negociação orçamentária e acompanhamento de indicadores.",
-      "years": "01/2012 - 03/2019",
-      "mainTech":[
-        "Project Manager"
-      ],
-      "technologies":[
-        "Processos empresariais",
-        "Ciclo PDCA",
-        "Excel",
-        "Balanced Score Card",
-        "Microsoft Project",
-        "Gestão de estoque"
-      ],
-      "mainProjects": [
-        "Projeto x"
-      ]
-    },
-    {
-      "company": " Bradesco Cartões - Uberlândia ",
-      "title":"Gerente de Projetos",
-      "description":"Responsável pela criação, manutenção e apresentação mensal de indicadores de desempenho da área de cobrança do Bradesco Cartões, garantindo o alinhamento com as metas e estratégias da empresa. Gerenciei e liderei uma equipe multidisciplinar na implementação bem-sucedida de uma solução de análise de dados (QlikView ).",
-      "years": "02/2011 - 02/2012",
-      "mainTech":[
-        "Project Manager"
-      ],
-      "technologies":[
-        "Microsoft Project",
-        "Microsoft Office",
-        "Pivot Table"
-      ],
-      "mainProjects": [
-        "Projeto x"
-      ]
-    },
-    {
-      "company": "CJ Selecta - Araguari",
-      "title": "Analista de Suprimentos",
-      "description": "Participei da criação da carteira de fornecedores da fábrica em Araguari e a elaboração dos primeiros contratos. Principais atividades: Análise de fornecedores, controle de estoque, negociação de contratos e monitoramento de desempenho.",
-      "years": "09/2010 - 02/2011",
-      "mainTech":[
-        "Negociação"
-      ],
-      "technologies":[
-        "Compras",
-        "Administração de contratos",
-        "Gestão de estoque"
-
-      ],
-      "mainProjects": [
-        "Projeto x"
-      ]
-    },
-    {
-      "company":"Algar Tech - Uberlândia",
-      "title":"Analista de Processos",
-      "description": "Atuando com o cliente Bradesco Cartões, liderando uma criação de instruções de trabalho, e estudo dos processos do setor de recebíveis, utilizando a técnica de ciclo BPM. Gerando assim a eliminação do retrabalho nos processos de abordagem de clientes e automatização de geração de relatórios. ",
-      "years":"04/2008 - 05/2010",
-      "mainTech":[
-        "Ciclo BPM"
-      ],
-      "technologies":[
-        "Microsoft Visio",
-        "Green Belt - SIX SIGMA",
-        "VBA"
-      ],
-      "mainProjects": [
-        "Projeto x"
-      ]
     }
   ]
 }

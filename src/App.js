@@ -2,7 +2,15 @@ import React, { Component } from "react";
 import $ from "jquery";
 import "./App.scss";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import About from "./components/About";
+import Experience from "./components/Experience";
+import Projects from "./components/ProjectList";
+import Skills from "./components/Skills";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+
 
 class App extends Component {
 
@@ -20,8 +28,8 @@ class App extends Component {
     document.documentElement.lang = pickedLanguage;
     var resumePath =
       document.documentElement.lang === window.$primaryLanguage
-        ? ``
-        : ``;
+        ? `res_primaryLanguage.json`
+        : `res_secondaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
   }
 
@@ -62,7 +70,7 @@ class App extends Component {
 
   loadSharedData() {
     $.ajax({
-      url: '',
+      url: `portfolio_shared_data.json`,
       dataType: "json",
       cache: false,
       success: function (data) {
@@ -77,50 +85,66 @@ class App extends Component {
 
   render() {
     return (
-      <div>
-        <Header sharedData={this.state.sharedData.basic_info} />
-        <div className="col-md-12 mx-auto text-center language">
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$primaryLanguage,
-                window.$secondaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
-            <span
-              className="iconify language-icon mr-5"
-              data-icon="twemoji-flag-for-flag-brazil"
-              data-inline="false"
-              id={window.$primaryLanguageIconId}
-            ></span>
+      <BrowserRouter>
+        <div>
+          <Header sharedData={this.state.sharedData.basic_info} />
+          <div className="col-md-12 mx-auto text-center language">
+            <div
+              onClick={() =>
+                this.applyPickedLanguage(
+                  window.$primaryLanguage,
+                  window.$secondaryLanguageIconId
+                )
+              }
+              style={{ display: "inline" }}
+            >
+              <span
+                className="iconify language-icon mr-5"
+                data-icon="twemoji-flag-for-flag-brazil"
+                data-inline="false"
+                id={window.$primaryLanguageIconId}
+              ></span>
+            </div>
+            <div
+              onClick={() =>
+                this.applyPickedLanguage(
+                  window.$secondaryLanguage,
+                  window.$primaryLanguageIconId
+                )
+              }
+              style={{ display: "inline" }}
+            >
+              <span
+                className="iconify language-icon"
+                data-icon="twemoji-flag-for-flag-united-kingdom"
+                data-inline="false"
+                id={window.$secondaryLanguageIconId}
+              ></span>
+            </div>
           </div>
-          <div
-            onClick={() =>
-              this.applyPickedLanguage(
-                window.$secondaryLanguage,
-                window.$primaryLanguageIconId
-              )
-            }
-            style={{ display: "inline" }}
-          >
-            <span
-              className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-united-kingdom"
-              data-inline="false"
-              id={window.$secondaryLanguageIconId}
-            ></span>
-          </div>
+
+          <About
+            resumeBasicInfo={this.state.resumeData.basic_info}
+            sharedBasicInfo={this.state.sharedData.basic_info}
+          />
+          <Projects
+            resumeProjects={this.state.resumeData.projects}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+          <Skills
+            sharedSkills={this.state.sharedData.skills}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+          <Experience
+            resumeExperience={this.state.resumeData.experience}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+          <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
         </div>
-        <About
-          resumeBasicInfo={this.state.resumeData.basic_info}
-          sharedBasicInfo={this.state.sharedData.basic_info}
-        />
-       
-      </div>
+      </BrowserRouter>
     );
   }
+  
 }
 
 export default App;
