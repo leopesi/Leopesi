@@ -25,7 +25,9 @@ class TaxiProject extends Component {
             {text.map((item, i) => (
               <div key={i}>
                 <Modal.Title>{item.topic}</Modal.Title>
-                <p>{item.content}</p>
+                {item.content.split(';').map((paragraph, j) => (
+                  <p key={j}>{paragraph.trim()}</p>
+                ))}
               </div>
             ))}
           </Modal.Body>
@@ -35,6 +37,7 @@ class TaxiProject extends Component {
         </Modal>
       </div>
     );
+    
   }
 }
 
