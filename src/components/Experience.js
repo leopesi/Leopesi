@@ -4,7 +4,8 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import {Badge, Button} from "react-bootstrap/";
+import {Badge} from "react-bootstrap/";
+import TaxiProject from "./Projects/ProjectExperience";
 
 
 class Experience extends Component {
@@ -31,12 +32,31 @@ class Experience extends Component {
           );
         });
         var mainProj = mainProjects.map((technology, i) => {
-          return (
-            <Button href="#" variant="primary" key={i}>
-              {technology}
-            </Button>
-          );
+          if (Array.isArray(technology.text)) {
+            return (
+              <div key={i}>
+                <TaxiProject 
+                  tag={technology.tag}
+                  title={technology.title}
+                  text={technology.text}>
+                </TaxiProject>
+              </div>
+            );
+          } else {
+            return (
+              <div key={i}>
+                <TaxiProject 
+                  tag={technology.tag}
+                  title={technology.title}
+                  text={[technology.text]}>
+                </TaxiProject>
+              </div>
+            );
+          }
         });
+        
+        
+        
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
