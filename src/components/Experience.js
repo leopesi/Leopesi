@@ -87,7 +87,11 @@ class Experience extends Component {
             </h4>
             <h5
               className="vertical-timeline-element-subtitle"
-              style={{ textAlign: "justify" }}
+              style={{ 
+                textAlign: "justify",
+                fontSize: "12px",
+
+              }}
             >
               {work.description}
             </h5>

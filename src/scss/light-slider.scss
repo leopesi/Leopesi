@@ -476,3 +476,50 @@ $content-background-color: #D7CAAA;
     transform: translate3d(100%, 0, 0);
   }
 }
+
+.modal-content {
+  background-color: #ffffff;
+  border-radius: 6px;
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 14px;
+  text-align: justify;
+}
+
+.modal-title {
+  color: #333333;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  
+  
+}
+
+.modal-topic {
+  color: #333333;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.modal-body p {
+  color: #555555;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.modal-close-btn {
+  background-color: #333333;
+  border: none;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.modal-close-btn:hover {
+  background-color: #555555;
+}
+

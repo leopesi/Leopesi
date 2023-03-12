@@ -17,24 +17,30 @@ class TaxiProject extends Component {
     return (
       <div className="mr-2 mb-2">
         <Button onClick={() => this.setState({ show: true })}>{tag}</Button>
-        <Modal show={this.state.show} fullscreen onHide={() => this.setState({ show: false })}>
-          <Modal.Header closeButton>
-            <Modal.Title>{title}</Modal.Title>
-          </Modal.Header>
-          <Modal.Body>
-            {text.map((item, i) => (
-              <div key={i}>
-                <Modal.Title>{item.topic}</Modal.Title>
-                {item.content.split(';').map((paragraph, j) => (
-                  <p key={j}>{paragraph.trim()}</p>
-                ))}
-              </div>
-            ))}
-          </Modal.Body>
-          <Modal.Footer>
-            <button onClick={() => this.setState({ show: false })}>Close</button>
-          </Modal.Footer>
-        </Modal>
+        <Modal 
+  size="xl"
+  show={this.state.show} 
+  fullscreen onHide={() => this.setState({ show: false })}
+  >
+  <div className="modal-content">
+    <Modal.Header closeButton>
+      <Modal.Title className="modal-title">{title}</Modal.Title>
+    </Modal.Header>
+    <Modal.Body className="modal-body">
+      {text.map((item, i) => (
+        <div key={i}>
+          <Modal.Title className="modal-topic">{item.topic}</Modal.Title>
+          {item.content.split(';').map((paragraph, j) => (
+            <p key={j}>{paragraph.trim()}</p>
+          ))}
+        </div>
+      ))}
+    </Modal.Body>
+
+  </div>
+</Modal>
+
+
       </div>
     );
     

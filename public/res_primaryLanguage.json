@@ -103,24 +103,221 @@
       ],
       "mainProjects": [
         {
-          "tag": "Taxi",
-          "title": "Melhoria no processo de utilização de táxi.",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec in augue justo. Integer commodo, sapien eu lacinia tristique, augue nisl commodo libero, at malesuada dolor turpis vel nibh."
-        },
+          "tag": "",
+          "title": "",
+          "text": [
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            }
+
+          ]
+        }
+      ]
+
+    },
+    {
+      "company": "Self Employed Freelancer",
+      "title": "Full Stack Developer",
+      "description": "Desenvolvedor full stack de uma plataforma de gestão SaaS. Criação de um protótipo em Excel para testar todos os cálculos envolvidos na plataforma, como levantamento de requisitos funcionais e não funcionais de sistema, desenvolvimento das telas de prototipagem, e desenvolvimento de funcionalidades no back-end e no front-end.",
+      "years": "11/2020 - 08/2021",
+      "mainTech": [
+        "JavaScript"
+      ],
+      "technologies": [
+        "Node.js",
+        "Vue.js",
+        "PostgreSQL",
+        "Excel",
+        "Amazon S3"
+      ],
+      "mainProjects": [
+        {
+          "tag": "",
+          "title": "",
+          "text": [
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Campos Piscinas - São Paulo",
+      "title": "Sócio Proprietário",
+      "description": "Gerenciamento de projetos de construção; Negociação comercial (compras, follow-up e gestão de contratos), Gestão de equipe, negociação orçamentária e acompanhamento de indicadores.",
+      "years": "01/2012 - 03/2019",
+      "mainTech":[
+        "Project Manager"
+      ],
+      "technologies":[
+        "Processos empresariais",
+        "Ciclo PDCA",
+        "Excel",
+        "Balanced Score Card",
+        "Microsoft Project",
+        "Gestão de estoque"
+      ],
+      "mainProjects": [
         {
           "tag": "Balanced ScoreCard",
-          "title": "Melhoria no processo de utilização de táxi.",
+          "title": "Projeto de Melhoria de Desempenho.",
           "text": [
             {
               "topic": "Problema",
-              "content": "Estabelecer um processo eficiente e transparente de autorização e utilização de taxis pelos colaboradores, com o objetivo de otimizar o uso desses recursos, reduzir os custos e evitar uso indevido."
+              "content": "Foi constatado que um percentual grande de projetos de construção de piscina apresentavam falhas de execução e consequentemente acarretavam em retrabalho, prejuízos e insatisfação dos clientes."
             },
             {
               "topic": "Objetivo",
-              "content": "Otimizar o uso de Taxi, reduzir os custos e melhorar a qualidade do serviço prestado."
+              "content": "Capacitar os funcionários de nível técnico e reforçar a cultura de autogestão.;Foi feito um mapeamento dos processos de execução dos projetos e um estudo para identificar os principais indicadores de desempenho das equipes de montagem técnica, construtores e de gestores, alinhados com os objetivos de desempenho da empresa."
+            },
+            {
+              "topic": "Divulgação ",
+              "content":"Foi criado um workshop de apresentação do projeto afim de apresentar a nova metodologia de avaliação e responder perguntas. "
+            },
+            {
+              "topic": "Implementação ",
+              "content":"Depois de identificados as métricas de avaliação e apresentado o projeto para a empresa, cada funcionário recebeu capacitação de forma individual e coletiva.; Em parceria com alguns fornecedores parceiros, Sebrae e Senai de Cotia conseguimos organizar uma série de treinamentos de requalificação como:; • Instalador Hidráulico – Senai ;• Pedreiro de Alvenaria; • Instalação e manutenção de bolsão de vinil – Viniplas;  • Limpeza e manutenção de piscinas – Genco; • Modelagem Computacional Aplicada à Construção Civil (Sketchup) - Senai;• Atendimento ao cliente – Sebrae."
+            },
+            {
+              "topic": "Avaliação ",
+              "content":"Foi criado uma planilha com métricas individuais e cada funcionário passou a ser avaliado por uma série de métricas de nível organizacional e pessoal como: assiduidade, limpeza do ambiente de trabalho, ideias inovadoras, eficiência, redução de custos, etc. Cada uma com um peso específico e a nota de cada métrica passou a ser discutida entre o colaborador e seu gestor em reuniões individuais mensais.  "
+            },
+            {
+              "topic": "Resultado ",
+              "content":"Colaborador: Um prêmio anual, extra salário, baseado na nota individual de cada um, podendo chegar até 1,5 vezes o seu salário; Campos Piscinas: Zeramos o turnover por 34 meses, Assiduidade caiu para patamares aceitáveis e redução de 40% no retorno de projetos entregues no primeiro ano."
+            },
+            {
+              "topic": "Conclusão ",
+              "content":"O projeto de melhoria de desempenho da Campos Piscinas foi um sucesso graças à implementação do Balanced Scorecard como metodologia de avaliação e gestão de desempenho dos funcionários. A empresa conseguiu aumentar a eficiência, reduzir custos e melhorar a satisfação do cliente. "
             }
 
           ] 
+        }
+      ]
+    },
+    {
+      "company": " Bradesco Cartões - Uberlândia ",
+      "title":"Gerente de Projetos",
+      "description":"Responsável pela criação, manutenção e apresentação mensal de indicadores de desempenho da área de cobrança do Bradesco Cartões, garantindo o alinhamento com as metas e estratégias da empresa. Gerenciei e liderei uma equipe multidisciplinar na implementação bem-sucedida de uma solução de análise de dados (QlikView ).",
+      "years": "02/2011 - 02/2012",
+      "mainTech":[
+        "Project Manager"
+      ],
+      "technologies":[
+        "Microsoft Project",
+        "Microsoft Office",
+        "Pivot Table"
+      ],
+      "mainProjects": [
+        {
+          "tag": "",
+          "title": "",
+          "text": [
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "company": "CJ Selecta - Araguari",
+      "title": "Analista de Suprimentos",
+      "description": "Participei da criação da carteira de fornecedores da fábrica em Araguari e a elaboração dos primeiros contratos. Principais atividades: Análise de fornecedores, controle de estoque, negociação de contratos e monitoramento de desempenho.",
+      "years": "09/2010 - 02/2011",
+      "mainTech":[
+        "Negociação"
+      ],
+      "technologies":[
+        "Compras",
+        "Administração de contratos",
+        "Gestão de estoque"
+
+      ],
+      "mainProjects": [
+        {
+          "tag": "",
+          "title": "",
+          "text": [
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            }
+
+          ]
+        }
+      ]
+    },
+    {
+      "company":"Algar Tech - Uberlândia",
+      "title":"Analista de Processos",
+      "description": "Atuando com o cliente Bradesco Cartões, liderando uma criação de instruções de trabalho, e estudo dos processos do setor de recebíveis, utilizando a técnica de ciclo BPM. Gerando assim a eliminação do retrabalho nos processos de abordagem de clientes e automatização de geração de relatórios. ",
+      "years":"04/2008 - 05/2010",
+      "mainTech":[
+        "Ciclo BPM"
+      ],
+      "technologies":[
+        "Microsoft Visio",
+        "Green Belt - SIX SIGMA",
+        "VBA"
+      ],
+      "mainProjects": [
+        {
+          "tag": "Taxi",
+          "title": "Melhoria no processo de utilização de táxi.",
+          "text": [
+            {
+              "topic": "Problema:",
+              "content": "Estabelecer um processo eficiente e transparente de autorização e utilização de taxis pelos colaboradores, com o objetivo de otimizar o uso desses recursos, reduzir os custos e evitar uso indevido."
+            },
+            {
+              "topic": "Objetivo:",
+              "content": "Otimizar o uso de Taxi, reduzir os custos e melhorar a qualidade do serviço prestado."
+            },
+            {
+              "topic": "Partes Interessadas: ",
+              "content": "Planejamento, Compliance, Financeiro e Processos."
+            },
+            {
+              "topic": "1 - Planejamento: ",
+              "content": "Definição das atividades com o time envolvido no projeto, plano de gerenciamento de riscos e comunicação. Por se tratar de um projeto que envolvia suspeita de uso indevido da ferramenta, todo o projeto foi executado de forma sigilosa e alinhada com a área de Compliance."
+            },
+            {
+              "topic": "2 - Execução: ",
+              "content": "• Estudo do processo de autorização afim de se identificar oportunidades de redesenho no organograma e mudança na instrução de trabalho; • Auditoria de 4 meses em 100% das autorizações de uso de taxi que chegogaram ao financeiro com pedido de reembolso; • Foi implementada uma nova política de autorização que substituiu o processo anterior baseado em assinaturas por um sistema de autorização no perfil dos gerentes no SAP. Agora, para solicitar autorização, é necessário apresentar uma justificativa para o gerente responsável pelo perfil designado."
+            },
+            {
+              "topic": "3 - Monitoramento e Controle: ",
+              "content": "Durante um período de seis meses, realizamos monitoramento constante do desempenho do projeto e avaliamos os resultados obtidos. Com base nessa análise, fizemos ajustes necessários a fim de garantir que os objetivos e metas estabelecidos fossem alcançados."
+            },
+            {
+              "topic": "4 - Encerramento: ",
+              "content": "O projeto foi um grande sucesso, uma vez que trouxe maior eficiência e confiança ao processo. Graças à implementação de critérios mais rigorosos, conseguimos alcançar uma redução de aproximadamente 35% no centro de custos de utilização de taxi da empresa. Essa conquista foi reconhecida na Mostra PGP-PGI 2009, onde nosso projeto foi premiado na categoria PGI (Programa de Gestão de Ideias) pelo grupo Algar."
+            }
+
+          ]
         }
       ]
 
