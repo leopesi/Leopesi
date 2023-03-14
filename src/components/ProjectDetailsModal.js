@@ -12,7 +12,9 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
-      if (this.props.data.technologies) {
+      var video = this.props.data.video
+
+      if (technologies) {
         var tech = technologies.map((icons, i) => {
           return (
             <li className="list-inline-item mx-3" key={i}>
@@ -30,7 +32,7 @@ class ProjectDetailsModal extends Component {
         });
       }
   
-      if (this.props.data.video) {
+      if (video) {
         var video = (
           <div className="embed-responsive embed-responsive-16by9">
             <iframe
@@ -40,7 +42,7 @@ class ProjectDetailsModal extends Component {
             ></iframe>
           </div>
         );
-      } else if (this.props.data.images) {
+      } else if (images) {
         var img = images.map((elem, i) => {
           return <div key={i} data-src={elem} />;
         });

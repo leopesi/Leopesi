@@ -65,7 +65,7 @@
       "startDate": "2015",
       "description": "Dispositivo de monitoramento de fluxo de água para motobomba de piscina.",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/easy-pool/easypool.png",
         "images/portfolio/adventure/p2.jpg"
       ],
       "url": "https://github.com",
@@ -157,7 +157,7 @@
       "company": "Campos Piscinas - São Paulo",
       "title": "Sócio Proprietário",
       "description": "Gerenciamento de projetos de construção; Negociação comercial (compras, follow-up e gestão de contratos), Gestão de equipe, negociação orçamentária e acompanhamento de indicadores.",
-      "years": "01/2012 - 03/2019",
+      "years": "01/2012 - 03/2021",
       "mainTech":[
         "Project Manager"
       ],
@@ -201,6 +201,58 @@
             {
               "topic": "Conclusão ",
               "content":"O projeto de melhoria de desempenho da Campos Piscinas foi um sucesso graças à implementação do Balanced Scorecard como metodologia de avaliação e gestão de desempenho dos funcionários. A empresa conseguiu aumentar a eficiência, reduzir custos e melhorar a satisfação do cliente. "
+            }
+          ],
+          "images": [
+            "images/portfolio/easy-pool/easypool.png"
+          ],
+          "url": "https://github.com",
+          "technologies": [
+            {
+              "class": "devicon-arduino-plain-wordmark colored"
+            },
+            {
+    
+              "name": "C++"
+            },
+            {
+    
+              "name": "Tinkercad"
+            }
+          ]
+        },
+        {
+          "tag": "Contrasseco",
+          "title": "Dispositivo de Monitoramento de Fluxo de Água para Motobomba de Piscina.",
+          "text": [
+            {
+              "topic": "Problema:",
+              "content": "O setor de piscinas enfrenta um problema frequente de queima de motobombas, que ocorre quando a bomba trabalha a seco, sem a passagem de água pela tubulação. Isso causa o superaquecimento do rotor, o que leva à sua deformação e, eventualmente, à falha completa da motobomba. Vários fatores podem contribuir para o funcionamento a seco da motobomba, incluindo entupimento da tubulação ou obstrução do ralo de sucção. Em alguns casos extremos, crianças podem ficar presas pela sucção no ralo de fundo da piscina, o que pode levar a sérios ferimentos ou até mesmo à morte."
+            },
+            {
+              "topic": "Impacto:",
+              "content": "Este problema tem impactos negativos, como atrasos no uso da piscina, custos adicionais para substituição ou reparo da motobomba e riscos para a segurança das pessoas que usam a piscina. "
+            },
+            {
+              "topic": "Objetivo: ",
+              "content": "Desenvolver um sistema de monitoramento e controle automatizado para evitar o funcionamento a seco da motobomba em piscinas, garantindo a segurança das pessoas e prolongando a vida útil do equipamento."
+            },
+            {
+              "topic": "Recursos: ",
+              "content": "Depois de avaliar várias possibilidades chegamos ao conjunto de tecnologias para a criação do protótipo de teste:;• Microsoft Visio;• Arduíno;• Linhagem C++;• Tinkercad (Programa De Modelagem Tridimensional)• Sensor fluxostato;"
+            },
+            {
+              "topic": "Implementação: ",
+              "content": "Com um fluxostato instalado no recalque da motobomba é possível indentificar quando o fluxo de água é interrompido, seja por obstrução do ralo de fundo ou aspirador, ar na tubulação ou qualquer outro motivo. Neste instante é acionado o modo NO SAFE do aparelho, que faz algumas tentativas de reestabelecer o fluxo normal, como está ilustrado no fluxograma abaixo. Se o fluxo de água normal for reestabelecido o dispositivo retorna para o modo SAFE , caso contrário é acionado o modo SETUP, que desliga a motobomba e aciona uma luz de alerta."
+            }
+            ,
+            {
+              "topic": "Avaliação: ",
+              "content": "O dispositivo obteve resultados pouco satisfatórios por imprecisão dos sensores disponíveis na época, como o sensor de fluxostato que não possibilitava fina da passagem de água.  O algoritmo desenvolvido para o arduíno cumpriu os requisitos do fluxograma de funcionamento. Outras opções de sensores que pudessem oferecer maior precisão encareceria muito o produto final, ficando acima das expectativas de custo do produto."
+            },
+            {
+              "topic": "Conclusão:",
+              "content": "O dispositivo Contrasseco da Campos Piscinas se demonstrou tecnicamente viável, porém foi o projeto foi paralisado por inviabilidade comercial, já que em baixa escala seria um produto muito caro para o mercado naquele momento."
             }
 
           ] 

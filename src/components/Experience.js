@@ -5,7 +5,7 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import {Badge} from "react-bootstrap/";
-import TaxiProject from "./Projects/ProjectExperience";
+import ProjectExperience from "./Projects/ProjectExperience";
 
 
 class Experience extends Component {
@@ -14,7 +14,7 @@ class Experience extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
       var work = this.props.resumeExperience.map(function (work, i) {
         const technologies = work.technologies;
-        const mainTechnologies = work.mainTech;
+        const mainTechnologies = work.mainTech; 
         const mainProjects = work.mainProjects;
 
         var mainTech = mainTechnologies.map((technology, i) => {
@@ -35,21 +35,25 @@ class Experience extends Component {
           if (Array.isArray(technology.text)) {
             return (
               <div key={i}>
-                <TaxiProject 
+                <ProjectExperience 
                   tag={technology.tag}
                   title={technology.title}
-                  text={technology.text}>
-                </TaxiProject>
+                  text={technology.text}
+                  image={technology.images}
+                  videos={technology.videos}
+                  url={technology.url}
+                  technologies={technology.technologies}>
+                </ProjectExperience>
               </div>
             );
           } else {
             return (
               <div key={i}>
-                <TaxiProject 
+                <ProjectExperience 
                   tag={technology.tag}
                   title={technology.title}
                   text={[technology.text]}>
-                </TaxiProject>
+                </ProjectExperience>
               </div>
             );
           }
@@ -69,7 +73,8 @@ class Experience extends Component {
             icon={<i className="fas fa-map-marker-alt experience-icon"></i>}
             key={i}
           >
-            <div style={{ textAlign: "left", marginBottom: "px" }}>
+            <div>
+            <div style={{ textAlign: "left", marginBottom: "6px" }}>
               {mainTech}
             </div>
 
@@ -96,8 +101,12 @@ class Experience extends Component {
               {work.description}
             </h5>
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
-            <div style={{ textAlign: "left", marginTop: "15px" }}>{mainProj}</div>
+            
+            </div>
+            <div className="main-pro" style={{ textAlign: "justify", marginTop: "15px" , }}>{mainProj}</div>
+            
           </VerticalTimelineElement>
+          
         );
       });
     }
