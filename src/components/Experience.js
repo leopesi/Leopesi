@@ -31,33 +31,30 @@ class Experience extends Component {
             </Badge>
           );
         });
-        var mainProj = mainProjects.map((technology, i) => {
-          if (Array.isArray(technology.text)) {
-            return (
-              <div key={i}>
-                <ProjectExperience 
-                  tag={technology.tag}
-                  title={technology.title}
-                  text={technology.text}
-                  image={technology.images}
-                  videos={technology.videos}
-                  url={technology.url}
-                  technologies={technology.technologies}>
-                </ProjectExperience>
-              </div>
-            );
-          } else {
-            return (
-              <div key={i}>
-                <ProjectExperience 
-                  tag={technology.tag}
-                  title={technology.title}
-                  text={[technology.text]}>
-                </ProjectExperience>
-              </div>
-            );
-          }
-        });
+        var mainProj = (
+          <div style={{ display: "flex", flexWrap: "wrap" }}>
+            {mainProjects.map((technology, i) => {
+              if (technology.title.length > 0) {
+                return (
+                  <div key={i} style={{ flex: "1 0 25%" }}>
+                    <ProjectExperience
+                      tag={technology.tag}
+                      title={technology.title}
+                      text={technology.text}
+                      images={technology.images}
+                      videos={technology.videos}
+                      url={technology.url}
+                      technologies={technology.technologies}
+                    ></ProjectExperience>
+                  </div>
+                );
+              } else {
+                return null;
+              }
+            })}
+          </div>
+        );
+        
         
         
         
@@ -74,10 +71,6 @@ class Experience extends Component {
             key={i}
           >
             <div>
-            <div style={{ textAlign: "left", marginBottom: "6px" }}>
-              {mainTech}
-            </div>
-
             <h3
               className="vertical-timeline-element-title"
               style={{ textAlign: "left", marginBottom: "6px" }}
@@ -103,7 +96,10 @@ class Experience extends Component {
             <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
             
             </div>
-            <div className="main-pro" style={{ textAlign: "justify", marginTop: "15px" , }}>{mainProj}</div>
+            {mainProj ? (
+              <div className="main-pro" style={{ textAlign: "left", marginTop: "15px" , }}>{mainProj}</div>
+            ) : null}
+            
             
           </VerticalTimelineElement>
           

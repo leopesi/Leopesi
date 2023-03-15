@@ -12,55 +12,70 @@ class ProjectExperience extends Component {
   }
 
   render() {
-    const { tag, title, text, image, videos, url, technologies } = this.props;
+    const { tag, title, text, images, videos, url, technologies } = this.props;
 
-    let tech = null;
-    if (technologies && technologies.length > 0) {
-      tech = technologies.map((icons, i) => {
+    
+    const tech = technologies.map((item, i) => {
+      if (item.name) {
         return (
           <li className="list-inline-item mx-3" key={i}>
             <span>
               <div className="text-center">
-                <i className={icons.class} style={{ fontSize: "300%" }}>
+                <i className={item.class} style={{ fontSize: "300%" }}>
                   <p className="text-center" style={{ fontSize: "30%" }}>
-                    {icons.name}
+                    {item.name}
                   </p>
                 </i>
               </div>
             </span>
           </li>
         );
+      } else {
+        return null; // retorna null caso item.video esteja vazio
+      }
       });
-    }
+    
 
-    let video = null;
-    if (videos) {
-      video = (
-        <div className="embed-responsive embed-responsive-16by9">
-          <iframe
-            className="embed-responsive-item"
-            src={videos}
-            allowFullScreen
-          ></iframe>
+  
+
+  const video = videos.map((item, i) => {
+    if (item.video) { // verifica se item.video tem um valor
+      return (
+        <div className="embed-responsive embed-responsive-16by9" key={i}>
+          <h2 className="text-center" style={{ borderTop: "1px solid #ccc" }}>
+            {item.titleVideo}
+          </h2>
+          <iframe title={item.titleVideo} className="embed-responsive-item" src={item.video} allowFullScreen></iframe>
         </div>
-      );
-    } else if (image && image.length > 0) {
-      var img = image.map((elem, i) => {
-        return (
-          <Image
-            key={i}
-            src={elem}
-            fluid
-            style={{ maxWidth: "100%" }}
-          />
-        );
-      });
+      )
+    } else {
+      return null; // retorna null caso item.video esteja vazio
     }
+  });
+
+  const img = images.map((item, i) => {
+    if (item.image) {
+      return (
+        <div>
+  <h2 className="text-center" style={{ borderTop: "1px solid #ccc", margin: "2em " }}>
+    {item.titleImage}
+  </h2>
+  <Image key={i} src={item.image} fluid style={{ maxWidth: "100%", }} />
+</div>
+
+    
+      );
+    } else {
+      return null; // retorna null caso item.video esteja vazio
+    }   
+      });
+    
 
     const renderedText = text.map((item, i) => {
-      if (!item.hasOwnProperty('content')) {
-        return null;
-      }
+    if (!item.hasOwnProperty('content')) {
+      return null;
+    }
+
       return (
         <div key={i}>
           <Modal.Title className="modal-topic">{item.topic}</Modal.Title>
@@ -102,9 +117,20 @@ class ProjectExperience extends Component {
 
             <Modal.Body className="modal-body">
               {renderedText}
-              <div  style={{ paddingBottom: "50px" }}>
-                {video || img}
-              </div>
+
+              {img  ? (
+                <div  style={{ paddingBottom: "50px" }}>
+                  {img}
+                </div>
+              ) : null}
+                            
+              {video  ? (
+                <div  style={{ paddingBottom: "100px" }}>
+                  {video}
+                </div>
+              ) : null}
+              
+              
             </Modal.Body>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
@@ -125,9 +151,11 @@ ProjectExperience.propTypes = {
       content: PropTypes.string,
     }).isRequired
   ).isRequired,
-  image: PropTypes.arrayOf(PropTypes.string),
+
+  images: PropTypes.arrayOf(PropTypes.string),
   videos: PropTypes.string,
   url: PropTypes.string,
+  
   technologies: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string.isRequired,
