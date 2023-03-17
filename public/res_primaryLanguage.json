@@ -86,20 +86,78 @@
   ],
   "experience": [
     {
-      "company": "Confitec",
-      "title": "Full Stack Developer",
-      "description": "Desenvolvimento e consumo de API Node.js; Criação de features com React e Bootstrap; Desenvolvimento de novas funcionalidades alinhadas com os projetos; Time ágil; Integração de sistemas a serviços Amazon.",
+      "company": "Universidad Tecnológica Nacional - Buenos Aires",
+      "title": "Intercâmbio",
+      "description": "Durante um período de 8 meses, decidi interromper minha carreira para investir em meu aprimoramento profissional. Fui para um intercâmbio na Argentina para estudar espanhol e fazer uma extensão universitária em desenvolvimento de software full stack na Universidad Tecnológica Nacional de Buenos Aires. Lá, pude desenvolver  significativamente meu conhecimento em programação web e em todas as etapas do processo de desenvolvimento de um software, o que me capacitou a criar soluções incríveis com as melhores tecnologias da atualidade. Foi uma experiência única e enriquecedora.",
+      "years": "05/2022 - 12/2022",
+      "iconClass": "graduation",
+      "mainTech": [
+        "JavaScript"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Node.js",
+        "React.js",
+        "SQL",
+        "Espanhol",
+        "Amazon S3 / EC2"
+      ],
+      "mainProjects": [
+        {
+          "tag": "",
+          "title": "",
+          "text": [
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            }
+
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Confitec - São Paulo",
+      "title": "Analista de Requisitos",
+      "description": "Na Confitec, trabalhei em um projeto na BB Seguros, atuando como responsável por definir o backlog da squad com base nos KPIs do banco. Meu papel incluía levantar e especificar os requisitos, além de criar cenários de testes. Utilizamos o framework Scrum no projeto e participei de todas as cerimônias, desde o planejamento até a entrega final do produto.",
       "years": "08/2021 - 05/2022",
       "mainTech": [
         "JavaScript"
       ],
       "technologies": [
-        "REST API",
-        "React.js",
-        "Node.js",
-        "Time ágil",
-        "Bootstrap",
-        "Amazon S3"
+        "Análise de dados",
+        "Análise de requisitos",
+        "Metodologias Agile · Scrum",
+        "Mapeamento de processos"
       ],
       "mainProjects": [
         {
@@ -146,19 +204,18 @@
 
     },
     {
-      "company": "Self Employed Freelancer",
-      "title": "Full Stack Developer",
-      "description": "Desenvolvedor full stack de uma plataforma de gestão SaaS. Criação de um protótipo em Excel para testar todos os cálculos envolvidos na plataforma, como levantamento de requisitos funcionais e não funcionais de sistema, desenvolvimento das telas de prototipagem, e desenvolvimento de funcionalidades no back-end e no front-end.",
-      "years": "11/2020 - 08/2021",
+      "company": "Eurocentres - Londres",
+      "title": "Intercâmbio",
+      "description": "Intercâmbio de inglês na escola Eurocentres durante o período de férias",
+      "iconClass": "graduation",
+      "years": "05/2018",
       "mainTech": [
         "JavaScript"
       ],
       "technologies": [
-        "Node.js",
-        "Vue.js",
-        "PostgreSQL",
-        "Excel",
-        "Amazon S3"
+        "Inglês",
+        "Intercâmbio",
+        "Cultura"
       ],
       "mainProjects": [
         {
@@ -202,12 +259,13 @@
           ]
         }
       ]
+
     },
     {
       "company": "Campos Piscinas - São Paulo",
-      "title": "Sócio Proprietário",
-      "description": "Gerenciamento de projetos de construção; Negociação comercial (compras, follow-up e gestão de contratos), Gestão de equipe, negociação orçamentária e acompanhamento de indicadores.",
-      "years": "01/2012 - 03/2021",
+      "title": "Gerente de Projetos - Sócio Proprietário",
+      "description": "Assumi um novo e desafiador projeto e tornei-me sócio de uma empresa de construção de piscinas de alvenaria na Grande São Paulo, com 21 anos de mercado. Com a missão de desenvolver a área de projetos, entreguei, em 7 anos, mais de 400 projetos de construção e alguns de inovação. Essa experiência me permitiu desenvolver habilidades como liderança, negociação, gestão de conflitos, gestão de equipes multidisciplinares, inovação e resiliência.",
+      "years": "03/2012 - 03/2021",
       "mainTech":[
         "Project Manager"
       ],
@@ -297,7 +355,7 @@
             },
             {
               "topic": "Recursos: ",
-              "content": "Depois de avaliar várias possibilidades chegamos ao conjunto de tecnologias para a criação do protótipo de teste:;• Microsoft Visio;• Arduíno;• Linhagem C++;• Tinkercad (Programa De Modelagem Tridimensional)• Sensor fluxostato;"
+              "content": "Depois de avaliar várias possibilidades chegamos ao conjunto de tecnologias para a criação do protótipo de teste:;• Microsoft Visio;• Arduíno;• Linhagem C++;• Tinkercad (Programa De Modelagem Tridimensional); • Sensor fluxostato;"
             },
             {
               "topic": "Implementação: ",
@@ -324,7 +382,7 @@
               "image": "images/portfolio/contrasseco/arduino.jpg"
             },
             {
-              "titleImage":"Esquema Elétrico",
+              "titleImage":"Esquema Eletrônico",
               "image": "images/portfolio/contrasseco/esquema.png"
             }
           ],
@@ -346,13 +404,96 @@
               "name": "Arduino"
             }
           ]
+        },
+        {
+          "tag": "Iluminação",
+          "title": "Dispositivo De Iluminação Subaquática",
+          "text": [
+            {
+              "topic": "Problema:",
+              "content": "A iluminação submersa em piscinas sempre foi um ponto crítico em projetos, uma vez que é comum ocorrer infiltração e queima de dispositivos. Isso se deve ao fato de que os dispositivos de iluminação são normalmente câmeras blindadas com uma lente translúcida feita de acrílico ou vidro, e a falha pode ocorrer quando a lente quebra, a vedação da blindagem falha ou, como já aconteceu algumas vezes, água penetra através da fiação elétrica. Como resultado, os problemas de iluminação subaquática levaram a uma taxa elevada de reclamações e aumento nos custos."
+            },
+            {
+              "topic": "Objetivo: ",
+              "content": "Desenvolver um dispositivo de iluminação subaquática que seja adequado ao ambiente de piscinas."
+            },
+            {
+              "topic": "Escopo:",
+              "content": "• Design do dispositivo: O novo dispositivo deve ter um design inovador que evite a infiltração de água e proteja a fiação elétrica, reduzindo a ocorrência de falhas.; • Materiais: Os materiais utilizados na construção do dispositivo devem ser de alta qualidade e resistentes à corrosão, garantindo uma longa vida útil e reduzindo a necessidade de manutenção.; • Desempenho: O dispositivo deve fornecer uma iluminação forte e uniforme, com opções de cor e um ângulo de iluminação mínimo de 120º.; • Testes: O dispositivo deve passar por testes rigorosos para garantir que atenda aos padrões de segurança elétrica e resistência à água.; • Compatibilidade: O dispositivo deve ser compatível com os sistemas de iluminação existentes em piscinas.; • Preço: O preço do dispositivo deve ser competitivo em relação a outros dispositivos no mercado.;"
+            },
+            {
+              "topic": "Design:",
+              "content": "• Material: O dispositivo será confeccionado em aço inoxidável para garantir a resistência à corrosão causada pelo cloro presente na água das piscinas.; • Sistema de fixação: O dispositivo será fixado à piscina por meio de rosca ou encaixe com oring, seguindo o padrão do mercado. Isso facilitará a instalação e manutenção do dispositivo.; • Iluminação: O dispositivo utilizará LEDs SMD, redondo com 300mm de diâmetro, 3 Leds RGB de 3W cada e resistor para 12 V, garantindo uma potência mínima de 9W, para fornecer uma iluminação abrangente e brilhante na piscina. A tecnologia LED também proporciona economia de energia e vida útil mais longa do que outras tecnologias de iluminação.; • Alimentação de energia: O dispositivo será alimentado por uma fonte de energia de 12V, reduzindo o risco de choque elétrico na piscina.; • Impermeabilidade: O design do dispositivo será projetado para garantir que não haja possibilidade de infiltração de água, com vedação adequada dos componentes eletrônicos e da fiação. Isso reduzirá a ocorrência de falhas e aumentará a vida útil do dispositivo.; O novo dispositivo de iluminação subaquática terá um design resistente e eficiente, que garantirá uma iluminação forte e uniforme na piscina, com facilidade de instalação e manutenção. Além disso, a garantia de que não haverá infiltração de água minimizará as falhas e aumentará a segurança dos usuários da piscina."
+            },
+            {
+              "topic": "Prototipagem: ",
+              "content": "Durante a fase de prototipagem, a equipe enfrentou diversos desafios para encontrar fornecedores qualificados que atendessem às especificações do produto e pudessem garantir a produção em larga escala.; • Nicho do led: Fizemos o desenho técnico para garantir que o protótipo cumpriria os requisitos de compatibilidade e design do escopo.; • Placa PCB: Outra etapa importante foi a criação do esquema eletrônico da placa PCB. A equipe realizou uma pesquisa detalhada de fornecedores no Brasil e na China até encontrar um  que atendesse todas as especificações necessárias.; • Impermeabilidade: A equipe conseguiu encontrar uma solução inovadora, preenchendo todo o nicho com resina epoxi transparente, que oferece ótimas propriedades mecânicas e de resistência ao calor. Essa solução foi crucial para garantir a proteção do dispositivo contra a entrada de água, evitando assim problemas com infiltração.;"            },
+            {
+              "topic": "Testes: ",
+              "content": "Após a fabricação do primeiro lote do produto, a equipe deu início à fase de testes para avaliar a qualidade e a durabilidade do dispositivo. Primeiramente, realizamos testes de resistência, deixando o LED ligado ininterruptamente por 7 dias em um ambiente não aquático para avaliar sua capacidade de resistir ao calor gerado pelo próprio funcionamento.; Além disso, fizemos testes de choque físico para avaliar a resistência da resina e do nicho em aço inoxidável.; A transparência da resina também foi testada através de uma exposição prolongada ao sol para avaliar se suas propriedades seriam perdidas ao longo do tempo.; Em resumo, a fase de avaliação foi crucial para garantir a qualidade e durabilidade do produto. Os testes de resistência e choque físico permitiram que a equipe verificasse a resistência do dispositivo a possíveis impactos e danos, enquanto o teste de transparência da resina garantiu que o produto pudesse manter suas propriedades ao longo do tempo."
+            },
+            {
+              "topic": "Lançamento: ",
+              "content": "Com o custo de produção em baixa escala dentro do definido no escopo, introduzimos o novo produto no mercado através de nossos cliente, onde passamos a instala-los em todos os novos projetos. Em uma segunda fase, expandimos a venda do produto para o varejo on-line, ampliando ainda mais o alcance e a visibilidade do dispositivo. Com o sucesso das vendas, fechamos um contrato de fornecimento com um distribuidor de produtos de piscina parceiro, garantindo assim uma maior distribuição e alcance do nosso produto."
+            },
+            {
+              "topic": "Conclusão: ",
+              "content": "O projeto foi altamente satisfatório, pois conseguimos cumprir todos os requisitos definidos no escopo e desenvolvemos um produto inovador, com a utilização da resina epóxi, que garantiu maior segurança e durabilidade para os usuários.; Além disso, a introdução do novo produto no mercado trouxe uma nova fonte de receita para a empresa. O sucesso do projeto é resultado do trabalho conjunto de uma equipe altamente qualificada, que soube enfrentar os desafios e superar as dificuldades ao longo de todo o processo."
+            }
+
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": "images/portfolio/iluminacao/Led (2).jpg"
+            },
+            {
+              "titleImage": "Ilustração de Instalação",
+              "image": "images/portfolio/iluminacao/DesenhoInstalação (2).jpg"
+            },
+            {
+              "titleImage": "Ângulo de Iluminação",
+              "image": "images/portfolio/iluminacao/Amplitude.jpg"
+            },
+            {
+              "titleImage": "Desenho Técnico",
+              "image": "images/portfolio/iluminacao/DesenhoDispositivo (1).jpg"
+            },
+            {
+              "titleImage": "",
+              "image": "images/portfolio/iluminacao/DesenhoDispositivo (2).jpg"
+            },
+            {
+              "titleImage": "Desenho da Placa PCB",
+              "image": "images/portfolio/iluminacao/PCBLED.jpg"
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
         }
       ]
     },
     {
       "company": " Bradesco Cartões - Uberlândia ",
       "title":"Gerente de Projetos",
-      "description":"Responsável pela criação, manutenção e apresentação mensal de indicadores de desempenho da área de cobrança do Bradesco Cartões, garantindo o alinhamento com as metas e estratégias da empresa. Gerenciei e liderei uma equipe multidisciplinar na implementação bem-sucedida de uma solução de análise de dados (QlikView ).",
+      "description":"Como colaborador do Bradesco Cartões, liderei um projeto de criação de novos indicadores para apoiar as decisões gerenciais. Desde a coleta dos dados até a interpretação dos resultados e a apresentação mensal em reuniões com a diretoria, fui responsável por todas as etapas do processo. Nesse projeto, foram criadas 71 novas métricas usando ferramentas como QlikView e Pivot Table do Excel, permitindo a análise mais precisa e detalhada do desempenho da empresa. Com essa iniciativa, pude aprimorar minhas habilidades em gestão de dados, análise de informações e comunicação com a alta administração da empresa.",
       "years": "02/2011 - 02/2012",
       "mainTech":[
         "Project Manager"
@@ -360,13 +501,35 @@
       "technologies":[
         "Microsoft Project",
         "Microsoft Office",
-        "Pivot Table"
+        "Pivot Table",
+        "Análise de Dados",
+        "Power BI"
       ],
       "mainProjects": [
         {
           "tag": "",
           "title": "",
           "text": [
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": " ",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            },
             {
               "topic": "",
               "content": ""
@@ -408,7 +571,7 @@
     {
       "company": "CJ Selecta - Araguari",
       "title": "Analista de Suprimentos",
-      "description": "Participei da criação da carteira de fornecedores da fábrica em Araguari e a elaboração dos primeiros contratos. Principais atividades: Análise de fornecedores, controle de estoque, negociação de contratos e monitoramento de desempenho.",
+      "description": "Na indústria recém-inaugurada, participei ativamente da criação da carteira de fornecedores e da elaboração dos primeiros contratos. Minhas principais atividades incluíram análise de fornecedores, controle de estoque, negociação de contratos e monitoramento de desempenho.",
       "years": "09/2010 - 02/2011",
       "mainTech":[
         "Negociação"
@@ -463,9 +626,63 @@
       ]
     },
     {
+      "company":"Rotary International",
+      "title":"IGE - Intercâmbio de Grupo de Estudos",
+      "description": "Intercâmbio de estudos nas províncias de Buenos Aires e La Pampa - Argentina. O IGE é um programa da Fundação Rotary Internacional que tem como objetivo promover a troca de experiências entre profissionais de diversas áreas. Nesta oportunidade, visitei diversas empresas e instituições governamentais, participei de reuniões de apresentação em clubes Rotary de treze cidades da província de Buenos Aires e no Congresso Anual de Intercambistas em Santa Rosa - La Pampa.",
+      "years":"05/2010",
+      "mainTech":[
+        ""
+      ],
+      "technologies":[
+        "Espanhol",
+        "Network",
+        "Intercâmbio",
+        "Cultura"
+      ],
+      "mainProjects": [
+        {
+          "tag": "",
+          "title": "",
+          "text": [
+            {
+              "topic": "",
+              "content": ""
+            }
+
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": " ",
+              "video": ""
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
       "company":"Algar Tech - Uberlândia",
       "title":"Analista de Processos",
-      "description": "Atuando com o cliente Bradesco Cartões, liderando uma criação de instruções de trabalho, e estudo dos processos do setor de recebíveis, utilizando a técnica de ciclo BPM. Gerando assim a eliminação do retrabalho nos processos de abordagem de clientes e automatização de geração de relatórios. ",
+      "description": "Como recurso para análise e melhoria de processos, desenvolvi atividades em vários clientes e participei de alguns projetos internos da Algar Tech. Posteriormente, fui alocado em um projeto no cliente Bradesco Cartões, onde utilizei a técnica de Modelo BPMN para estudar e aprimorar os processos do setor de antecipação de recebíveis. Nesse projeto, desenvolvemos instruções de trabalho detalhadas, aprimoramos a abordagem aos clientes e automatizamos a geração de todos os relatórios com o uso de VBA. Toda essa experiência me permitiu desenvolver habilidades de liderança, aprimorar minha compreensão dos processos de negócios e trabalhar em equipe com times multidisciplinares.",
       "years":"04/2008 - 05/2010",
       "mainTech":[
         "Ciclo BPM"
@@ -521,6 +738,57 @@
             {
               "titleVideo": "Mostra PGP/PGI ",
               "video": "https://www.youtube.com/embed/RknQ6UIzo2Q"
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "company":"Centro Universitário de Triângulo - Unitri",
+      "title":"Administração de Empresas",
+      "description": "Bacharel em Administração de Empresas",
+      "iconClass": "graduation",
+      "years":"2004 - 2008",
+      "mainTech":[
+        ""
+      ],
+      "technologies":[
+        ],
+      "mainProjects": [
+        {
+          "tag": "",
+          "title": "",
+          "text": [
+            {
+              "topic": "",
+              "content": ""
+            }
+
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": " ",
+              "video": ""
             }
             
     

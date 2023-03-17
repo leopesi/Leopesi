@@ -8,7 +8,7 @@ import Experience from "./components/Experience";
 import Projects from "./components/ProjectList";
 import Skills from "./components/Skills";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter} from "react-router-dom";
 
 
 

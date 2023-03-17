@@ -7,7 +7,6 @@ import "react-vertical-timeline-component/style.min.css";
 import {Badge} from "react-bootstrap/";
 import ProjectExperience from "./Projects/ProjectExperience";
 
-
 class Experience extends Component {
   render() {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
@@ -16,6 +15,7 @@ class Experience extends Component {
         const technologies = work.technologies;
         const mainTechnologies = work.mainTech; 
         const mainProjects = work.mainProjects;
+        
 
         var mainTech = mainTechnologies.map((technology, i) => {
           return (
@@ -53,54 +53,52 @@ class Experience extends Component {
               }
             })}
           </div>
-        );
-        
-        
-        
+        );    
+
+        const iconClassName = work.iconClass === "graduation" ? "fa fa-graduation-cap experience-icon" : "fa fa-laptop experience-icon";
+        const iconStyle = work.iconClass === "graduation" ?  { background: "#c35e5e", color: "#fff", textAlign: "center" } : { background: "#0b80ee", color: "#fff", textAlign: "center" };
+   
         
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={work.years}
-            iconStyle={{
-              background: "#AE944F",
-              color: "#fff",
-              textAlign: "center",
-            }}
-            icon={<i className="fas fa-map-marker-alt experience-icon"></i>}
+            iconStyle={iconStyle}
+            icon={<i className={iconClassName}></i>}
             key={i}
           >
             <div>
-            <h3
-              className="vertical-timeline-element-title"
-              style={{ textAlign: "left", marginBottom: "6px" }}
-            >
-              {work.title}
-            </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              style={{ textAlign: "left", marginBottom: "6px" }}
-            >
-              {work.company}
-            </h4>
-            <h5
-              className="vertical-timeline-element-subtitle"
-              style={{ 
+              <h3
+                className="vertical-timeline-element-title"
+                style={{ textAlign: "left", marginBottom: "6px" }}
+              >
+                {work.title}
+              </h3>
+              <h4
+                className="vertical-timeline-element-subtitle"
+                style={{ textAlign: "left", margin: "18px 0",marginBottom: "6px"  }}
+              >
+                {work.company}
+              </h4>
+              <div 
+              style={{
                 textAlign: "justify",
-                fontSize: "12px",
-
+                fontSize: "14px",
+                margin: "18px 0",
               }}
-            >
-              {work.description}
-            </h5>
-            <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
-            
+              >
+                {work.description}
+              </div>
+              <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
             </div>
-            {mainProj ? (
-              <div className="main-pro" style={{ textAlign: "left", marginTop: "15px" , }}>{mainProj}</div>
-            ) : null}
-            
-            
+
+            <div
+            style={{
+              textAlign: "center",
+              margin: "18px 0",
+            }}>
+              {mainProj ? (<div >{mainProj}</div>) : null}
+            </div>
           </VerticalTimelineElement>
           
         );
@@ -123,7 +121,7 @@ class Experience extends Component {
             {work}
             <VerticalTimelineElement
               iconStyle={{
-                background: "#AE944F",
+                background: "#337440",
                 color: "#fff",
                 textAlign: "center",
               }}

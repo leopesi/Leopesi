@@ -65,7 +65,7 @@
       "startDate": "2015",
       "description": "Dispositivo de monitoramento de fluxo de água para motobomba de piscina.",
       "images": [
-        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/easy-pool/easypool.png",
         "images/portfolio/adventure/p2.jpg"
       ],
       "url": "https://github.com",
@@ -86,20 +86,78 @@
   ],
   "experience": [
     {
-      "company": "Confitec",
-      "title": "Full Stack Developer",
-      "description": "Desenvolvimento e consumo de API Node.js; Criação de features com React e Bootstrap; Desenvolvimento de novas funcionalidades alinhadas com os projetos; Time ágil; Integração de sistemas a serviços Amazon.",
+      "company": "Universidad Tecnológica Nacional - Buenos Aires",
+      "title": "Intercâmbio",
+      "description": "Durante um período de 8 meses, decidi interromper minha carreira para investir em meu aprimoramento profissional. Fui para um intercâmbio na Argentina para estudar espanhol e fazer uma extensão universitária em desenvolvimento de software full stack na Universidad Tecnológica Nacional de Buenos Aires. Lá, pude desenvolver  significativamente meu conhecimento em programação web e em todas as etapas do processo de desenvolvimento de um software, o que me capacitou a criar soluções incríveis com as melhores tecnologias da atualidade. Foi uma experiência única e enriquecedora.",
+      "years": "05/2022 - 12/2022",
+      "iconClass": "graduation",
+      "mainTech": [
+        "JavaScript"
+      ],
+      "technologies": [
+        "JavaScript",
+        "Node.js",
+        "React.js",
+        "SQL",
+        "Espanhol",
+        "Amazon S3 / EC2"
+      ],
+      "mainProjects": [
+        {
+          "tag": "",
+          "title": "",
+          "text": [
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            }
+
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "Confitec - São Paulo",
+      "title": "Analista de Requisitos",
+      "description": "Na Confitec, trabalhei em um projeto na BB Seguros, atuando como responsável por definir o backlog da squad com base nos KPIs do banco. Meu papel incluía levantar e especificar os requisitos, além de criar cenários de testes. Utilizamos o framework Scrum no projeto e participei de todas as cerimônias, desde o planejamento até a entrega final do produto.",
       "years": "08/2021 - 05/2022",
       "mainTech": [
         "JavaScript"
       ],
       "technologies": [
-        "REST API",
-        "React.js",
-        "Node.js",
-        "Time ágil",
-        "Bootstrap",
-        "Amazon S3"
+        "Análise de dados",
+        "Análise de requisitos",
+        "Metodologias Agile · Scrum",
+        "Mapeamento de processos"
       ],
       "mainProjects": [
         {
@@ -115,25 +173,49 @@
               "content": ""
             }
 
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
           ]
         }
       ]
 
     },
     {
-      "company": "Self Employed Freelancer",
-      "title": "Full Stack Developer",
-      "description": "Desenvolvedor full stack de uma plataforma de gestão SaaS. Criação de um protótipo em Excel para testar todos os cálculos envolvidos na plataforma, como levantamento de requisitos funcionais e não funcionais de sistema, desenvolvimento das telas de prototipagem, e desenvolvimento de funcionalidades no back-end e no front-end.",
-      "years": "11/2020 - 08/2021",
+      "company": "Eurocentres - Londres",
+      "title": "Intercâmbio",
+      "description": "Intercâmbio de inglês na escola Eurocentres durante o período de férias",
+      "iconClass": "graduation",
+      "years": "05/2018",
       "mainTech": [
         "JavaScript"
       ],
       "technologies": [
-        "Node.js",
-        "Vue.js",
-        "PostgreSQL",
-        "Excel",
-        "Amazon S3"
+        "Inglês",
+        "Intercâmbio",
+        "Cultura"
       ],
       "mainProjects": [
         {
@@ -149,15 +231,41 @@
               "content": ""
             }
 
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
           ]
         }
       ]
+
     },
     {
       "company": "Campos Piscinas - São Paulo",
-      "title": "Sócio Proprietário",
-      "description": "Gerenciamento de projetos de construção; Negociação comercial (compras, follow-up e gestão de contratos), Gestão de equipe, negociação orçamentária e acompanhamento de indicadores.",
-      "years": "01/2012 - 03/2019",
+      "title": "Gerente de Projetos - Sócio Proprietário",
+      "description": "Assumi um novo e desafiador projeto e tornei-me sócio de uma empresa de construção de piscinas de alvenaria na Grande São Paulo, com 21 anos de mercado. Com a missão de desenvolver a área de projetos, entreguei, em 7 anos, mais de 400 projetos de construção e alguns de inovação. Essa experiência me permitiu desenvolver habilidades como liderança, negociação, gestão de conflitos, gestão de equipes multidisciplinares, inovação e resiliência.",
+      "years": "03/2012 - 03/2021",
       "mainTech":[
         "Project Manager"
       ],
@@ -172,25 +280,220 @@
       "mainProjects": [
         {
           "tag": "Balanced ScoreCard",
-          "title": "Melhoria no processo de utilização de táxi.",
+          "title": "Projeto de Melhoria de Desempenho.",
           "text": [
             {
               "topic": "Problema",
-              "content": "Estabelecer um processo eficiente e transparente de autorização e utilização de taxis pelos colaboradores, com o objetivo de otimizar o uso desses recursos, reduzir os custos e evitar uso indevido."
+              "content": "Foi constatado que um percentual grande de projetos de construção de piscina apresentavam falhas de execução e consequentemente acarretavam em retrabalho, prejuízos e insatisfação dos clientes."
             },
             {
               "topic": "Objetivo",
-              "content": "Otimizar o uso de Taxi, reduzir os custos e melhorar a qualidade do serviço prestado."
+              "content": "Capacitar os funcionários de nível técnico e reforçar a cultura de autogestão.;Foi feito um mapeamento dos processos de execução dos projetos e um estudo para identificar os principais indicadores de desempenho das equipes de montagem técnica, construtores e de gestores, alinhados com os objetivos de desempenho da empresa."
+            },
+            {
+              "topic": "Divulgação ",
+              "content":"Foi criado um workshop de apresentação do projeto afim de apresentar a nova metodologia de avaliação e responder perguntas. "
+            },
+            {
+              "topic": "Implementação ",
+              "content":"Depois de identificados as métricas de avaliação e apresentado o projeto para a empresa, cada funcionário recebeu capacitação de forma individual e coletiva.; Em parceria com alguns fornecedores parceiros, Sebrae e Senai de Cotia conseguimos organizar uma série de treinamentos de requalificação como:; • Instalador Hidráulico – Senai ;• Pedreiro de Alvenaria; • Instalação e manutenção de bolsão de vinil – Viniplas;  • Limpeza e manutenção de piscinas – Genco; • Modelagem Computacional Aplicada à Construção Civil (Sketchup) - Senai;• Atendimento ao cliente – Sebrae."
+            },
+            {
+              "topic": "Avaliação ",
+              "content":"Foi criado uma planilha com métricas individuais e cada funcionário passou a ser avaliado por uma série de métricas de nível organizacional e pessoal como: assiduidade, limpeza do ambiente de trabalho, ideias inovadoras, eficiência, redução de custos, etc. Cada uma com um peso específico e a nota de cada métrica passou a ser discutida entre o colaborador e seu gestor em reuniões individuais mensais.  "
+            },
+            {
+              "topic": "Resultado ",
+              "content":"Colaborador: Um prêmio anual, extra salário, baseado na nota individual de cada um, podendo chegar até 1,5 vezes o seu salário; Campos Piscinas: Zeramos o turnover por 34 meses, Assiduidade caiu para patamares aceitáveis e redução de 40% no retorno de projetos entregues no primeiro ano."
+            },
+            {
+              "topic": "Conclusão ",
+              "content":"O projeto de melhoria de desempenho da Campos Piscinas foi um sucesso graças à implementação do Balanced Scorecard como metodologia de avaliação e gestão de desempenho dos funcionários. A empresa conseguiu aumentar a eficiência, reduzir custos e melhorar a satisfação do cliente. "
+            }
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        },
+        {
+          "tag": "Contrasseco",
+          "title": "Dispositivo de Monitoramento de Fluxo de Água para Motobomba de Piscina.",
+          "text": [
+            {
+              "topic": "Problema:",
+              "content": "O setor de piscinas enfrenta um problema frequente de queima de motobombas, que ocorre quando a bomba trabalha a seco, sem a passagem de água pela tubulação. Isso causa o superaquecimento do rotor, o que leva à sua deformação e, eventualmente, à falha completa da motobomba. Vários fatores podem contribuir para o funcionamento a seco da motobomba, incluindo entupimento da tubulação ou obstrução do ralo de sucção. Em alguns casos extremos, crianças podem ficar presas pela sucção no ralo de fundo da piscina, o que pode levar a sérios ferimentos ou até mesmo à morte."
+            },
+            {
+              "topic": "Impacto:",
+              "content": "Este problema tem impactos negativos, como atrasos no uso da piscina, custos adicionais para substituição ou reparo da motobomba e riscos para a segurança das pessoas que usam a piscina. "
+            },
+            {
+              "topic": "Objetivo: ",
+              "content": "Desenvolver um sistema de monitoramento e controle automatizado para evitar o funcionamento a seco da motobomba em piscinas, garantindo a segurança das pessoas e prolongando a vida útil do equipamento."
+            },
+            {
+              "topic": "Recursos: ",
+              "content": "Depois de avaliar várias possibilidades chegamos ao conjunto de tecnologias para a criação do protótipo de teste:;• Microsoft Visio;• Arduíno;• Linhagem C++;• Tinkercad (Programa De Modelagem Tridimensional); • Sensor fluxostato;"
+            },
+            {
+              "topic": "Implementação: ",
+              "content": "Com um fluxostato instalado no recalque da motobomba é possível indentificar quando o fluxo de água é interrompido, seja por obstrução do ralo de fundo ou aspirador, ar na tubulação ou qualquer outro motivo. Neste instante é acionado o modo NO SAFE do aparelho, que faz algumas tentativas de reestabelecer o fluxo normal, como está ilustrado no fluxograma abaixo. Se o fluxo de água normal for reestabelecido o dispositivo retorna para o modo SAFE , caso contrário é acionado o modo SETUP, que desliga a motobomba e aciona uma luz de alerta."
+            }
+            ,
+            {
+              "topic": "Avaliação: ",
+              "content": "O dispositivo obteve resultados pouco satisfatórios por imprecisão dos sensores disponíveis na época, como o sensor de fluxostato que não possibilitava fina da passagem de água.  O algoritmo desenvolvido para o arduíno cumpriu os requisitos do fluxograma de funcionamento. Outras opções de sensores que pudessem oferecer maior precisão encareceria muito o produto final, ficando acima das expectativas de custo do produto."
+            },
+            {
+              "topic": "Conclusão:",
+              "content": "O dispositivo Contrasseco da Campos Piscinas se demonstrou tecnicamente viável, porém foi o projeto foi paralisado por inviabilidade comercial, já que em baixa escala seria um produto muito caro para o mercado naquele momento."
             }
 
-          ] 
+          ],
+          "images": [
+            {
+              "titleImage":"Fluxograma",
+              "image": "images/portfolio/contrasseco/fluxograma.png"
+            },
+            {
+              "titleImage":"Protótipo do Arduino",
+              "image": "images/portfolio/contrasseco/arduino.jpg"
+            },
+            {
+              "titleImage":"Esquema Eletrônico",
+              "image": "images/portfolio/contrasseco/esquema.png"
+            }
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+            
+    
+          ],
+          "url": "https://github.com/leopesi/Contrasseco",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": "Arduino"
+            }
+          ]
+        },
+        {
+          "tag": "Iluminação",
+          "title": "Dispositivo De Iluminação Subaquática",
+          "text": [
+            {
+              "topic": "Problema:",
+              "content": "A iluminação submersa em piscinas sempre foi um ponto crítico em projetos, uma vez que é comum ocorrer infiltração e queima de dispositivos. Isso se deve ao fato de que os dispositivos de iluminação são normalmente câmeras blindadas com uma lente translúcida feita de acrílico ou vidro, e a falha pode ocorrer quando a lente quebra, a vedação da blindagem falha ou, como já aconteceu algumas vezes, água penetra através da fiação elétrica. Como resultado, os problemas de iluminação subaquática levaram a uma taxa elevada de reclamações e aumento nos custos."
+            },
+            {
+              "topic": "Objetivo: ",
+              "content": "Desenvolver um dispositivo de iluminação subaquática que seja adequado ao ambiente de piscinas."
+            },
+            {
+              "topic": "Escopo:",
+              "content": "• Design do dispositivo: O novo dispositivo deve ter um design inovador que evite a infiltração de água e proteja a fiação elétrica, reduzindo a ocorrência de falhas.; • Materiais: Os materiais utilizados na construção do dispositivo devem ser de alta qualidade e resistentes à corrosão, garantindo uma longa vida útil e reduzindo a necessidade de manutenção.; • Desempenho: O dispositivo deve fornecer uma iluminação forte e uniforme, com opções de cor e um ângulo de iluminação mínimo de 120º.; • Testes: O dispositivo deve passar por testes rigorosos para garantir que atenda aos padrões de segurança elétrica e resistência à água.; • Compatibilidade: O dispositivo deve ser compatível com os sistemas de iluminação existentes em piscinas.; • Preço: O preço do dispositivo deve ser competitivo em relação a outros dispositivos no mercado.;"
+            },
+            {
+              "topic": "Design:",
+              "content": "• Material: O dispositivo será confeccionado em aço inoxidável para garantir a resistência à corrosão causada pelo cloro presente na água das piscinas.; • Sistema de fixação: O dispositivo será fixado à piscina por meio de rosca ou encaixe com oring, seguindo o padrão do mercado. Isso facilitará a instalação e manutenção do dispositivo.; • Iluminação: O dispositivo utilizará LEDs SMD, redondo com 300mm de diâmetro, 3 Leds RGB de 3W cada e resistor para 12 V, garantindo uma potência mínima de 9W, para fornecer uma iluminação abrangente e brilhante na piscina. A tecnologia LED também proporciona economia de energia e vida útil mais longa do que outras tecnologias de iluminação.; • Alimentação de energia: O dispositivo será alimentado por uma fonte de energia de 12V, reduzindo o risco de choque elétrico na piscina.; • Impermeabilidade: O design do dispositivo será projetado para garantir que não haja possibilidade de infiltração de água, com vedação adequada dos componentes eletrônicos e da fiação. Isso reduzirá a ocorrência de falhas e aumentará a vida útil do dispositivo.; O novo dispositivo de iluminação subaquática terá um design resistente e eficiente, que garantirá uma iluminação forte e uniforme na piscina, com facilidade de instalação e manutenção. Além disso, a garantia de que não haverá infiltração de água minimizará as falhas e aumentará a segurança dos usuários da piscina."
+            },
+            {
+              "topic": "Prototipagem: ",
+              "content": "Durante a fase de prototipagem, a equipe enfrentou diversos desafios para encontrar fornecedores qualificados que atendessem às especificações do produto e pudessem garantir a produção em larga escala.; • Nicho do led: Fizemos o desenho técnico para garantir que o protótipo cumpriria os requisitos de compatibilidade e design do escopo.; • Placa PCB: Outra etapa importante foi a criação do esquema eletrônico da placa PCB. A equipe realizou uma pesquisa detalhada de fornecedores no Brasil e na China até encontrar um  que atendesse todas as especificações necessárias.; • Impermeabilidade: A equipe conseguiu encontrar uma solução inovadora, preenchendo todo o nicho com resina epoxi transparente, que oferece ótimas propriedades mecânicas e de resistência ao calor. Essa solução foi crucial para garantir a proteção do dispositivo contra a entrada de água, evitando assim problemas com infiltração.;"            },
+            {
+              "topic": "Testes: ",
+              "content": "Após a fabricação do primeiro lote do produto, a equipe deu início à fase de testes para avaliar a qualidade e a durabilidade do dispositivo. Primeiramente, realizamos testes de resistência, deixando o LED ligado ininterruptamente por 7 dias em um ambiente não aquático para avaliar sua capacidade de resistir ao calor gerado pelo próprio funcionamento.; Além disso, fizemos testes de choque físico para avaliar a resistência da resina e do nicho em aço inoxidável.; A transparência da resina também foi testada através de uma exposição prolongada ao sol para avaliar se suas propriedades seriam perdidas ao longo do tempo.; Em resumo, a fase de avaliação foi crucial para garantir a qualidade e durabilidade do produto. Os testes de resistência e choque físico permitiram que a equipe verificasse a resistência do dispositivo a possíveis impactos e danos, enquanto o teste de transparência da resina garantiu que o produto pudesse manter suas propriedades ao longo do tempo."
+            },
+            {
+              "topic": "Lançamento: ",
+              "content": "Com o custo de produção em baixa escala dentro do definido no escopo, introduzimos o novo produto no mercado através de nossos cliente, onde passamos a instala-los em todos os novos projetos. Em uma segunda fase, expandimos a venda do produto para o varejo on-line, ampliando ainda mais o alcance e a visibilidade do dispositivo. Com o sucesso das vendas, fechamos um contrato de fornecimento com um distribuidor de produtos de piscina parceiro, garantindo assim uma maior distribuição e alcance do nosso produto."
+            },
+            {
+              "topic": "Conclusão: ",
+              "content": "O projeto foi altamente satisfatório, pois conseguimos cumprir todos os requisitos definidos no escopo e desenvolvemos um produto inovador, com a utilização da resina epóxi, que garantiu maior segurança e durabilidade para os usuários.; Além disso, a introdução do novo produto no mercado trouxe uma nova fonte de receita para a empresa. O sucesso do projeto é resultado do trabalho conjunto de uma equipe altamente qualificada, que soube enfrentar os desafios e superar as dificuldades ao longo de todo o processo."
+            }
+
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": "images/portfolio/iluminacao/Led (2).jpg"
+            },
+            {
+              "titleImage": "Ilustração de Instalação",
+              "image": "images/portfolio/iluminacao/DesenhoInstalação (2).jpg"
+            },
+            {
+              "titleImage": "Ângulo de Iluminação",
+              "image": "images/portfolio/iluminacao/Amplitude.jpg"
+            },
+            {
+              "titleImage": "Desenho Técnico",
+              "image": "images/portfolio/iluminacao/DesenhoDispositivo (1).jpg"
+            },
+            {
+              "titleImage": "",
+              "image": "images/portfolio/iluminacao/DesenhoDispositivo (2).jpg"
+            },
+            {
+              "titleImage": "Desenho da Placa PCB",
+              "image": "images/portfolio/iluminacao/PCBLED.jpg"
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
         }
       ]
     },
     {
       "company": " Bradesco Cartões - Uberlândia ",
       "title":"Gerente de Projetos",
-      "description":"Responsável pela criação, manutenção e apresentação mensal de indicadores de desempenho da área de cobrança do Bradesco Cartões, garantindo o alinhamento com as metas e estratégias da empresa. Gerenciei e liderei uma equipe multidisciplinar na implementação bem-sucedida de uma solução de análise de dados (QlikView ).",
+      "description":"Como colaborador do Bradesco Cartões, liderei um projeto de criação de novos indicadores para apoiar as decisões gerenciais. Desde a coleta dos dados até a interpretação dos resultados e a apresentação mensal em reuniões com a diretoria, fui responsável por todas as etapas do processo. Nesse projeto, foram criadas 71 novas métricas usando ferramentas como QlikView e Pivot Table do Excel, permitindo a análise mais precisa e detalhada do desempenho da empresa. Com essa iniciativa, pude aprimorar minhas habilidades em gestão de dados, análise de informações e comunicação com a alta administração da empresa.",
       "years": "02/2011 - 02/2012",
       "mainTech":[
         "Project Manager"
@@ -198,7 +501,9 @@
       "technologies":[
         "Microsoft Project",
         "Microsoft Office",
-        "Pivot Table"
+        "Pivot Table",
+        "Análise de Dados",
+        "Power BI"
       ],
       "mainProjects": [
         {
@@ -210,10 +515,55 @@
               "content": ""
             },
             {
+              "topic": " ",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
               "topic": "",
               "content": ""
             }
 
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
           ]
         }
       ]
@@ -221,7 +571,7 @@
     {
       "company": "CJ Selecta - Araguari",
       "title": "Analista de Suprimentos",
-      "description": "Participei da criação da carteira de fornecedores da fábrica em Araguari e a elaboração dos primeiros contratos. Principais atividades: Análise de fornecedores, controle de estoque, negociação de contratos e monitoramento de desempenho.",
+      "description": "Na indústria recém-inaugurada, participei ativamente da criação da carteira de fornecedores e da elaboração dos primeiros contratos. Minhas principais atividades incluíram análise de fornecedores, controle de estoque, negociação de contratos e monitoramento de desempenho.",
       "years": "09/2010 - 02/2011",
       "mainTech":[
         "Negociação"
@@ -246,14 +596,93 @@
               "content": ""
             }
 
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
           ]
         }
       ]
     },
     {
+      "company":"Rotary International",
+      "title":"IGE - Intercâmbio de Grupo de Estudos",
+      "description": "Intercâmbio de estudos nas províncias de Buenos Aires e La Pampa - Argentina. O IGE é um programa da Fundação Rotary Internacional que tem como objetivo promover a troca de experiências entre profissionais de diversas áreas. Nesta oportunidade, visitei diversas empresas e instituições governamentais, participei de reuniões de apresentação em clubes Rotary de treze cidades da província de Buenos Aires e no Congresso Anual de Intercambistas em Santa Rosa - La Pampa.",
+      "years":"05/2010",
+      "mainTech":[
+        ""
+      ],
+      "technologies":[
+        "Espanhol",
+        "Network",
+        "Intercâmbio",
+        "Cultura"
+      ],
+      "mainProjects": [
+        {
+          "tag": "",
+          "title": "",
+          "text": [
+            {
+              "topic": "",
+              "content": ""
+            }
+
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": " ",
+              "video": ""
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
       "company":"Algar Tech - Uberlândia",
       "title":"Analista de Processos",
-      "description": "Atuando com o cliente Bradesco Cartões, liderando uma criação de instruções de trabalho, e estudo dos processos do setor de recebíveis, utilizando a técnica de ciclo BPM. Gerando assim a eliminação do retrabalho nos processos de abordagem de clientes e automatização de geração de relatórios. ",
+      "description": "Como recurso para análise e melhoria de processos, desenvolvi atividades em vários clientes e participei de alguns projetos internos da Algar Tech. Posteriormente, fui alocado em um projeto no cliente Bradesco Cartões, onde utilizei a técnica de Modelo BPMN para estudar e aprimorar os processos do setor de antecipação de recebíveis. Nesse projeto, desenvolvemos instruções de trabalho detalhadas, aprimoramos a abordagem aos clientes e automatizamos a geração de todos os relatórios com o uso de VBA. Toda essa experiência me permitiu desenvolver habilidades de liderança, aprimorar minha compreensão dos processos de negócios e trabalhar em equipe com times multidisciplinares.",
       "years":"04/2008 - 05/2010",
       "mainTech":[
         "Ciclo BPM"
@@ -265,18 +694,114 @@
       ],
       "mainProjects": [
         {
+          "tag": "Taxi",
+          "title": "Melhoria no processo de utilização de táxi.",
+          "text": [
+            {
+              "topic": "Problema:",
+              "content": "Estabelecer um processo eficiente e transparente de autorização e utilização de taxis pelos colaboradores, com o objetivo de otimizar o uso desses recursos, reduzir os custos e evitar uso indevido."
+            },
+            {
+              "topic": "Objetivo:",
+              "content": "Otimizar o uso de Taxi, reduzir os custos e melhorar a qualidade do serviço prestado."
+            },
+            {
+              "topic": "Partes Interessadas: ",
+              "content": "Planejamento, Compliance, Financeiro e Processos."
+            },
+            {
+              "topic": "1 - Planejamento: ",
+              "content": "Definição das atividades com o time envolvido no projeto, plano de gerenciamento de riscos e comunicação. Por se tratar de um projeto que envolvia suspeita de uso indevido da ferramenta, todo o projeto foi executado de forma sigilosa e alinhada com a área de Compliance."
+            },
+            {
+              "topic": "2 - Execução: ",
+              "content": "• Estudo do processo de autorização afim de se identificar oportunidades de redesenho no organograma e mudança na instrução de trabalho; • Auditoria de 4 meses em 100% das autorizações de uso de taxi que chegogaram ao financeiro com pedido de reembolso; • Foi implementada uma nova política de autorização que substituiu o processo anterior baseado em assinaturas por um sistema de autorização no perfil dos gerentes no SAP. Agora, para solicitar autorização, é necessário apresentar uma justificativa para o gerente responsável pelo perfil designado."
+            },
+            {
+              "topic": "3 - Monitoramento e Controle: ",
+              "content": "Durante um período de seis meses, realizamos monitoramento constante do desempenho do projeto e avaliamos os resultados obtidos. Com base nessa análise, fizemos ajustes necessários a fim de garantir que os objetivos e metas estabelecidos fossem alcançados."
+            },
+            {
+              "topic": "4 - Encerramento: ",
+              "content": "O projeto foi um grande sucesso, uma vez que trouxe maior eficiência e confiança ao processo. Graças à implementação de critérios mais rigorosos, conseguimos alcançar uma redução de aproximadamente 35% no centro de custos de utilização de taxi da empresa. Essa conquista foi reconhecida na 9º Mostra PGP-PGI 2009, onde nosso projeto foi premiado na categoria PGI (Programa de Gestão de Ideias) pelo grupo Algar."
+            }
+
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "Mostra PGP/PGI ",
+              "video": "https://www.youtube.com/embed/RknQ6UIzo2Q"
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "company":"Centro Universitário de Triângulo - Unitri",
+      "title":"Administração de Empresas",
+      "description": "Bacharel em Administração de Empresas",
+      "iconClass": "graduation",
+      "years":"2004 - 2008",
+      "mainTech":[
+        ""
+      ],
+      "technologies":[
+        ],
+      "mainProjects": [
+        {
           "tag": "",
           "title": "",
           "text": [
             {
               "topic": "",
               "content": ""
-            },
-            {
-              "topic": "",
-              "content": ""
             }
 
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": " ",
+              "video": ""
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
           ]
         }
       ]
