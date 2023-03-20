@@ -91,9 +91,6 @@
       "description": "Durante um período de 8 meses, decidi interromper minha carreira para investir em meu aprimoramento profissional. Fui para um intercâmbio na Argentina para estudar espanhol e fazer uma extensão universitária em desenvolvimento de software full stack na Universidad Tecnológica Nacional de Buenos Aires. Lá, pude desenvolver  significativamente meu conhecimento em programação web e em todas as etapas do processo de desenvolvimento de um software, o que me capacitou a criar soluções incríveis com as melhores tecnologias da atualidade. Foi uma experiência única e enriquecedora.",
       "years": "05/2022 - 12/2022",
       "iconClass": "graduation",
-      "mainTech": [
-        "JavaScript"
-      ],
       "technologies": [
         "JavaScript",
         "Node.js",
@@ -129,8 +126,12 @@
               "titleVideo": "",
               "video": ""
             }
-            
-    
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
           ],
           "url": "",
           "technologies": [
@@ -150,9 +151,6 @@
       "title": "Analista de Requisitos",
       "description": "Na Confitec, trabalhei em um projeto na BB Seguros, atuando como responsável por definir o backlog da squad com base nos KPIs do banco. Meu papel incluía levantar e especificar os requisitos, além de criar cenários de testes. Utilizamos o framework Scrum no projeto e participei de todas as cerimônias, desde o planejamento até a entrega final do produto.",
       "years": "08/2021 - 05/2022",
-      "mainTech": [
-        "JavaScript"
-      ],
       "technologies": [
         "Análise de dados",
         "Análise de requisitos",
@@ -209,9 +207,6 @@
       "description": "Intercâmbio de inglês na escola Eurocentres durante o período de férias",
       "iconClass": "graduation",
       "years": "05/2018",
-      "mainTech": [
-        "JavaScript"
-      ],
       "technologies": [
         "Inglês",
         "Intercâmbio",
@@ -266,9 +261,6 @@
       "title": "Gerente de Projetos - Sócio Proprietário",
       "description": "Assumi um novo e desafiador projeto e tornei-me sócio de uma empresa de construção de piscinas de alvenaria na Grande São Paulo, com 21 anos de mercado. Com a missão de desenvolver a área de projetos, entreguei, em 7 anos, mais de 400 projetos de construção e alguns de inovação. Essa experiência me permitiu desenvolver habilidades como liderança, negociação, gestão de conflitos, gestão de equipes multidisciplinares, inovação e resiliência.",
       "years": "03/2012 - 03/2021",
-      "mainTech":[
-        "Project Manager"
-      ],
       "technologies":[
         "Processos empresariais",
         "Ciclo PDCA",
@@ -279,7 +271,7 @@
       ],
       "mainProjects": [
         {
-          "tag": "Balanced ScoreCard",
+          "tag": "ScoreCard",
           "title": "Projeto de Melhoria de Desempenho.",
           "text": [
             {
@@ -323,8 +315,12 @@
               "titleVideo": "",
               "video": ""
             }
-            
-    
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
           ],
           "url": "",
           "technologies": [
@@ -391,8 +387,12 @@
               "titleVideo": "",
               "video": ""
             }
-            
-    
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
           ],
           "url": "https://github.com/leopesi/Contrasseco",
           "technologies": [
@@ -474,8 +474,83 @@
               "titleVideo": "",
               "video": ""
             }
-            
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
     
+              "name": ""
+            }
+          ]
+        },
+        {
+          "tag": "EasyPool",
+          "title": "Ferramenta de Cotação de Piscinas.",
+          "text": [
+            {
+              "topic": "Problema:",
+              "content": "A indústria de piscinas está em constante crescimento, o que exige dos construtores a habilidade de fornecer orçamentos precisos e confiáveis para garantir a satisfação do cliente e a rentabilidade do projeto. No entanto, a elaboração de um orçamento para uma piscina personalizada pode ser uma tarefa complexa, envolvendo diversos fatores, como dimensões, materiais, insumos, serviços e formas de pagamento. Atualmente, os profissionais do setor enfrentam o desafio de elaborar orçamentos precisos sem o auxílio de ferramentas tecnológicas adequadas, o que pode resultar em erros na elaboração do orçamento e prejuízos para o construtor."
+            },
+            {
+              "topic": "Objetivo: ",
+              "content": "Desenvolver um software para o setor de piscinas que auxilie os construtores na elaboração de orçamentos precisos e eficientes, com a automatização dos processos envolvidos, visando garantir a satisfação do cliente e a rentabilidade do projeto, aprofundar a profissionalização do setor e aumentar a competitividade dos profissionais no mercado."
+            },
+            {
+              "topic": "Escopo:",
+              "content": "•  Análise de requisitos: Realizar uma análise detalhada dos requisitos funcionais e não funcionais do software, considerando as necessidades dos construtores de piscinas, clientes e do mercado.;  •  Design e desenvolvimento do software: Criar uma arquitetura robusta e escalável do software, utilizando tecnologias de ponta.;  •  Testes e validação: Realizar testes rigorosos em todas as funcionalidades do software, a fim de garantir a qualidade e confiabilidade do mesmo, validando também os requisitos levantados.; • Implantação e treinamento: Realizar a implantação do software, oferecendo treinamento e suporte técnico para os usuários, visando garantir a sua adoção e o sucesso do projeto.; • Manutenção e evolução: Realizar manutenções corretivas e evolutivas do software, a fim de garantir a sua atualização e adequação às novas necessidades do mercado.; • Resultados esperados: Desenvolver um software especializado para o setor de piscinas que auxilie os construtores na elaboração de orçamentos precisos e eficientes, com a automatização dos processos envolvidos, visando garantir a satisfação do cliente e a rentabilidade do projeto, aprofundar a profissionalização do setor e aumentar a competitividade dos profissionais no mercado.;"
+            },
+            {
+              "topic": "MVP:",
+              "content": "Por se tratar de uma ferramenta que reúne vários insumos, mão de obras, formas de pagamento e personalização das medidas e formato da piscina. Foi criado um MVP (minimum value product) em Excel para simular e testar as funcionalidades."
+            },
+            {
+              "topic": "Testes do MVP: ",
+              "content": "• Objetivos: Avaliar o desempenho e a funcionalidade do MVP em diferentes cenários de uso e obter feedback dos usuários finais e outras partes interessadas.;  • Critérios: O MVP deve ser capaz de gerar cotações de forma rápida, precisa e confiável, considerando as variáveis e especificações de cada projeto. O MVP deve ser fácil de usar e intuitivo.;  • Ferramentas: Para realizar os testes, será utilizado um modelo feito em Excel para simular todas os cenários de cotação, questionários para coletar feedback dos usuários e entrevistas por telefone."},
+            {
+              "topic": "Análise: ",
+              "content": "Após a realização dos testes na ferramenta EasyPool, foram obtidas algumas conclusões relevantes para o seu desenvolvimento. Primeiramente, foi constatado que é necessário criar um projeto de UI e UX, a fim de aprimorar a experiência do usuário e garantir que a ferramenta alcance seus objetivos. Isso se deve ao fato de que a EasyPool possui diversos recursos e opções de configuração, o que pode tornar a sua utilização complexa e difícil para alguns usuários.; Além disso, foi observado que o cálculo de piscinas personalizadas requer inputs extras e específicos de cada projeto, como o cálculo do perímetro, maior comprimento e maior largura, que precisam ser feitos manualmente. Para facilitar esse processo, seria recomendado a introdução de modelos sugeridos de piscinas com formatos irregulares, que poderiam ser adaptados às necessidades de cada usuário.; Outro ponto destacado nos testes foi a validação das fórmulas criadas para os cálculos das dimensões da piscina, dimensionamento dos equipamentos, formas de pagamento, lista de materiais, etc. Todas as fórmulas foram conferidas e aprovadas, garantindo a precisão dos cálculos e a confiabilidade das informações fornecidas pela EasyPool."
+            }
+
+          ],
+          "images": [
+            {
+              "titleImage": "MVP - Tela de Orçamento",
+              "image": "images/portfolio/easy-pool/planilha.png"
+            },
+            {
+              "titleImage": "MVP - Opções de Pagamento",
+              "image": "images/portfolio/easy-pool/planilha2.png"
+            },
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "EasyPool - Vídeo de Apresentação",
+              "video": "https://www.youtube.com/embed/EFTK-K8jWsI"
+            }
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "MVP - Lista de Materiais",
+              "pdf": "images/portfolio/easy-pool/MVP - EasyPool - back-up.pdf"
+            },
+            {
+              "titlePDF": "Documento de Requisitos",
+              "pdf": "images/portfolio/easy-pool/Documento de Requisitos EasyPool.pdf"
+            }    
           ],
           "url": "",
           "technologies": [
@@ -495,9 +570,6 @@
       "title":"Gerente de Projetos",
       "description":"Como colaborador do Bradesco Cartões, liderei um projeto de criação de novos indicadores para apoiar as decisões gerenciais. Desde a coleta dos dados até a interpretação dos resultados e a apresentação mensal em reuniões com a diretoria, fui responsável por todas as etapas do processo. Nesse projeto, foram criadas 71 novas métricas usando ferramentas como QlikView e Pivot Table do Excel, permitindo a análise mais precisa e detalhada do desempenho da empresa. Com essa iniciativa, pude aprimorar minhas habilidades em gestão de dados, análise de informações e comunicação com a alta administração da empresa.",
       "years": "02/2011 - 02/2012",
-      "mainTech":[
-        "Project Manager"
-      ],
       "technologies":[
         "Microsoft Project",
         "Microsoft Office",
@@ -552,8 +624,12 @@
               "titleVideo": "",
               "video": ""
             }
-            
-    
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
           ],
           "url": "",
           "technologies": [
@@ -573,9 +649,6 @@
       "title": "Analista de Suprimentos",
       "description": "Na indústria recém-inaugurada, participei ativamente da criação da carteira de fornecedores e da elaboração dos primeiros contratos. Minhas principais atividades incluíram análise de fornecedores, controle de estoque, negociação de contratos e monitoramento de desempenho.",
       "years": "09/2010 - 02/2011",
-      "mainTech":[
-        "Negociação"
-      ],
       "technologies":[
         "Compras",
         "Administração de contratos",
@@ -609,8 +682,12 @@
               "titleVideo": "",
               "video": ""
             }
-            
-    
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
           ],
           "url": "",
           "technologies": [
@@ -626,13 +703,11 @@
       ]
     },
     {
-      "company":"Rotary International",
+      "company":"Rotary International - Argentina",
       "title":"IGE - Intercâmbio de Grupo de Estudos",
       "description": "Intercâmbio de estudos nas províncias de Buenos Aires e La Pampa - Argentina. O IGE é um programa da Fundação Rotary Internacional que tem como objetivo promover a troca de experiências entre profissionais de diversas áreas. Nesta oportunidade, visitei diversas empresas e instituições governamentais, participei de reuniões de apresentação em clubes Rotary de treze cidades da província de Buenos Aires e no Congresso Anual de Intercambistas em Santa Rosa - La Pampa.",
+      "iconClass": "graduation",
       "years":"05/2010",
-      "mainTech":[
-        ""
-      ],
       "technologies":[
         "Espanhol",
         "Network",
@@ -662,8 +737,12 @@
               "titleVideo": " ",
               "video": ""
             }
-            
-    
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
           ],
           "url": "",
           "technologies": [
@@ -684,9 +763,6 @@
       "title":"Analista de Processos",
       "description": "Como recurso para análise e melhoria de processos, desenvolvi atividades em vários clientes e participei de alguns projetos internos da Algar Tech. Posteriormente, fui alocado em um projeto no cliente Bradesco Cartões, onde utilizei a técnica de Modelo BPMN para estudar e aprimorar os processos do setor de antecipação de recebíveis. Nesse projeto, desenvolvemos instruções de trabalho detalhadas, aprimoramos a abordagem aos clientes e automatizamos a geração de todos os relatórios com o uso de VBA. Toda essa experiência me permitiu desenvolver habilidades de liderança, aprimorar minha compreensão dos processos de negócios e trabalhar em equipe com times multidisciplinares.",
       "years":"04/2008 - 05/2010",
-      "mainTech":[
-        "Ciclo BPM"
-      ],
       "technologies":[
         "Microsoft Visio",
         "Green Belt - SIX SIGMA",
@@ -739,8 +815,12 @@
               "titleVideo": "Mostra PGP/PGI ",
               "video": "https://www.youtube.com/embed/RknQ6UIzo2Q"
             }
-            
-    
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
           ],
           "url": "",
           "technologies": [
@@ -762,9 +842,6 @@
       "description": "Bacharel em Administração de Empresas",
       "iconClass": "graduation",
       "years":"2004 - 2008",
-      "mainTech":[
-        ""
-      ],
       "technologies":[
         ],
       "mainProjects": [
@@ -790,8 +867,12 @@
               "titleVideo": " ",
               "video": ""
             }
-            
-    
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
           ],
           "url": "",
           "technologies": [

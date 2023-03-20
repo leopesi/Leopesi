@@ -12,18 +12,9 @@ class Experience extends Component {
     if (this.props.resumeExperience && this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.experience;
       var work = this.props.resumeExperience.map(function (work, i) {
-        const technologies = work.technologies;
-        const mainTechnologies = work.mainTech; 
+        const technologies = work.technologies; 
         const mainProjects = work.mainProjects;
         
-
-        var mainTech = mainTechnologies.map((technology, i) => {
-          return (
-            <Badge pill className="main-badge mr-2 mb-2" key={i}>
-              {technology}
-            </Badge>
-          );
-        });
         var tech = technologies.map((technology, i) => {
           return (
             <Badge pill className="experience-badge mr-2 mb-2" key={i}>
@@ -43,6 +34,7 @@ class Experience extends Component {
                       text={technology.text}
                       images={technology.images}
                       videos={technology.videos}
+                      pdfs={technology.pdfs}
                       url={technology.url}
                       technologies={technology.technologies}
                     ></ProjectExperience>

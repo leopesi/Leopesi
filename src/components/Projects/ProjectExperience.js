@@ -12,7 +12,7 @@ class ProjectExperience extends Component {
   }
 
   render() {
-    const { tag, title, text, images, videos, url, technologies } = this.props;
+    const { tag, title, text, images, videos, pdfs, url, technologies } = this.props;
 
     
     const tech = technologies.map((item, i) => {
@@ -33,23 +33,42 @@ class ProjectExperience extends Component {
       } else {
         return null; // retorna null caso item.video esteja vazio
       }
-      });
-    
-
-  
+      });  
 
   const video = videos.map((item, i) => {
     if (item.video) { // verifica se item.video tem um valor
       return (
-        <div className="embed-responsive embed-responsive-16by9" key={i}>
-          <h2 className="text-center" style={{ borderTop: "1px solid #ccc" }}>
+        <div  key={i}>
+          <h2 className="text-center" style={{ margin: "2em ", borderTop: "1px solid #ccc" }}>
             {item.titleVideo}
           </h2>
-          <iframe title={item.titleVideo} className="embed-responsive-item" src={item.video} allowFullScreen></iframe>
+          <div className="embed-responsive embed-responsive-16by9">
+            <iframe title={item.titleVideo} className="embed-responsive-item" src={item.video} allowFullScreen></iframe>
+          </div>
+          
         </div>
+        
       )
     } else {
       return null; // retorna null caso item.video esteja vazio
+    }
+  });
+
+  const pdf = pdfs.map((item, i) => {
+    if (item.pdf) { // verifica se item.pdf tem um valor
+      return (
+        <div>
+          <h2 className="text-center" style={{  margin: "2em ", borderTop: "1px solid #ccc" }}>
+            {item.titlePDF}
+          </h2>
+          <div className="embed-responsive embed-responsive-16by9" key={i}>         
+            <iframe title={item.titlePDF} className="embed-responsive-item" src={item.pdf} allowFullScreen></iframe>
+          </div>
+        </div>
+
+      )
+    } else {
+      return null; // retorna null caso item.pdf esteja vazio
     }
   });
 
@@ -57,13 +76,11 @@ class ProjectExperience extends Component {
     if (item.image) {
       return (
         <div>
-  <h2 className="text-center" style={{ borderTop: "1px solid #ccc", margin: "2em " }}>
-    {item.titleImage}
-  </h2>
-  <Image key={i} src={item.image} fluid style={{ maxWidth: "100%", }} />
-</div>
-
-    
+          <h2 className="text-center" style={{ borderTop: "1px solid #ccc", margin: "2em " }}>
+            {item.titleImage}
+          </h2>
+          <Image key={i} src={item.image} fluid style={{ maxWidth: "100%", }} />
+        </div>
       );
     } else {
       return null; // retorna null caso item.video esteja vazio
@@ -90,7 +107,11 @@ class ProjectExperience extends Component {
 
     return (
       <div className="mr-2 mb-2">
-        <Button onClick={() => this.setState({ show: true })}>{tag}</Button>
+        
+        <Button class="btn btn-primary animate__animated animate__pulse" style={{width: "95px",
+        height: "25px"}} onClick={() => this.setState({ show: true })}>
+        <i class="fa fa-books" style={{ padding: "5px" }} ></i>{tag}</Button>
+
         <Modal
           show={this.state.show}
           onHide={() => this.setState({ show: false })}
@@ -99,7 +120,7 @@ class ProjectExperience extends Component {
         >
           <div className="modal-content">
             <Modal.Header closeButton>
-              <Modal.Title className="modal-title">{title}</Modal.Title>
+              <Modal.Title className="modal-title">{title}</Modal.Title>    
               {url ? (
                 <a
                   href={url}
@@ -118,17 +139,26 @@ class ProjectExperience extends Component {
             <Modal.Body className="modal-body">
               {renderedText}
 
-              {img  ? (
-                <div  style={{ paddingBottom: "50px" }}>
-                  {img}
-                </div>
-              ) : null}
-                            
               {video  ? (
                 <div  style={{ paddingBottom: "100px" }}>
                   {video}
                 </div>
               ) : null}
+
+              {img  ? (
+                <div  style={{ paddingBottom: "50px" }}>
+                  {img}
+                </div>
+              ) : null}
+           
+              {pdf  ? (
+                <div  style={{ paddingBottom: "100px" }}>
+                  {pdf}
+                </div>
+              ) : null}
+
+
+
               
               
             </Modal.Body>
