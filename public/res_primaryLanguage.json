@@ -38,7 +38,7 @@
       "startDate": "2021",
       "description": "EasyPool é uma plataforma SaaS inovadora que oferece suporte aos lojistas do ramo de construção de piscinas de vinil, permitindo-lhes criar cotações de forma rápida e segura.",
       "images": [
-        "images/portfolio/easy-pool/easypool.png"
+        "images/portfolio/easy-pool/EasyPool.jpg"
       ],
       "video": [
         "https://www.youtube.com/embed/EFTK-K8jWsI"
@@ -102,6 +102,7 @@
       "mainProjects": [
         {
           "tag": "",
+          "coverPhoto": "",
           "title": "",
           "text": [
             {
@@ -160,6 +161,7 @@
       "mainProjects": [
         {
           "tag": "",
+          "coverPhoto": "",
           "title": "",
           "text": [
             {
@@ -215,6 +217,7 @@
       "mainProjects": [
         {
           "tag": "",
+          "coverPhoto": "",
           "title": "",
           "text": [
             {
@@ -272,6 +275,7 @@
       "mainProjects": [
         {
           "tag": "ScoreCard",
+          "coverPhoto": "images/portfolio/bsc/bsc.png",
           "title": "Projeto de Melhoria de Desempenho.",
           "text": [
             {
@@ -335,6 +339,7 @@
         },
         {
           "tag": "Contrasseco",
+          "coverPhoto": "images/portfolio/contrasseco/arduino.jpg",
           "title": "Dispositivo de Monitoramento de Fluxo de Água para Motobomba de Piscina.",
           "text": [
             {
@@ -407,6 +412,7 @@
         },
         {
           "tag": "Iluminação",
+          "coverPhoto": "images/portfolio/iluminacao/Led (2).jpg",
           "title": "Dispositivo De Iluminação Subaquática",
           "text": [
             {
@@ -494,6 +500,7 @@
         },
         {
           "tag": "EasyPool",
+          "coverPhoto": "images/portfolio/easy-pool/EasyPool.jpg",
           "title": "Ferramenta de Cotação de Piscinas.",
           "text": [
             {
@@ -580,6 +587,7 @@
       "mainProjects": [
         {
           "tag": "",
+          "coverPhoto": "",
           "title": "",
           "text": [
             {
@@ -658,6 +666,7 @@
       "mainProjects": [
         {
           "tag": "",
+          "coverPhoto": "",
           "title": "",
           "text": [
             {
@@ -717,6 +726,7 @@
       "mainProjects": [
         {
           "tag": "",
+          "coverPhoto": "",
           "title": "",
           "text": [
             {
@@ -771,6 +781,7 @@
       "mainProjects": [
         {
           "tag": "Taxi",
+          "coverPhoto": "images/portfolio/taxi/analiseProcesso.png",
           "title": "Melhoria no processo de utilização de táxi.",
           "text": [
             {
@@ -848,6 +859,7 @@
         {
           "tag": "",
           "title": "",
+          "coverPhoto": "",
           "text": [
             {
               "topic": "",

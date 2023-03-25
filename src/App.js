@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/ProjectList";
+import Projects2 from "./components/ProjectList copy";
 import Skills from "./components/Skills";
 
 import { BrowserRouter} from "react-router-dom";
@@ -128,6 +129,11 @@ class App extends Component {
             sharedBasicInfo={this.state.sharedData.basic_info}
           />
           <Projects
+            resumeProjects={this.state.resumeData.projects}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
+          <Projects2
+            resumeExperience={this.state.resumeData.experience}
             resumeProjects={this.state.resumeData.projects}
             resumeBasicInfo={this.state.resumeData.basic_info}
           />
