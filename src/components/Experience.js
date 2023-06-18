@@ -24,26 +24,31 @@ class Experience extends Component {
         });
         var mainProj = (
           <div style={{ display: "flex", flexWrap: "wrap" }}>
-            {mainProjects.map((technology, i) => {
-              if (technology.title.length > 0) {
+           {mainProjects &&
+            Array.isArray(mainProjects) &&
+            mainProjects.map((technology) => {
+              if (technology && technology.title) {
+                var { tag, title, text, images, videos, pdfs, url, technologies } =
+                  technology;
                 return (
-                  <div key={i} style={{ flex: "1 0 25%" }}>
+                  <div key={title} style={{ flex: "1 0 25%" }}>
                     <ProjectExperience
-                      tag={technology.tag}
-                      title={technology.title}
-                      text={technology.text}
-                      images={technology.images}
-                      videos={technology.videos}
-                      pdfs={technology.pdfs}
-                      url={technology.url}
-                      technologies={technology.technologies}
-                    ></ProjectExperience>
+                      tag={tag || ""}
+                      title={title}
+                      text={text || ""}
+                      images={images || []}
+                      videos={videos || []}
+                      pdfs={pdfs || []}
+                      url={url || ""}
+                      technologies={technologies || []}
+                    />
                   </div>
                 );
               } else {
                 return null;
               }
             })}
+
           </div>
         );    
 

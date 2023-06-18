@@ -14,11 +14,10 @@ class ProjectExperience extends Component {
   render() {
     const { tag, title, text, images, videos, pdfs, url, technologies } = this.props;
 
-    
-    const tech = technologies.map((item, i) => {
+    var tech = technologies.map((item) => {
       if (item.name) {
         return (
-          <li className="list-inline-item mx-3" key={i}>
+          <li className="list-inline-item mx-3">
             <span>
               <div className="text-center">
                 <i className={item.class} style={{ fontSize: "300%" }}>
@@ -33,68 +32,67 @@ class ProjectExperience extends Component {
       } else {
         return null; // retorna null caso item.video esteja vazio
       }
-      });  
+    });  
 
-  const video = videos.map((item, i) => {
-    if (item.video) { // verifica se item.video tem um valor
-      return (
-        <div  key={i}>
-          <h2 className="text-center" style={{ margin: "2em ", borderTop: "1px solid #ccc" }}>
-            {item.titleVideo}
-          </h2>
-          <div className="embed-responsive embed-responsive-16by9">
-            <iframe title={item.titleVideo} className="embed-responsive-item" src={item.video} allowFullScreen></iframe>
+    var video = videos.map((item) => {
+      if (item.video) { // verifica se item.video tem um valor
+        return (
+          <div >
+            <h2 className="text-center" style={{ margin: "2em ", borderTop: "1px solid #ccc" }}>
+              {item.titleVideo}
+            </h2>
+            <div className="embed-responsive embed-responsive-16by9">
+              <iframe title={item.titleVideo} className="embed-responsive-item" src={item.video} allowFullScreen></iframe>
+            </div>
+            
           </div>
           
-        </div>
-        
-      )
-    } else {
-      return null; // retorna null caso item.video esteja vazio
-    }
-  });
+        )
+      } else {
+        return null; // retorna null caso item.video esteja vazio
+      }
+    });
 
-  const pdf = pdfs.map((item, i) => {
-    if (item.pdf) { // verifica se item.pdf tem um valor
-      return (
-        <div>
-          <h2 className="text-center" style={{  margin: "2em ", borderTop: "1px solid #ccc" }}>
-            {item.titlePDF}
-          </h2>
-          <div className="embed-responsive embed-responsive-16by9" key={i}>         
-            <iframe title={item.titlePDF} className="embed-responsive-item" src={item.pdf} allowFullScreen></iframe>
+    var pdf = pdfs.map((item) => {
+      if (item.pdf) { // verifica se item.pdf tem um valor
+        return (
+          <div>
+            <h2 className="text-center" style={{  margin: "2em ", borderTop: "1px solid #ccc" }}>
+              {item.titlePDF}
+            </h2>
+            <div className="embed-responsive embed-responsive-16by9">         
+              <iframe title={item.titlePDF} className="embed-responsive-item" src={item.pdf} allowFullScreen></iframe>
+            </div>
           </div>
-        </div>
 
-      )
-    } else {
-      return null; // retorna null caso item.pdf esteja vazio
-    }
-  });
+        )
+      } else {
+        return null; // retorna null caso item.pdf esteja vazio
+      }
+    });
 
-  const img = images.map((item, i) => {
+    var img = images.map((item) => {
     if (item.image) {
       return (
         <div>
           <h2 className="text-center" style={{ borderTop: "1px solid #ccc", margin: "2em " }}>
             {item.titleImage}
           </h2>
-          <Image key={i} src={item.image} fluid style={{ maxWidth: "100%", }} />
+          <Image src={item.image} fluid style={{ maxWidth: "100%", }} />
         </div>
       );
     } else {
       return null; // retorna null caso item.video esteja vazio
     }   
-      });
+    });
     
-
-    const renderedText = text.map((item, i) => {
+    var renderedText = text.map((item) => {
     if (!item.hasOwnProperty('content')) {
       return null;
     }
 
       return (
-        <div key={i}>
+        <div>
           <Modal.Title className="modal-topic">{item.topic}</Modal.Title>
           {item.content
             .split(";")
@@ -107,16 +105,15 @@ class ProjectExperience extends Component {
 
     return (
       <div className="mr-2 mb-2">
-        
-        <Button class="btn btn-primary animate__animated animate__pulse" style={{width: "95px",
+        <Button className="btn btn-primary animate__animated animate__pulse" style={{width: "95px",
         height: "25px"}} onClick={() => this.setState({ show: true })}>
-        <i class="fa fa-books" style={{ padding: "5px" }} ></i>{tag}</Button>
+        <i className="fa fa-books" style={{ padding: "5px" }} ></i>{tag}</Button>
 
         <Modal
           show={this.state.show}
           onHide={() => this.setState({ show: false })}
           size="xl"
-          fullscreen
+          
         >
           <div className="modal-content">
             <Modal.Header closeButton>
@@ -172,26 +169,6 @@ class ProjectExperience extends Component {
   }
 }
 
-ProjectExperience.propTypes = {
-  tag: PropTypes.string.isRequired,
-  title: PropTypes.string.isRequired,
-  text: PropTypes.arrayOf(
-    PropTypes.shape({
-      topic: PropTypes.string.isRequired,
-      content: PropTypes.string,
-    }).isRequired
-  ).isRequired,
 
-  images: PropTypes.arrayOf(PropTypes.string),
-  videos: PropTypes.string,
-  url: PropTypes.string,
-  
-  technologies: PropTypes.arrayOf(
-    PropTypes.shape({
-      name: PropTypes.string.isRequired,
-      class: PropTypes.string.isRequired,
-    })
-  ),
-};
 
 export default ProjectExperience;
