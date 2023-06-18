@@ -86,6 +86,64 @@
   ],
   "experience": [
     {
+      "company": "Xcelis Consulting",
+      "title": "Analista de suporte N2",
+      "description": "Atendendo às necessidades dos usuários da empresa de forma ágil e eficiente. Responsável por garantir o funcionamento adequado da rede sem fio, além de administrar o Active Directory e o gerenciamento do Office365, incluindo Sharepoint e Exchange e OneDrive. Outras responsabilidades incluem o controle de acessos e o gerenciamento de perfis de usuários, atendendo chamados de clientes internos remotamente e, quando necessário, presencialmente. Também sou encarregado de controlar ativos, gerenciar licenças e permissões de usuários. Além disso, sou responsável pela criação e manutenção de instruções de trabalho, visando fornecer orientações claras e precisas para as atividades realizadas.",
+      "years": "03/2023 - até o momento.",
+      "technologies": [
+        "Office 365",
+        "Excel Avançado",
+        "Sharepoint",
+        "Exchange",
+        "OneDrive",
+        "Active Directory"
+      ],
+      "mainProjects": [
+        {
+          "tag": "",
+          "coverPhoto": "",
+          "title": "",
+          "text": [
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            }
+
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+            
+    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
       "company": "Universidad Tecnológica Nacional - Buenos Aires",
       "title": "Intercâmbio",
       "description": "Durante um período de 8 meses, decidi interromper minha carreira para investir em meu aprimoramento profissional. Fui para um intercâmbio na Argentina para estudar espanhol e fazer uma extensão universitária em desenvolvimento de software full stack na Universidad Tecnológica Nacional de Buenos Aires. Lá, pude desenvolver  significativamente meu conhecimento em programação web e em todas as etapas do processo de desenvolvimento de um software, o que me capacitou a criar soluções incríveis com as melhores tecnologias da atualidade. Foi uma experiência única e enriquecedora.",
@@ -148,14 +206,13 @@
       ]
     },
     {
-      "company": "Confitec - São Paulo",
-      "title": "Analista de Requisitos",
-      "description": "Na Confitec, trabalhei em um projeto na BB Seguros, atuando como responsável por definir o backlog da squad com base nos KPIs do banco. Meu papel incluía levantar e especificar os requisitos, além de criar cenários de testes. Utilizamos o framework Scrum no projeto e participei de todas as cerimônias, desde o planejamento até a entrega final do produto.",
-      "years": "08/2021 - 05/2022",
+      "company": "IREO Soluciones y Servicios",
+      "title": "Suporte Técnico",
+      "description": "Como técnico de suporte ao cliente, trabalhei na resolução de problemas dos usuários dos softwares comercializados pela empresa, fornecendo atendimento por telefone e web. Além disso, também era responsável pela elaboração e comunicação de boletins informativos para os clientes.",
+      "years": "06/2021 - 02/2022",
       "technologies": [
-        "Análise de dados",
-        "Análise de requisitos",
-        "Metodologias Agile · Scrum",
+        "Office 365",
+        "Excel Avançado",
         "Mapeamento de processos"
       ],
       "mainProjects": [
