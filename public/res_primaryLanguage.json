@@ -1,12 +1,12 @@
 {
   "basic_info": {
-    "description_header": "Hi",
-    "description": "👋 Meu nome é Leonardo Pereira e tenho mais de 10 anos de experiência em gerenciamento de projetos e mais de 2 anos em desenvolvimento de software Full-Stack, com especialização em JavaScript, Node.js e React.js. Sou apaixonado por encontrar soluções inovadoras para desafios complexos e estou sempre em busca de aprimoramento e aprendizado contínuos. Meu histórico inclui a liderança de equipes de alto desempenho e a entrega bem-sucedida de projetos de grande escala para clientes em diversos setores. Estou sempre aberto a novas oportunidades e desafios emocionantes na minha carreira.",
+    "description_header": "Olá!",
+    "description": "👋 Meu nome é Leonardo Pereira, e possuo uma vasta experiência em gerenciamento de equipes e projetos, além de um sólido conhecimento em tecnologias como JavaScript, Node.js, React.js e Python (Django). Tenho uma verdadeira paixão por encontrar soluções inovadoras para desafios complexos e estou constantemente buscando me aprimorar e aprender continuamente. Meu histórico inclui a liderança de equipes de alto desempenho e a entrega bem-sucedida de projetos de grande escala para clientes em diversos setores.",
     "section_name": {
-      "about": "About me",
-      "projects": "Projects",
+      "about": "Um pouco sobre mim",
+      "projects": "Projetos",
       "skills": "Skills",
-      "experience": "Experience"
+      "experience": "Experiencias"
     }
   },
   "projects": [

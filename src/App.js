@@ -7,13 +7,9 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/ProjectList";
 import Skills from "./components/Skills";
-
-import { BrowserRouter} from "react-router-dom";
-
-
+import { BrowserRouter } from "react-router-dom";
 
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -23,35 +19,44 @@ class App extends Component {
     };
   }
 
-  applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
-    this.swapCurrentlyActiveLanguage(oppositeLangIconId);
+  applyPickedLanguage(pickedLanguage, oppositeLangIconIds) {
+    this.swapCurrentlyActiveLanguage(oppositeLangIconIds);
     document.documentElement.lang = pickedLanguage;
-    var resumePath =
-      document.documentElement.lang === window.$primaryLanguage
-        ? `res_primaryLanguage.json`
-        : `res_secondaryLanguage.json`;
+    var resumePath;
+
+    if (document.documentElement.lang === window.$primaryLanguage) {
+      resumePath = `res_primaryLanguage.json`;
+    } else if (document.documentElement.lang === window.$secondaryLanguage) {
+      resumePath = `res_secondaryLanguage.json`;
+    } else if (document.documentElement.lang === window.$tertiaryLanguage) {
+      resumePath = `res_tertiaryLanguage.json`;
+    }
+
     this.loadResumeFromPath(resumePath);
   }
 
-  swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    var pickedLangIconId =
-      oppositeLangIconId === window.$primaryLanguageIconId
-        ? window.$secondaryLanguageIconId
-        : window.$primaryLanguageIconId;
-    document
-      .getElementById(oppositeLangIconId)
-      .removeAttribute("filter", "brightness(40%)");
-    document
-      .getElementById(pickedLangIconId)
-      .setAttribute("filter", "brightness(40%)");
+  swapCurrentlyActiveLanguage(oppositeLangIconIds) {
+    const languageIconIds = [
+      window.$primaryLanguageIconId,
+      window.$secondaryLanguageIconId,
+      window.$tertiaryLanguageIconId,
+    ];
+
+    languageIconIds.forEach((iconId) => {
+      if (!oppositeLangIconIds.includes(iconId)) {
+        document.getElementById(iconId).removeAttribute("filter", "brightness(40%)");
+      } else {
+        document.getElementById(iconId).setAttribute("filter", "brightness(40%)");
+      }
+    });
   }
 
   componentDidMount() {
     this.loadSharedData();
-    this.applyPickedLanguage(
-      window.$primaryLanguage,
-      window.$secondaryLanguageIconId
-    );
+    this.applyPickedLanguage(window.$primaryLanguage, [
+      window.$secondaryLanguageIconId,
+      window.$tertiaryLanguageIconId,
+    ]);
   }
 
   loadResumeFromPath(path) {
@@ -90,27 +95,29 @@ class App extends Component {
           <Header sharedData={this.state.sharedData.basic_info} />
           <div className="col-md-12 mx-auto text-center language">
             <div
+              className="language-icon-container  mr-4"
               onClick={() =>
-                this.applyPickedLanguage(
-                  window.$primaryLanguage,
-                  window.$secondaryLanguageIconId
-                )
+                this.applyPickedLanguage(window.$primaryLanguage, [
+                  window.$secondaryLanguageIconId,
+                  window.$tertiaryLanguageIconId,
+                ])
               }
               style={{ display: "inline" }}
             >
               <span
-                className="iconify language-icon mr-5"
+                className="iconify language-icon"
                 data-icon="twemoji-flag-for-flag-brazil"
                 data-inline="false"
                 id={window.$primaryLanguageIconId}
               ></span>
             </div>
             <div
+              className="language-icon-container  mr-4"
               onClick={() =>
-                this.applyPickedLanguage(
-                  window.$secondaryLanguage,
-                  window.$primaryLanguageIconId
-                )
+                this.applyPickedLanguage(window.$secondaryLanguage, [
+                  window.$primaryLanguageIconId,
+                  window.$tertiaryLanguageIconId,
+                ])
               }
               style={{ display: "inline" }}
             >
@@ -119,6 +126,23 @@ class App extends Component {
                 data-icon="twemoji-flag-for-flag-united-kingdom"
                 data-inline="false"
                 id={window.$secondaryLanguageIconId}
+              ></span>
+            </div>
+            <div
+              className="language-icon-container mr-4"
+              onClick={() =>
+                this.applyPickedLanguage(window.$tertiaryLanguage, [
+                  window.$primaryLanguageIconId,
+                  window.$secondaryLanguageIconId,
+                ])
+              }
+              style={{ display: "inline" }}
+            >
+              <span
+                className="iconify language-icon  mr-4"
+                data-icon="twemoji:flag-spain"
+                data-inline="false"
+                id={window.$tertiaryLanguageIconId}
               ></span>
             </div>
           </div>
@@ -145,7 +169,6 @@ class App extends Component {
       </BrowserRouter>
     );
   }
-  
 }
 
 export default App;
