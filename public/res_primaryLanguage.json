@@ -159,24 +159,72 @@
       ],
       "mainProjects": [
         {
-          "tag": "",
-          "coverPhoto": "",
-          "title": "",
+          "tag": "Proyecto UTN",
+          "coverPhoto": "images/portfolio/utn/utn.png",
+          "title": "Projeto do curso Programador Web da UTN",
           "text": [
             {
               "topic": "",
-              "content": ""
+              "content": "Desenvolvi uma aplicação SaaS usando tecnologias JavaScript, como Node.js e React. O objetivo desse projeto foi colocar em prática alguns dos conceitos abordados no curso de extensão. A aplicação conta com um sistema de registro de usuários, permitindo diferentes níveis de acesso,  proporcionando uma experiência personalizada para cada tipo de usuário."
             },
             {
               "topic": "",
-              "content": ""
+              "content": "O sistema de registro de usuários foi desenvolvido de forma a garantir a segurança e privacidade das informações pessoais. Cada usuário possui um nível de acesso específico, o que permite controlar as permissões de cada usuário dentro da aplicação."
+            },
+            {
+              "topic": "",
+              "content": "Para armazenar os dados, utilizei um banco de dados MySQL, garantindo a segurança e a integridade das informações dos usuários. Além disso, hospedei a aplicação na AWS S3, garantindo uma infraestrutura escalável e confiável."
+            },
+            {
+              "topic": "Tecnologias:",
+              "content": "• A aplicação é construída usando Node.js, Sequelize, Express, Bcrypt, Cors, JsonWebToken no back-end, e React, Axios e Redux no front-end.; • No back-end, temos um sistema de registro de usuário com diferentes níveis de acesso, como Público, Usuário, Moderador e Administrador.; • A autenticação de usuário é feita utilizando JWT, e as senhas são criptografadas usando bcrypt.; • O banco de dados MySQL é utilizado para armazenar as informações dos clientes e seus respectivos endereços permanentes, com tabelas separadas e um relacionamento One-to-one.; • No front-end, o React consome a API através do Axios, e o estado da aplicação é gerenciado pelo Redux."
+            },
+            {
+              "topic": "Prova de rotas",
+              "content": "https://www.postman.com/restless-water-10959/workspace/curso-utn-node-js/api/d1301b31-098b-4651-8d18-ee78cb941df8"
             }
 
           ],
           "images": [
             {
+              "titleImage": "Diagramas de Fluxo",
+              "image": "images/portfolio/utn/1.jpg"
+            },
+            {
               "titleImage": "",
-              "image": ""
+              "image": "images/portfolio/utn/2.jpg"
+            },
+            {
+              "titleImage": "",
+              "image": "images/portfolio/utn/3.jpg"
+            },
+            {
+              "titleImage": "",
+              "image": "images/portfolio/utn/4.jpg"
+            },
+            {
+              "titleImage": "",
+              "image": "images/portfolio/utn/5.jpg"
+            },
+            {
+              "titleImage": "",
+              "image": "images/portfolio/utn/6.jpg"
+            },
+            {
+              "titleImage": "",
+              "image": "images/portfolio/utn/7.jpg"
+            },
+            {
+              "titleImage": "",
+              "image": "images/portfolio/utn/8.jpg"
+            },
+            {
+              "titleImage": "",
+              "image": "images/portfolio/utn/9.jpg"
+            },
+            {
+              "titleImage": "",
+              "image": "images/portfolio/utn/10.jpg"
             }
             
           ],
@@ -192,14 +240,14 @@
               "pdf": ""
             }    
           ],
-          "url": "",
+          "url": "https://github.com/leopesi/proyecto_UTN",
           "technologies": [
             {
               "class": ""
             },
             {
     
-              "name": ""
+              "name": "JavaScript"
             }
           ]
         }

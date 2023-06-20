@@ -149,50 +149,99 @@
     "Spanish",
     "Amazon S3 / EC2"
     ],
+
     "mainProjects": [
-    {
-    "tag": "",
-    "coverPhoto": "",
-    "title": "",
-    "text": [
-    {
-    "topic": "",
-    "content": ""
-    },
-    {
-    "topic": "",
-    "content": ""
-    }
-    ],
-    "images": [
-    {
-    "titleImage": "",
-    "image": ""
-    }
-    ],
-    "videos": [
-    {
-    "titleVideo": "",
-    "video": ""
-    }
-    ],
-    "pdfs": [
-    {
-    "titlePDF": "",
-    "pdf": ""
-    }
-    ],
-    "url": "",
-    "technologies": [
-    {
-    "class": ""
-    },
-    {
-    "name": ""
-    }
-    ]
-    }
-    ]
+      {
+      "tag": "UTN Project",
+      "coverPhoto": "images/portfolio/utn/utn.png",
+      "title": "UTN Web Developer Course Project",
+      "text": [
+      {
+      "topic": "",
+      "content": "I developed a SaaS application using JavaScript technologies such as Node.js and React. The aim of this project was to apply the skills I acquired during the extension course. The application features a user registration system, allowing different levels of access and providing a personalized experience for each user type."
+      },
+      {
+      "topic": "",
+      "content": "The user registration system was developed to ensure the security and privacy of personal information. Each user has a specific access level, which allows controlling permissions within the application."
+      },
+      {
+      "topic": "",
+      "content": "To store the data, I used a MySQL database, ensuring the security and integrity of user information. Additionally, I hosted the application on AWS S3, providing a scalable and reliable infrastructure."
+      },
+      {
+      "topic": "Technologies:",
+      "content": "• The application is built using Node.js, Sequelize, Express, Bcrypt, Cors, JsonWebToken on the back-end, and React, Axios, and Redux on the front-end.; • On the back-end, we have a user registration system with different access levels such as Public, User, Moderator, and Administrator.; • User authentication is done using JWT, and passwords are encrypted using bcrypt.; • The MySQL database is used to store customer information and their respective permanent addresses, with separate tables and a one-to-one relationship.; • On the front-end, React consumes the API through Axios, and the application state is managed by Redux."
+      },
+      {
+      "topic": "Route Testing",
+      "content": "https://www.postman.com/restless-water-10959/workspace/curso-utn-node-js/api/d1301b31-098b-4651-8d18-ee78cb941df8"
+      }
+      ],
+      "images": [
+      {
+      "titleImage": "Flowcharts",
+      "image": "images/portfolio/utn/1.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/2.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/3.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/4.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/5.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/6.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/7.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/8.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/9.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/10.jpg"
+      }
+      ],
+      "videos": [
+      {
+      "titleVideo": "",
+      "video": ""
+      }
+      ],
+      "pdfs": [
+      {
+      "titlePDF": "",
+      "pdf": ""
+      }
+      ],
+      "url": "https://github.com/leopesi/proyecto_UTN",
+      "technologies": [
+      {
+      "class": ""
+      },
+      {
+      "name": "JavaScript"
+      }
+      ]
+      }
+      ]   
     },    
     {
       "company": "IREO Solutions and Services",

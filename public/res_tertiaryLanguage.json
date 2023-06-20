@@ -151,49 +151,101 @@
     "Amazon S3 / EC2"
     ],
     "mainProjects": [
-    {
-    "tag": "",
-    "coverPhoto": "",
-    "title": "",
-    "text": [
-    {
-    "topic": "",
-    "content": ""
-    },
-    {
-    "topic": "",
-    "content": ""
-    }
-    ],
-    "images": [
-    {
-    "titleImage": "",
-    "image": ""
-    }
-    ],
-    "videos": [
-    {
-    "titleVideo": "",
-    "video": ""
-    }
-    ],
-    "pdfs": [
-    {
-    "titlePDF": "",
-    "pdf": ""
-    }
-    ],
-    "url": "",
-    "technologies": [
-    {
-    "class": ""
-    },
-    {
-    "name": ""
-    }
+      {
+        "tag": "Proyecto UTN",
+        "coverPhoto": "images/portfolio/utn/utn.png",
+        "title": "Proyecto del curso de Programador Web de la UTN",
+        "text": [
+          {
+            "topic": "",
+            "content": "Desarrollé una aplicación SaaS utilizando tecnologías JavaScript, como Node.js y React. El objetivo de este proyecto fue poner en práctica mis habilidades adquiridas en el curso de extensión. La aplicación cuenta con un sistema de registro de usuarios que permite diferentes niveles de acceso, brindando una experiencia personalizada para cada tipo de usuario."
+          },
+          {
+            "topic": "",
+            "content": "El sistema de registro de usuarios fue desarrollado de manera que garantice la seguridad y privacidad de la información personal. Cada usuario tiene un nivel de acceso específico, lo que permite controlar los permisos de cada usuario dentro de la aplicación."
+          },
+          {
+            "topic": "",
+            "content": "Para almacenar los datos, utilicé una base de datos MySQL, asegurando la seguridad y la integridad de la información de los usuarios. Además, alojé la aplicación en AWS S3, garantizando una infraestructura escalable y confiable."
+          },
+          {
+            "topic": "Tecnologías:",
+            "content": "• La aplicación se construye utilizando Node.js, Sequelize, Express, Bcrypt, Cors, JsonWebToken en el backend, y React, Axios y Redux en el frontend.; • En el backend, tenemos un sistema de registro de usuarios con diferentes niveles de acceso, como Público, Usuario, Moderador y Administrador.; • La autenticación de usuarios se realiza utilizando JWT, y las contraseñas se cifran utilizando bcrypt.; • Se utiliza la base de datos MySQL para almacenar la información de los clientes y sus respectivas direcciones permanentes, con tablas separadas y una relación uno a uno.; • En el frontend, React consume la API a través de Axios, y el estado de la aplicación es gestionado por Redux."
+          },
+          {
+            "topic": "Prueba de rutas",
+            "content": "https://www.postman.com/restless-water-10959/workspace/curso-utn-node-js/api/d1301b31-098b-4651-8d18-ee78cb941df8"
+          }
+  
+        ],
+        "images": [
+          {
+            "titleImage": "Diagramas de Flujo",
+            "image": "images/portfolio/utn/1.jpg"
+          },
+          {
+            "titleImage": "",
+            "image": "images/portfolio/utn/2.jpg"
+          },
+          {
+            "titleImage": "",
+            "image": "images/portfolio/utn/3.jpg"
+          },
+          {
+            "titleImage": "",
+            "image": "images/portfolio/utn/4.jpg"
+          },
+          {
+            "titleImage": "",
+            "image": "images/portfolio/utn/5.jpg"
+          },
+          {
+            "titleImage": "",
+            "image": "images/portfolio/utn/6.jpg"
+          },
+          {
+            "titleImage": "",
+            "image": "images/portfolio/utn/7.jpg"
+          },
+          {
+            "titleImage": "",
+            "image": "images/portfolio/utn/8.jpg"
+          },
+          {
+            "titleImage": "",
+            "image": "images/portfolio/utn/9.jpg"
+          },
+          {
+            "titleImage": "",
+            "image": "images/portfolio/utn/10.jpg"
+          }
+          
+        ],
+        "videos": [
+          {
+            "titleVideo": "",
+            "video": ""
+          }
+        ],
+        "pdfs": [
+          {
+            "titlePDF": "",
+            "pdf": ""
+          }    
+        ],
+        "url": "https://github.com/leopesi/proyecto_UTN",
+        "technologies": [
+          {
+            "class": ""
+          },
+          {
+  
+            "name": "JavaScript"
+          }
+        ]
+      }
     ]
-    }
-    ]
+  
     },    
     {
       "company": "IREO Solutions and Services",
