@@ -1,9 +1,9 @@
 <h1 align="center">Hi 👋, I'm Leonardo Pereira</h1>
 <h3 align="center">All you need is code.</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=leopesi&label=Profile%20views&color=0e75b6&style=flat" alt="leopesi" /> </p>
+<p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=leopesi&row=2&column=3" alt="leopesi" /> </p>
 
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=leopesi" alt="leopesi" /></a> </p>
+
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
