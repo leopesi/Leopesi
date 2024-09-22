@@ -1,11 +1,8 @@
-<h1 align="center">Hi 👋, I'm Leonardo Pereira</h1>
-
-
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com/?font=Ubuntu&size=35&duration=2500&pause=1000&color=FFFF00&center=true&vCenter=true&random=false&width=1000&lines=Welcome+to+my+GitHub;Hi,+I'm+Leonardo+Pereira;I%27m+a+DevOps+engineer&background=00000000
-" alt="Typing SVG" /></a>
-
-
-<h3 align="center">All you need is code.</h3>
+<h1 align="center">
+    <a href="https://git.io/typing-svg">
+        <img src="https://readme-typing-svg.herokuapp.com?&size=35&duration=2500&pause=1000&center=true&vCenter=true&random=false&width=1000&lines=Hi,+I'm+Leonardo+Pereira;Welcome+to+my+GitHub;" alt="Typing SVG" />
+    </a>
+</h1>
 
 <p align="center"> <img src="https://github-profile-trophy.vercel.app/?username=leopesi&row=2&column=3" alt="leopesi" /> </p>
 
