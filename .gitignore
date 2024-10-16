@@ -26,3 +26,5 @@ trust-policy.json
 permissions-policy.json
 pipeline.json
 codebuild-project.json
+buildspec-clean.yml
+codebuild-clean-project.json
