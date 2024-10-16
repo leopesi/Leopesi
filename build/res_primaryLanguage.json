@@ -1,0 +1,1028 @@
+{
+	"basic_info": {
+		"description_header": "Olá!",
+		"description": "👋 Meu nome é Leonardo Pereira, sou desenvolvedor backend com background em DevOps. Tenho experiência com integração de sistemas, automação de processos, criação e gerenciamento de infraestrutura na AWS. Sou proeficiente em Python, JavaScript, docker, git, gitlab, terraform e serviços AWS como EC2, S3, ECS, ECR, Lambda, RDS, Route53, Cloudwatch...",
+		"section_name": {
+			"about": "Um pouco sobre mim",
+			"projects": "Projetos",
+			"skills": "Main Skills",
+			"experience": "Experiencias"
+		}
+	},
+	"projects": [
+		{
+			"title": "Projeto UTN",
+			"startDate": "2022",
+			"description": "Aplicação Node.js, Sequelize, Express, Bcrypt, Cors, JsonWebToken e backend e no front-end React, Axios e Redux.",
+			"images": [
+				"images/portfolio/UTN/utn.png"
+			],
+			"url": "",
+			"technologies": [
+				{
+					"class": "devicon-nodejs-plain",
+					"name": "Node.js"
+				},
+				{
+					"class": "devicon-react-plain",
+					"name": "React.js"
+				},
+				{
+					"class": "devicon-javascript-plain",
+					"name": "JavaScript"
+				}
+			]
+		},
+		{
+			"title": "EasyPool",
+			"startDate": "2021",
+			"description": "EasyPool é uma plataforma SaaS inovadora que oferece suporte aos lojistas do ramo de construção de piscinas de vinil, permitindo-lhes criar cotações de forma rápida e segura.",
+			"images": [
+				"images/portfolio/easy-pool/EasyPool.jpg"
+			],
+			"video": [
+				"https://www.youtube.com/embed/EFTK-K8jWsI"
+			],
+			"url": "https://github.com",
+			"technologies": [
+				{
+					"class": "devicon-nodejs-plain",
+					"name": "Node.js"
+				},
+				{
+					"class": "devicon-vuejs-plain",
+					"name": "Vue.js"
+				},
+				{
+					"class": "devicon-postgresql-plain",
+					"name": "PostgreSQL"
+				}
+			]
+		},
+		{
+			"title": "Contrasseco",
+			"startDate": "2015",
+			"description": "Dispositivo de monitoramento de fluxo de água para motobomba de piscina.",
+			"images": [
+				"images/portfolio/easy-pool/easypool.png",
+				"images/portfolio/adventure/p2.jpg"
+			],
+			"url": "https://github.com",
+			"technologies": [
+				{
+					"class": "devicon-arduino-plain-wordmark colored"
+				},
+				{
+					"name": "C++"
+				},
+				{
+					"name": "Tinkercad"
+				}
+			]
+		}
+	],
+	"experience": [
+		{
+			"company": "Xcelis Consulting",
+			"title": "Analista de suporte N2",
+			"description": "Atendendo às necessidades dos usuários da empresa de forma ágil e eficiente. Responsável por garantir o funcionamento adequado da rede sem fio, além de administrar o Active Directory e o gerenciamento do Office365, incluindo Sharepoint e Exchange e OneDrive. Outras responsabilidades incluem o controle de acessos e o gerenciamento de perfis de usuários, atendendo chamados de clientes internos remotamente e, quando necessário, presencialmente. Também sou encarregado de controlar ativos, gerenciar licenças e permissões de usuários. Além disso, sou responsável pela criação e manutenção de instruções de trabalho, visando fornecer orientações claras e precisas para as atividades realizadas.",
+			"years": "03/2023 - até o momento.",
+			"technologies": [
+				"Office 365",
+				"Excel Avançado",
+				"Sharepoint",
+				"Exchange",
+				"OneDrive",
+				"Active Directory"
+			],
+			"mainProjects": [
+				{
+					"tag": "Mantis_API",
+					"coverPhoto": "images/portfolio/MANTIS_API/first_screen.png",
+					"title": "Aplicação, SaaS / PaaS, que usa IA para analisar, resumir e sugerir soluções personalisadas para chamados de TI.",
+					"text": [
+						{
+							"topic": "Camada SaaS",
+							"content": "Ferramenta de gestão de incidentes de suporte de TI. Integrada à intranet (Sharepoint) via iframe, utiliza a Microsoft Graph API para captar a conta de usuário e faz uma requisição na API do MantisBT para captar os tickets associados ao usuário e retorna uma lista com o título e o número do ticket.; O usuário pode pedir uma análise do ticket e então uma outra requisição é enviada para a Gemini API com um script e o json do ticket, que retorna uma análise e resume cada ação aplicada no caso (Se o usuário for do time de suporte a análise retorna sugestões de solução)."
+						},
+						{
+							"topic": "Camada PaaS",
+							"content": "Infraestrutura (IaC) escrita com Terraform, integrada com GitLab (build/deploy) e versionada com git. Cria uma VPC que define a rede onde os recursos serão implementados. Em seguida, são configuradas as sub-redes públicas e privadas, seguidas pelo grupo de sub-redes do banco de dados.; Depois disso, são configurados os grupos de segurança para controlar o tráfego, incluindo o grupo de segurança do RDS, o do ECS e o do Load Balancer.; Com a rede e a segurança preparadas, a instância do banco de dados RDS é criada, juntamente com o EFS e access point.; Em seguida, a Role IAM necessário para a execução das tarefas ECS é configurado, seguido pela criação do cluster ECS e da Task Definition da aplicação. O Auto Scaling Target para o ECS é então configurado, permitindo a escalabilidade do ECS.; Finalmente, o grupo de destino para o ALB é criado e, por último, é processado o template. Essa sequência garante que todos os recursos necessários estejam prontos antes da criação dos serviços de aplicação e balanceamento de carga."
+						},
+						{
+							"topic": "Fluxo",
+							"content": " • O tráfego de internet entra no sistema através do ALB, que está nas sub-redes públicas. ; • O ALB distribui esse tráfego para as instâncias ECS rodando nas sub-redes privadas em ambas as zonas de disponibilidade (para alta disponibilidade e balanceamento). ; • As instâncias ECS podem se comunicar com o banco de dados RDS PostgreSQL, que está nas sub-redes privadas. ; • Para se conectar à internet para atualizações ou outros propósitos, as instâncias nas sub-redes privadas passam pelo NAT Gateway, que está em uma sub-rede pública. "
+						},
+						{
+							"topic": "Benefícios",
+							"content": "Essa arquitetura garante alta disponibilidade, escalabilidade e segurança, ao isolar serviços sensíveis como o banco de dados em sub-redes privadas e distribuir o tráfego em várias zonas de disponibilidade."
+						},
+						{
+							"topic": "Tecnologias Utilizadas",
+							"content": "• Python / Django,;• PostgreSQL,;• Microsoft Graph API,;• Gemini API,;• MantisBT API,;• Docker,;• Nginx,;• GitLab,;• Terraform,;• ECS (Fargate),;• ECR,;• RDS,;• EFS."
+						}
+					],
+					"images": [
+						{
+							"titleImage": "Diagrama",
+							"image": "images/portfolio/MANTIS_API/aws-architecture.png"
+						}
+					],
+					"videos": [
+						{
+							"titleVideo": "",
+							"video": ""
+						}
+					],
+					"url": "Tecnologias Utilizadas",
+					"technologies": [
+						{
+							"class": "Tecnologias Utilizadas"
+						},
+						{
+							"name": "Tecnologias Utilizadas"
+						}
+					]
+				}
+			]
+		},
+		{
+			"company": "Universidad Tecnológica Nacional - Buenos Aires",
+			"title": "Intercâmbio",
+			"description": "Durante um período de 8 meses, decidi interromper minha carreira para investir em meu aprimoramento profissional. Fui para um intercâmbio na Argentina para estudar espanhol e fazer uma extensão universitária em desenvolvimento de software full stack na Universidad Tecnológica Nacional de Buenos Aires. Lá, pude desenvolver  significativamente meu conhecimento em programação web e em todas as etapas do processo de desenvolvimento de um software, o que me capacitou a criar soluções incríveis com as melhores tecnologias da atualidade. Foi uma experiência única e enriquecedora.",
+			"years": "05/2022 - 12/2022",
+			"iconClass": "graduation",
+			"technologies": [
+				"JavaScript",
+				"Node.js",
+				"React.js",
+				"SQL",
+				"Espanhol",
+				"Amazon S3 / EC2"
+			],
+			"mainProjects": [
+				{
+					"tag": "Proyecto UTN",
+					"coverPhoto": "images/portfolio/utn/utn.png",
+					"title": "Aplicação Node.js, Sequelize, Express, Bcrypt, Cors, JsonWebToken e backend e no front-end React, Axios e Redux.",
+					"text": [
+						{
+							"topic": "",
+							"content": "Desenvolvi uma aplicação SaaS usando tecnologias JavaScript, como Node.js e React. O objetivo desse projeto foi colocar em prática alguns dos conceitos abordados no curso de extensão. A aplicação conta com um sistema de registro de usuários, permitindo diferentes níveis de acesso,  proporcionando uma experiência personalizada para cada tipo de usuário."
+						},
+						{
+							"topic": "",
+							"content": "O sistema de registro de usuários foi desenvolvido de forma a garantir a segurança e privacidade das informações pessoais. Cada usuário possui um nível de acesso específico, o que permite controlar as permissões de cada usuário dentro da aplicação."
+						},
+						{
+							"topic": "",
+							"content": "Para armazenar os dados, utilizei um banco de dados MySQL, garantindo a segurança e a integridade das informações dos usuários. Além disso, hospedei a aplicação na AWS S3, garantindo uma infraestrutura escalável e confiável."
+						},
+						{
+							"topic": "Tecnologias:",
+							"content": "• A aplicação é construída usando Node.js, Sequelize, Express, Bcrypt, Cors, JsonWebToken no back-end, e React, Axios e Redux no front-end.; • No back-end, temos um sistema de registro de usuário com diferentes níveis de acesso, como Público, Usuário, Moderador e Administrador.; • A autenticação de usuário é feita utilizando JWT, e as senhas são criptografadas usando bcrypt.; • O banco de dados MySQL é utilizado para armazenar as informações dos clientes e seus respectivos endereços permanentes, com tabelas separadas e um relacionamento One-to-one.; • No front-end, o React consome a API através do Axios, e o estado da aplicação é gerenciado pelo Redux."
+						},
+						{
+							"topic": "Prova de rotas",
+							"content": "https://www.postman.com/restless-water-10959/workspace/curso-utn-node-js/api/d1301b31-098b-4651-8d18-ee78cb941df8"
+						}
+					],
+					"images": [
+						{
+							"titleImage": "Diagramas de Fluxo",
+							"image": "images/portfolio/utn/1.jpg"
+						},
+						{
+							"titleImage": "",
+							"image": "images/portfolio/utn/2.jpg"
+						},
+						{
+							"titleImage": "",
+							"image": "images/portfolio/utn/3.jpg"
+						},
+						{
+							"titleImage": "",
+							"image": "images/portfolio/utn/4.jpg"
+						},
+						{
+							"titleImage": "",
+							"image": "images/portfolio/utn/5.jpg"
+						},
+						{
+							"titleImage": "",
+							"image": "images/portfolio/utn/6.jpg"
+						},
+						{
+							"titleImage": "",
+							"image": "images/portfolio/utn/7.jpg"
+						},
+						{
+							"titleImage": "",
+							"image": "images/portfolio/utn/8.jpg"
+						},
+						{
+							"titleImage": "",
+							"image": "images/portfolio/utn/9.jpg"
+						},
+						{
+							"titleImage": "",
+							"image": "images/portfolio/utn/10.jpg"
+						}
+					],
+					"videos": [
+						{
+							"titleVideo": "",
+							"video": ""
+						}
+					],
+					"pdfs": [
+						{
+							"titlePDF": "",
+							"pdf": ""
+						}
+					],
+					"url": "https://github.com/leopesi/proyecto_UTN",
+					"technologies": [
+						{
+							"class": ""
+						},
+						{
+							"name": "JavaScript"
+						}
+					]
+				}
+			]
+		},
+		{
+			"company": "IREO Soluciones y Servicios",
+			"title": "Suporte Técnico",
+			"description": "Como técnico de suporte ao cliente, trabalhei na resolução de problemas dos usuários dos softwares comercializados pela empresa, fornecendo atendimento por telefone e web. Além disso, também era responsável pela elaboração e comunicação de boletins informativos para os clientes.",
+			"years": "06/2021 - 02/2022",
+			"technologies": [
+				"Office 365",
+				"Excel Avançado",
+				"Mapeamento de processos"
+			],
+			"mainProjects": [
+				{
+					"tag": "",
+					"coverPhoto": "",
+					"title": "",
+					"text": [
+						{
+							"topic": "",
+							"content": ""
+						},
+						{
+							"topic": "",
+							"content": ""
+						}
+					],
+					"images": [
+						{
+							"titleImage": "",
+							"image": ""
+						}
+					],
+					"videos": [
+						{
+							"titleVideo": "",
+							"video": ""
+						}
+					],
+					"url": "",
+					"technologies": [
+						{
+							"class": ""
+						},
+						{
+							"name": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"company": "Eurocentres - Londres",
+			"title": "Intercâmbio",
+			"description": "Intercâmbio de inglês na escola Eurocentres durante o período de férias",
+			"iconClass": "graduation",
+			"years": "05/2018",
+			"technologies": [
+				"Inglês",
+				"Intercâmbio",
+				"Cultura"
+			],
+			"mainProjects": [
+				{
+					"tag": "",
+					"coverPhoto": "",
+					"title": "",
+					"text": [
+						{
+							"topic": "",
+							"content": ""
+						},
+						{
+							"topic": "",
+							"content": ""
+						}
+					],
+					"images": [
+						{
+							"titleImage": "",
+							"image": ""
+						}
+					],
+					"videos": [
+						{
+							"titleVideo": "",
+							"video": ""
+						}
+					],
+					"url": "",
+					"technologies": [
+						{
+							"class": ""
+						},
+						{
+							"name": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"company": "Campos Piscinas - São Paulo",
+			"title": "Gerente de Projetos - Sócio Proprietário",
+			"description": "Assumi um novo e desafiador projeto e tornei-me sócio de uma empresa de construção de piscinas de alvenaria na Grande São Paulo, com 21 anos de mercado. Com a missão de desenvolver a área de projetos, entreguei, em 7 anos, mais de 400 projetos de construção e alguns de inovação. Essa experiência me permitiu desenvolver habilidades como liderança, negociação, gestão de conflitos, gestão de equipes multidisciplinares, inovação e resiliência.",
+			"years": "03/2012 - 03/2021",
+			"technologies": [
+				"Processos empresariais",
+				"Ciclo PDCA",
+				"Excel",
+				"Balanced Score Card",
+				"Microsoft Project",
+				"Gestão de estoque"
+			],
+			"mainProjects": [
+				{
+					"tag": "ScoreCard",
+					"coverPhoto": "images/portfolio/bsc/bsc.png",
+					"title": "",
+					"text": [
+						{
+							"topic": "Problema",
+							"content": "Foi constatado que um percentual grande de projetos de construção de piscina apresentavam falhas de execução e consequentemente acarretavam em retrabalho, prejuízos e insatisfação dos clientes."
+						},
+						{
+							"topic": "Objetivo",
+							"content": "Capacitar os funcionários de nível técnico e reforçar a cultura de autogestão.;Foi feito um mapeamento dos processos de execução dos projetos e um estudo para identificar os principais indicadores de desempenho das equipes de montagem técnica, construtores e de gestores, alinhados com os objetivos de desempenho da empresa."
+						},
+						{
+							"topic": "Divulgação ",
+							"content": "Foi criado um workshop de apresentação do projeto afim de apresentar a nova metodologia de avaliação e responder perguntas. "
+						},
+						{
+							"topic": "Implementação ",
+							"content": "Depois de identificados as métricas de avaliação e apresentado o projeto para a empresa, cada funcionário recebeu capacitação de forma individual e coletiva.; Em parceria com alguns fornecedores parceiros, Sebrae e Senai de Cotia conseguimos organizar uma série de treinamentos de requalificação como:; • Instalador Hidráulico – Senai ;• Pedreiro de Alvenaria; • Instalação e manutenção de bolsão de vinil – Viniplas;  • Limpeza e manutenção de piscinas – Genco; • Modelagem Computacional Aplicada à Construção Civil (Sketchup) - Senai;• Atendimento ao cliente – Sebrae."
+						},
+						{
+							"topic": "Avaliação ",
+							"content": "Foi criado uma planilha com métricas individuais e cada funcionário passou a ser avaliado por uma série de métricas de nível organizacional e pessoal como: assiduidade, limpeza do ambiente de trabalho, ideias inovadoras, eficiência, redução de custos, etc. Cada uma com um peso específico e a nota de cada métrica passou a ser discutida entre o colaborador e seu gestor em reuniões individuais mensais.  "
+						},
+						{
+							"topic": "Resultado ",
+							"content": "Colaborador: Um prêmio anual, extra salário, baseado na nota individual de cada um, podendo chegar até 1,5 vezes o seu salário; Campos Piscinas: Zeramos o turnover por 34 meses, Assiduidade caiu para patamares aceitáveis e redução de 40% no retorno de projetos entregues no primeiro ano."
+						},
+						{
+							"topic": "Conclusão ",
+							"content": "O projeto de melhoria de desempenho da Campos Piscinas foi um sucesso graças à implementação do Balanced Scorecard como metodologia de avaliação e gestão de desempenho dos funcionários. A empresa conseguiu aumentar a eficiência, reduzir custos e melhorar a satisfação do cliente. "
+						}
+					],
+					"images": [
+						{
+							"titleImage": "",
+							"image": ""
+						}
+					],
+					"videos": [
+						{
+							"titleVideo": "",
+							"video": ""
+						}
+					],
+					"pdfs": [
+						{
+							"titlePDF": "",
+							"pdf": ""
+						}
+					],
+					"url": "",
+					"technologies": [
+						{
+							"class": ""
+						},
+						{
+							"name": ""
+						}
+					]
+				},
+				{
+					"tag": "Contrasseco",
+					"coverPhoto": "images/portfolio/contrasseco/arduino.jpg",
+					"title": "",
+					"text": [
+						{
+							"topic": "Problema:",
+							"content": "O setor de piscinas enfrenta um problema frequente de queima de motobombas, que ocorre quando a bomba trabalha a seco, sem a passagem de água pela tubulação. Isso causa o superaquecimento do rotor, o que leva à sua deformação e, eventualmente, à falha completa da motobomba. Vários fatores podem contribuir para o funcionamento a seco da motobomba, incluindo entupimento da tubulação ou obstrução do ralo de sucção. Em alguns casos extremos, crianças podem ficar presas pela sucção no ralo de fundo da piscina, o que pode levar a sérios ferimentos ou até mesmo à morte."
+						},
+						{
+							"topic": "Impacto:",
+							"content": "Este problema tem impactos negativos, como atrasos no uso da piscina, custos adicionais para substituição ou reparo da motobomba e riscos para a segurança das pessoas que usam a piscina. "
+						},
+						{
+							"topic": "Objetivo: ",
+							"content": "Desenvolver um sistema de monitoramento e controle automatizado para evitar o funcionamento a seco da motobomba em piscinas, garantindo a segurança das pessoas e prolongando a vida útil do equipamento."
+						},
+						{
+							"topic": "Recursos: ",
+							"content": "Depois de avaliar várias possibilidades chegamos ao conjunto de tecnologias para a criação do protótipo de teste:;• Microsoft Visio;• Arduíno;• Linhagem C++;• Tinkercad (Programa De Modelagem Tridimensional); • Sensor fluxostato;"
+						},
+						{
+							"topic": "Implementação: ",
+							"content": "Com um fluxostato instalado no recalque da motobomba é possível indentificar quando o fluxo de água é interrompido, seja por obstrução do ralo de fundo ou aspirador, ar na tubulação ou qualquer outro motivo. Neste instante é acionado o modo NO SAFE do aparelho, que faz algumas tentativas de reestabelecer o fluxo normal, como está ilustrado no fluxograma abaixo. Se o fluxo de água normal for reestabelecido o dispositivo retorna para o modo SAFE , caso contrário é acionado o modo SETUP, que desliga a motobomba e aciona uma luz de alerta."
+						},
+						{
+							"topic": "Avaliação: ",
+							"content": "O dispositivo obteve resultados pouco satisfatórios por imprecisão dos sensores disponíveis na época, como o sensor de fluxostato que não possibilitava fina da passagem de água.  O algoritmo desenvolvido para o arduíno cumpriu os requisitos do fluxograma de funcionamento. Outras opções de sensores que pudessem oferecer maior precisão encareceria muito o produto final, ficando acima das expectativas de custo do produto."
+						},
+						{
+							"topic": "Conclusão:",
+							"content": "O dispositivo Contrasseco da Campos Piscinas se demonstrou tecnicamente viável, porém foi o projeto foi paralisado por inviabilidade comercial, já que em baixa escala seria um produto muito caro para o mercado naquele momento."
+						}
+					],
+					"images": [
+						{
+							"titleImage": "Fluxograma",
+							"image": "images/portfolio/contrasseco/fluxograma.png"
+						},
+						{
+							"titleImage": "Protótipo do Arduino",
+							"image": "images/portfolio/contrasseco/arduino.jpg"
+						},
+						{
+							"titleImage": "Esquema Eletrônico",
+							"image": "images/portfolio/contrasseco/esquema.png"
+						}
+					],
+					"videos": [
+						{
+							"titleVideo": "",
+							"video": ""
+						}
+					],
+					"pdfs": [
+						{
+							"titlePDF": "",
+							"pdf": ""
+						}
+					],
+					"url": "https://github.com/leopesi/Contrasseco",
+					"technologies": [
+						{
+							"class": ""
+						},
+						{
+							"name": "Arduino"
+						}
+					]
+				},
+				{
+					"tag": "Iluminação",
+					"coverPhoto": "images/portfolio/iluminacao/Led (2).jpg",
+					"title": "",
+					"text": [
+						{
+							"topic": "Problema:",
+							"content": "A iluminação submersa em piscinas sempre foi um ponto crítico em projetos, uma vez que é comum ocorrer infiltração e queima de dispositivos. Isso se deve ao fato de que os dispositivos de iluminação são normalmente câmeras blindadas com uma lente translúcida feita de acrílico ou vidro, e a falha pode ocorrer quando a lente quebra, a vedação da blindagem falha ou, como já aconteceu algumas vezes, água penetra através da fiação elétrica. Como resultado, os problemas de iluminação subaquática levaram a uma taxa elevada de reclamações e aumento nos custos."
+						},
+						{
+							"topic": "Objetivo: ",
+							"content": "Desenvolver um dispositivo de iluminação subaquática que seja adequado ao ambiente de piscinas."
+						},
+						{
+							"topic": "Escopo:",
+							"content": "• Design do dispositivo: O novo dispositivo deve ter um design inovador que evite a infiltração de água e proteja a fiação elétrica, reduzindo a ocorrência de falhas.; • Materiais: Os materiais utilizados na construção do dispositivo devem ser de alta qualidade e resistentes à corrosão, garantindo uma longa vida útil e reduzindo a necessidade de manutenção.; • Desempenho: O dispositivo deve fornecer uma iluminação forte e uniforme, com opções de cor e um ângulo de iluminação mínimo de 120º.; • Testes: O dispositivo deve passar por testes rigorosos para garantir que atenda aos padrões de segurança elétrica e resistência à água.; • Compatibilidade: O dispositivo deve ser compatível com os sistemas de iluminação existentes em piscinas.; • Preço: O preço do dispositivo deve ser competitivo em relação a outros dispositivos no mercado.;"
+						},
+						{
+							"topic": "Design:",
+							"content": "• Material: O dispositivo será confeccionado em aço inoxidável para garantir a resistência à corrosão causada pelo cloro presente na água das piscinas.; • Sistema de fixação: O dispositivo será fixado à piscina por meio de rosca ou encaixe com oring, seguindo o padrão do mercado. Isso facilitará a instalação e manutenção do dispositivo.; • Iluminação: O dispositivo utilizará LEDs SMD, redondo com 300mm de diâmetro, 3 Leds RGB de 3W cada e resistor para 12 V, garantindo uma potência mínima de 9W, para fornecer uma iluminação abrangente e brilhante na piscina. A tecnologia LED também proporciona economia de energia e vida útil mais longa do que outras tecnologias de iluminação.; • Alimentação de energia: O dispositivo será alimentado por uma fonte de energia de 12V, reduzindo o risco de choque elétrico na piscina.; • Impermeabilidade: O design do dispositivo será projetado para garantir que não haja possibilidade de infiltração de água, com vedação adequada dos componentes eletrônicos e da fiação. Isso reduzirá a ocorrência de falhas e aumentará a vida útil do dispositivo.; O novo dispositivo de iluminação subaquática terá um design resistente e eficiente, que garantirá uma iluminação forte e uniforme na piscina, com facilidade de instalação e manutenção. Além disso, a garantia de que não haverá infiltração de água minimizará as falhas e aumentará a segurança dos usuários da piscina."
+						},
+						{
+							"topic": "Prototipagem: ",
+							"content": "Durante a fase de prototipagem, a equipe enfrentou diversos desafios para encontrar fornecedores qualificados que atendessem às especificações do produto e pudessem garantir a produção em larga escala.; • Nicho do led: Fizemos o desenho técnico para garantir que o protótipo cumpriria os requisitos de compatibilidade e design do escopo.; • Placa PCB: Outra etapa importante foi a criação do esquema eletrônico da placa PCB. A equipe realizou uma pesquisa detalhada de fornecedores no Brasil e na China até encontrar um  que atendesse todas as especificações necessárias.; • Impermeabilidade: A equipe conseguiu encontrar uma solução inovadora, preenchendo todo o nicho com resina epoxi transparente, que oferece ótimas propriedades mecânicas e de resistência ao calor. Essa solução foi crucial para garantir a proteção do dispositivo contra a entrada de água, evitando assim problemas com infiltração.;"
+						},
+						{
+							"topic": "Testes: ",
+							"content": "Após a fabricação do primeiro lote do produto, a equipe deu início à fase de testes para avaliar a qualidade e a durabilidade do dispositivo. Primeiramente, realizamos testes de resistência, deixando o LED ligado ininterruptamente por 7 dias em um ambiente não aquático para avaliar sua capacidade de resistir ao calor gerado pelo próprio funcionamento.; Além disso, fizemos testes de choque físico para avaliar a resistência da resina e do nicho em aço inoxidável.; A transparência da resina também foi testada através de uma exposição prolongada ao sol para avaliar se suas propriedades seriam perdidas ao longo do tempo.; Em resumo, a fase de avaliação foi crucial para garantir a qualidade e durabilidade do produto. Os testes de resistência e choque físico permitiram que a equipe verificasse a resistência do dispositivo a possíveis impactos e danos, enquanto o teste de transparência da resina garantiu que o produto pudesse manter suas propriedades ao longo do tempo."
+						},
+						{
+							"topic": "Lançamento: ",
+							"content": "Com o custo de produção em baixa escala dentro do definido no escopo, introduzimos o novo produto no mercado através de nossos cliente, onde passamos a instala-los em todos os novos projetos. Em uma segunda fase, expandimos a venda do produto para o varejo on-line, ampliando ainda mais o alcance e a visibilidade do dispositivo. Com o sucesso das vendas, fechamos um contrato de fornecimento com um distribuidor de produtos de piscina parceiro, garantindo assim uma maior distribuição e alcance do nosso produto."
+						},
+						{
+							"topic": "Conclusão: ",
+							"content": "O projeto foi altamente satisfatório, pois conseguimos cumprir todos os requisitos definidos no escopo e desenvolvemos um produto inovador, com a utilização da resina epóxi, que garantiu maior segurança e durabilidade para os usuários.; Além disso, a introdução do novo produto no mercado trouxe uma nova fonte de receita para a empresa. O sucesso do projeto é resultado do trabalho conjunto de uma equipe altamente qualificada, que soube enfrentar os desafios e superar as dificuldades ao longo de todo o processo."
+						}
+					],
+					"images": [
+						{
+							"titleImage": "",
+							"image": "images/portfolio/iluminacao/Led (2).jpg"
+						},
+						{
+							"titleImage": "Ilustração de Instalação",
+							"image": "images/portfolio/iluminacao/DesenhoInstalação (2).jpg"
+						},
+						{
+							"titleImage": "Ângulo de Iluminação",
+							"image": "images/portfolio/iluminacao/Amplitude.jpg"
+						},
+						{
+							"titleImage": "Desenho Técnico",
+							"image": "images/portfolio/iluminacao/DesenhoDispositivo (1).jpg"
+						},
+						{
+							"titleImage": "",
+							"image": "images/portfolio/iluminacao/DesenhoDispositivo (2).jpg"
+						},
+						{
+							"titleImage": "Desenho da Placa PCB",
+							"image": "images/portfolio/iluminacao/PCBLED.jpg"
+						}
+					],
+					"videos": [
+						{
+							"titleVideo": "",
+							"video": ""
+						}
+					],
+					"pdfs": [
+						{
+							"titlePDF": "",
+							"pdf": ""
+						}
+					],
+					"url": "",
+					"technologies": [
+						{
+							"class": ""
+						},
+						{
+							"name": ""
+						}
+					]
+				},
+				{
+					"tag": "EasyPool",
+					"coverPhoto": "images/portfolio/easy-pool/EasyPool.jpg",
+					"title": "Ferramenta de Cotação de Piscinas.",
+					"text": [
+						{
+							"topic": "Problema:",
+							"content": "A indústria de piscinas está em constante crescimento, o que exige dos construtores a habilidade de fornecer orçamentos precisos e confiáveis para garantir a satisfação do cliente e a rentabilidade do projeto. No entanto, a elaboração de um orçamento para uma piscina personalizada pode ser uma tarefa complexa, envolvendo diversos fatores, como dimensões, materiais, insumos, serviços e formas de pagamento. Atualmente, os profissionais do setor enfrentam o desafio de elaborar orçamentos precisos sem o auxílio de ferramentas tecnológicas adequadas, o que pode resultar em erros na elaboração do orçamento e prejuízos para o construtor."
+						},
+						{
+							"topic": "Objetivo: ",
+							"content": "Desenvolver um software para o setor de piscinas que auxilie os construtores na elaboração de orçamentos precisos e eficientes, com a automatização dos processos envolvidos, visando garantir a satisfação do cliente e a rentabilidade do projeto, aprofundar a profissionalização do setor e aumentar a competitividade dos profissionais no mercado."
+						},
+						{
+							"topic": "Escopo:",
+							"content": "•  Análise de requisitos: Realizar uma análise detalhada dos requisitos funcionais e não funcionais do software, considerando as necessidades dos construtores de piscinas, clientes e do mercado.;  •  Design e desenvolvimento do software: Criar uma arquitetura robusta e escalável do software, utilizando tecnologias de ponta.;  •  Testes e validação: Realizar testes rigorosos em todas as funcionalidades do software, a fim de garantir a qualidade e confiabilidade do mesmo, validando também os requisitos levantados.; • Implantação e treinamento: Realizar a implantação do software, oferecendo treinamento e suporte técnico para os usuários, visando garantir a sua adoção e o sucesso do projeto.; • Manutenção e evolução: Realizar manutenções corretivas e evolutivas do software, a fim de garantir a sua atualização e adequação às novas necessidades do mercado.; • Resultados esperados: Desenvolver um software especializado para o setor de piscinas que auxilie os construtores na elaboração de orçamentos precisos e eficientes, com a automatização dos processos envolvidos, visando garantir a satisfação do cliente e a rentabilidade do projeto, aprofundar a profissionalização do setor e aumentar a competitividade dos profissionais no mercado.;"
+						},
+						{
+							"topic": "MVP:",
+							"content": "Por se tratar de uma ferramenta que reúne vários insumos, mão de obras, formas de pagamento e personalização das medidas e formato da piscina. Foi criado um MVP (minimum value product) em Excel para simular e testar as funcionalidades."
+						},
+						{
+							"topic": "Testes do MVP: ",
+							"content": "• Objetivos: Avaliar o desempenho e a funcionalidade do MVP em diferentes cenários de uso e obter feedback dos usuários finais e outras partes interessadas.;  • Critérios: O MVP deve ser capaz de gerar cotações de forma rápida, precisa e confiável, considerando as variáveis e especificações de cada projeto. O MVP deve ser fácil de usar e intuitivo.;  • Ferramentas: Para realizar os testes, será utilizado um modelo feito em Excel para simular todas os cenários de cotação, questionários para coletar feedback dos usuários e entrevistas por telefone."
+						},
+						{
+							"topic": "Análise: ",
+							"content": "Após a realização dos testes na ferramenta EasyPool, foram obtidas algumas conclusões relevantes para o seu desenvolvimento. Primeiramente, foi constatado que é necessário criar um projeto de UI e UX, a fim de aprimorar a experiência do usuário e garantir que a ferramenta alcance seus objetivos. Isso se deve ao fato de que a EasyPool possui diversos recursos e opções de configuração, o que pode tornar a sua utilização complexa e difícil para alguns usuários.; Além disso, foi observado que o cálculo de piscinas personalizadas requer inputs extras e específicos de cada projeto, como o cálculo do perímetro, maior comprimento e maior largura, que precisam ser feitos manualmente. Para facilitar esse processo, seria recomendado a introdução de modelos sugeridos de piscinas com formatos irregulares, que poderiam ser adaptados às necessidades de cada usuário.; Outro ponto destacado nos testes foi a validação das fórmulas criadas para os cálculos das dimensões da piscina, dimensionamento dos equipamentos, formas de pagamento, lista de materiais, etc. Todas as fórmulas foram conferidas e aprovadas, garantindo a precisão dos cálculos e a confiabilidade das informações fornecidas pela EasyPool."
+						}
+					],
+					"images": [
+						{
+							"titleImage": "MVP - Tela de Orçamento",
+							"image": "images/portfolio/easy-pool/planilha.png"
+						},
+						{
+							"titleImage": "MVP - Opções de Pagamento",
+							"image": "images/portfolio/easy-pool/planilha2.png"
+						},
+						{
+							"titleImage": "",
+							"image": ""
+						}
+					],
+					"videos": [
+						{
+							"titleVideo": "EasyPool - Vídeo de Apresentação",
+							"video": "https://www.youtube.com/embed/EFTK-K8jWsI"
+						}
+					],
+					"pdfs": [
+						{
+							"titlePDF": "MVP - Lista de Materiais",
+							"pdf": "images/portfolio/easy-pool/MVP - EasyPool - back-up.pdf"
+						},
+						{
+							"titlePDF": "Documento de Requisitos",
+							"pdf": "images/portfolio/easy-pool/Documento de Requisitos EasyPool.pdf"
+						}
+					],
+					"url": "",
+					"technologies": [
+						{
+							"class": ""
+						},
+						{
+							"name": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"company": " Bradesco Cartões - Uberlândia ",
+			"title": "Gerente de Projetos",
+			"description": "Como colaborador do Bradesco Cartões, liderei um projeto de criação de novos indicadores para apoiar as decisões gerenciais. Desde a coleta dos dados até a interpretação dos resultados e a apresentação mensal em reuniões com a diretoria, fui responsável por todas as etapas do processo. Nesse projeto, foram criadas 71 novas métricas usando ferramentas como QlikView e Pivot Table do Excel, permitindo a análise mais precisa e detalhada do desempenho da empresa. Com essa iniciativa, pude aprimorar minhas habilidades em gestão de dados, análise de informações e comunicação com a alta administração da empresa.",
+			"years": "02/2011 - 02/2012",
+			"technologies": [
+				"Microsoft Project",
+				"Microsoft Office",
+				"Pivot Table",
+				"Análise de Dados",
+				"Power BI"
+			],
+			"mainProjects": [
+				{
+					"tag": "",
+					"coverPhoto": "",
+					"title": "",
+					"text": [
+						{
+							"topic": "",
+							"content": ""
+						},
+						{
+							"topic": " ",
+							"content": ""
+						},
+						{
+							"topic": "",
+							"content": ""
+						},
+						{
+							"topic": "",
+							"content": ""
+						},
+						{
+							"topic": "",
+							"content": ""
+						},
+						{
+							"topic": "",
+							"content": ""
+						},
+						{
+							"topic": "",
+							"content": ""
+						}
+					],
+					"images": [
+						{
+							"titleImage": "",
+							"image": ""
+						}
+					],
+					"videos": [
+						{
+							"titleVideo": "",
+							"video": ""
+						}
+					],
+					"pdfs": [
+						{
+							"titlePDF": "",
+							"pdf": ""
+						}
+					],
+					"url": "",
+					"technologies": [
+						{
+							"class": ""
+						},
+						{
+							"name": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"company": "CJ Selecta - Araguari",
+			"title": "Analista de Suprimentos",
+			"description": "Na indústria recém-inaugurada, participei ativamente da criação da carteira de fornecedores e da elaboração dos primeiros contratos. Minhas principais atividades incluíram análise de fornecedores, controle de estoque, negociação de contratos e monitoramento de desempenho.",
+			"years": "09/2010 - 02/2011",
+			"technologies": [
+				"Compras",
+				"Administração de contratos",
+				"Gestão de estoque"
+			],
+			"mainProjects": [
+				{
+					"tag": "",
+					"coverPhoto": "",
+					"title": "",
+					"text": [
+						{
+							"topic": "",
+							"content": ""
+						},
+						{
+							"topic": "",
+							"content": ""
+						}
+					],
+					"images": [
+						{
+							"titleImage": "",
+							"image": ""
+						}
+					],
+					"videos": [
+						{
+							"titleVideo": "",
+							"video": ""
+						}
+					],
+					"pdfs": [
+						{
+							"titlePDF": "",
+							"pdf": ""
+						}
+					],
+					"url": "",
+					"technologies": [
+						{
+							"class": ""
+						},
+						{
+							"name": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"company": "Rotary International - Argentina",
+			"title": "IGE - Intercâmbio de Grupo de Estudos",
+			"description": "Intercâmbio de estudos nas províncias de Buenos Aires e La Pampa - Argentina. O IGE é um programa da Fundação Rotary Internacional que tem como objetivo promover a troca de experiências entre profissionais de diversas áreas. Nesta oportunidade, visitei diversas empresas e instituições governamentais, participei de reuniões de apresentação em clubes Rotary de treze cidades da província de Buenos Aires e no Congresso Anual de Intercambistas em Santa Rosa - La Pampa.",
+			"iconClass": "graduation",
+			"years": "05/2010",
+			"technologies": [
+				"Espanhol",
+				"Network",
+				"Intercâmbio",
+				"Cultura"
+			],
+			"mainProjects": [
+				{
+					"tag": "",
+					"coverPhoto": "",
+					"title": "",
+					"text": [
+						{
+							"topic": "",
+							"content": ""
+						}
+					],
+					"images": [
+						{
+							"titleImage": "",
+							"image": ""
+						}
+					],
+					"videos": [
+						{
+							"titleVideo": " ",
+							"video": ""
+						}
+					],
+					"pdfs": [
+						{
+							"titlePDF": "",
+							"pdf": ""
+						}
+					],
+					"url": "",
+					"technologies": [
+						{
+							"class": ""
+						},
+						{
+							"name": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"company": "Algar Tech - Uberlândia",
+			"title": "Analista de Processos",
+			"description": "Como recurso para análise e melhoria de processos, desenvolvi atividades em vários clientes e participei de alguns projetos internos da Algar Tech. Posteriormente, fui alocado em um projeto no cliente Bradesco Cartões, onde utilizei a técnica de Modelo BPMN para estudar e aprimorar os processos do setor de antecipação de recebíveis. Nesse projeto, desenvolvemos instruções de trabalho detalhadas, aprimoramos a abordagem aos clientes e automatizamos a geração de todos os relatórios com o uso de VBA. Toda essa experiência me permitiu desenvolver habilidades de liderança, aprimorar minha compreensão dos processos de negócios e trabalhar em equipe com times multidisciplinares.",
+			"years": "04/2008 - 05/2010",
+			"technologies": [
+				"Microsoft Visio",
+				"Green Belt - SIX SIGMA",
+				"VBA"
+			],
+			"mainProjects": [
+				{
+					"tag": "Taxi",
+					"coverPhoto": "images/portfolio/taxi/analiseProcesso.png",
+					"title": "",
+					"text": [
+						{
+							"topic": "Problema:",
+							"content": "Estabelecer um processo eficiente e transparente de autorização e utilização de taxis pelos colaboradores, com o objetivo de otimizar o uso desses recursos, reduzir os custos e evitar uso indevido."
+						},
+						{
+							"topic": "Objetivo:",
+							"content": "Otimizar o uso de Taxi, reduzir os custos e melhorar a qualidade do serviço prestado."
+						},
+						{
+							"topic": "Partes Interessadas: ",
+							"content": "Planejamento, Compliance, Financeiro e Processos."
+						},
+						{
+							"topic": "1 - Planejamento: ",
+							"content": "Definição das atividades com o time envolvido no projeto, plano de gerenciamento de riscos e comunicação. Por se tratar de um projeto que envolvia suspeita de uso indevido da ferramenta, todo o projeto foi executado de forma sigilosa e alinhada com a área de Compliance."
+						},
+						{
+							"topic": "2 - Execução: ",
+							"content": "• Estudo do processo de autorização afim de se identificar oportunidades de redesenho no organograma e mudança na instrução de trabalho; • Auditoria de 4 meses em 100% das autorizações de uso de taxi que chegogaram ao financeiro com pedido de reembolso; • Foi implementada uma nova política de autorização que substituiu o processo anterior baseado em assinaturas por um sistema de autorização no perfil dos gerentes no SAP. Agora, para solicitar autorização, é necessário apresentar uma justificativa para o gerente responsável pelo perfil designado."
+						},
+						{
+							"topic": "3 - Monitoramento e Controle: ",
+							"content": "Durante um período de seis meses, realizamos monitoramento constante do desempenho do projeto e avaliamos os resultados obtidos. Com base nessa análise, fizemos ajustes necessários a fim de garantir que os objetivos e metas estabelecidos fossem alcançados."
+						},
+						{
+							"topic": "4 - Encerramento: ",
+							"content": "O projeto foi um grande sucesso, uma vez que trouxe maior eficiência e confiança ao processo. Graças à implementação de critérios mais rigorosos, conseguimos alcançar uma redução de aproximadamente 35% no centro de custos de utilização de taxi da empresa. Essa conquista foi reconhecida na 9º Mostra PGP-PGI 2009, onde nosso projeto foi premiado na categoria PGI (Programa de Gestão de Ideias) pelo grupo Algar."
+						}
+					],
+					"images": [
+						{
+							"titleImage": "",
+							"image": ""
+						}
+					],
+					"videos": [
+						{
+							"titleVideo": "Mostra PGP/PGI ",
+							"video": "https://www.youtube.com/embed/RknQ6UIzo2Q"
+						}
+					],
+					"pdfs": [
+						{
+							"titlePDF": "",
+							"pdf": ""
+						}
+					],
+					"url": "",
+					"technologies": [
+						{
+							"class": ""
+						},
+						{
+							"name": ""
+						}
+					]
+				}
+			]
+		},
+		{
+			"company": "Centro Universitário de Triângulo - Unitri",
+			"title": "Administração de Empresas",
+			"description": "Bacharel em Administração de Empresas",
+			"iconClass": "graduation",
+			"years": "2004 - 2008",
+			"technologies": [],
+			"mainProjects": [
+				{
+					"tag": "",
+					"title": "",
+					"coverPhoto": "",
+					"text": [
+						{
+							"topic": "",
+							"content": ""
+						}
+					],
+					"images": [
+						{
+							"titleImage": "",
+							"image": ""
+						}
+					],
+					"videos": [
+						{
+							"titleVideo": " ",
+							"video": ""
+						}
+					],
+					"pdfs": [
+						{
+							"titlePDF": "",
+							"pdf": ""
+						}
+					],
+					"url": "",
+					"technologies": [
+						{
+							"class": ""
+						},
+						{
+							"name": ""
+						}
+					]
+				}
+			]
+		}
+	],
+	"Transform": "AWS::Serverless-2016-10-31",
+	"Resources": {
+		"Function": {
+			"Type": "AWS::Serverless::Function",
+			"Properties": {
+				"Description": {
+					"Fn::Sub": [
+						"Stack ${AWS::StackName} Function ${ResourceName}",
+						{
+							"ResourceName": "Function"
+						}
+					]
+				},
+				"CodeUri": "src/Function",
+				"Handler": "index.handler",
+				"Runtime": "nodejs20.x",
+				"MemorySize": 3008,
+				"Timeout": 30,
+				"Tracing": "Active"
+			}
+		},
+		"FunctionLogGroup": {
+			"Type": "AWS::Logs::LogGroup",
+			"DeletionPolicy": "Retain",
+			"Properties": {
+				"LogGroupName": {
+					"Fn::Sub": "/aws/lambda/${Function}"
+				}
+			}
+		}
+	},
+	"Metadata": {
+		"AWS::Composer::ExternalResources": {
+			"ExternalRDS": {
+				"Type": "externalRDS",
+				"Settings": {
+					"Port": {
+						"Ref": "ExternalRDSPort"
+					},
+					"Hostname": {
+						"Ref": "ExternalRDSHostname"
+					},
+					"SecretArn": {
+						"Ref": "ExternalRDSSecretArn"
+					}
+				}
+			}
+		}
+	},
+	"Parameters": {
+		"ExternalRDSPort": {
+			"Type": "Number"
+		},
+		"ExternalRDSHostname": {
+			"Type": "String"
+		},
+		"ExternalRDSSecretArn": {
+			"Type": "String"
+		}
+	}
+}
