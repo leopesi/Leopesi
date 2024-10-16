@@ -146,7 +146,10 @@ class App extends Component {
               ></span>
             </div>
           </div>
-
+          <Skills
+            sharedSkills={this.state.sharedData.skills}
+            resumeBasicInfo={this.state.resumeData.basic_info}
+          />
           <About
             resumeBasicInfo={this.state.resumeData.basic_info}
             sharedBasicInfo={this.state.sharedData.basic_info}
@@ -156,14 +159,8 @@ class App extends Component {
             resumeExperience={this.state.resumeData.experience}
             resumeBasicInfo={this.state.resumeData.basic_info}
           />
-          <Skills
-            sharedSkills={this.state.sharedData.skills}
-            resumeBasicInfo={this.state.resumeData.basic_info}
-          />
-          <Experience
-            resumeExperience={this.state.resumeData.experience}
-            resumeBasicInfo={this.state.resumeData.basic_info}
-          />
+
+
           <Footer sharedBasicInfo={this.state.sharedData.basic_info} />
         </div>
       </BrowserRouter>

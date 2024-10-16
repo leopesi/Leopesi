@@ -5,6 +5,8 @@ class About extends Component {
   render() {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
+      var practitionerpic = "images/" + this.props.sharedBasicInfo.practitioner;
+      var developerpic = "images/" + this.props.sharedBasicInfo.developer;
     }
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
@@ -27,8 +29,32 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  
                 </span>
+              </div>
+              <div >
+                <div>
+                  <span style={{ cursor: "pointer" }}>
+                    <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/ef2c11b4cbc44a0ab7bc1f037e88cabc" target="_blank" rel="noopener noreferrer">
+                      <img
+                        height="140px"
+                        src={developerpic}
+                        alt="Certification placeholder"
+                      />
+                    </a>
+                  </span>
+                </div>
+                <div>
+                  <span style={{ cursor: "pointer" }}>
+                    
+                    <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/c6e3770689cf4e3da9473ad802b8f6c7" target="_blank" rel="noopener noreferrer">
+                      <img
+                        height="140px"
+                        src={practitionerpic}
+                        alt="Certification placeholder"
+                      />
+                    </a>
+                  </span>
+                </div>
               </div>
             </div>
 
@@ -63,10 +89,11 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello}  </span>
                     <br />
                     <br />
-                    {about}
+                    <span className="wave">{about}  </span>
+                    
                   </div>
                 </div>
               </div>

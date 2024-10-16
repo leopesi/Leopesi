@@ -16,7 +16,12 @@ html {
 }
 
 .title-container {
-	height: 50px;
+	height: 50px; 
+	color: rgb(63, 57, 4);
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	margin-top: 50px; 
+
 }
 
 .title-styles {
@@ -38,7 +43,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #ece3ce;
+	background-color: #fcfaf7;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -72,9 +77,14 @@ header {
 	border-radius: 8px;
 }
 
+.switch-container {
+	margin-top: 300px; 
+	margin-bottom: 20px; 
+  }
+
 .language {
 	font-size: 25px;
-	background-color: #ece3ce;
+	background-color: #fcfaf7;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -178,8 +188,8 @@ header h1 {
 .polaroid span {
 	background: #ffffff;
 	display: inline-block;
-	margin: 55px 75px 30px;
-	padding: 15px 15px 30px;
+	margin: 15px 75px 30px;
+	padding: 10px 10px 10px;
 	text-align: center;
 	text-decoration: none;
 	-webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
@@ -374,8 +384,8 @@ header h1 {
 }
 
 .section-title {
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 	font: 18px/24px 'opensans-bold', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 3px;

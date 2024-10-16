@@ -2,7 +2,7 @@
 
   "basic_info": {
     "description_header": "Hola",
-    "description": "👋 Mi nombre es Leonardo Pereira y tengo una amplia experiencia en la gestión de equipos y proyectos, además de un sólido conocimiento en tecnologías como JavaScript, Node.js, React.js y Python (Django). Tengo una verdadera pasión por encontrar soluciones innovadoras a desafíos complejos y busco constantemente mejorar y aprender de manera continua. Mi trayectoria incluye liderar equipos de alto rendimiento y entregar exitosamente proyectos a gran escala para clientes en diversas industrias.",
+    "description": "👋 Mi nombre es Leonardo Pereira, soy desarrollador backend con experiencia en DevOps. Tengo experiencia en integración de sistemas, automatización de procesos, creación y gestión de infraestructura en AWS. Soy competente en Python, JavaScript, PostgreSQL, Docker, Git, GitLab, Terraform y servicios de AWS como EC2, S3, ECS, ECR, Lambda, RDS, Route53, Cloudwatch...",
     "section_name": {
     "about": "Sobre mí",
     "projects": "Proyectos",
@@ -10,78 +10,81 @@
     "experience": "Experiencia"
     }
   },
+  
   "projects": [
     {
-    "title": "UTN Project",
-    "startDate": "2022",
-    "description": "Final project for the Advanced Web Developer extension course at UTN - (Universidad Tecnológica Nacional - Buenos Aires).",
-    "images": [
-    "images/portfolio/UTN/utn.png"
-    ],
-    "url": "",
-    "technologies": [
-    {
-    "class": "devicon-nodejs-plain",
-    "name": "Node.js"
+      "title": "Proyecto UTN",
+      "startDate": "2022",
+      "description": "Aplicación Node.js, Sequelize, Express, Bcrypt, Cors, JsonWebToken y backend y en el frontend React, Axios y Redux.",
+      "images": [
+        "images/portfolio/UTN/utn.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React.js"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
     },
     {
-    "class": "devicon-react-plain",
-    "name": "React.js"
+      "title": "EasyPool",
+      "startDate": "2021",
+      "description": "EasyPool es una plataforma SaaS innovadora que brinda soporte a los comerciantes del rubro de construcción de piscinas de vinilo, permitiéndoles crear presupuestos de forma rápida y segura.",
+      "images": [
+        "images/portfolio/easy-pool/EasyPool.jpg"
+      ],
+      "video": [
+        "https://www.youtube.com/embed/EFTK-K8jWsI"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-vuejs-plain",
+          "name": "Vue.js"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        }
+      ]
     },
     {
-    "class": "devicon-javascript-plain",
-    "name": "JavaScript"
+      "title": "Contrasseco",
+      "startDate": "2015",
+      "description": "Dispositivo de monitoreo de flujo de agua para motobomba de piscina.",
+      "images": [
+        "images/portfolio/easy-pool/easypool.png",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-arduino-plain-wordmark colored"
+        },
+        {
+          "name": "C++"
+        },
+        {
+          "name": "Tinkercad"
+        }
+      ]
     }
-    ]
-    },
-    {
-    "title": "EasyPool",
-    "startDate": "2021",
-    "description": "EasyPool is an innovative SaaS platform that provides support to vinyl pool construction retailers, allowing them to create quotations quickly and securely.",
-    "images": [
-    "images/portfolio/easy-pool/EasyPool.jpg"
-    ],
-    "video": [
-    "https://www.youtube.com/embed/EFTK-K8jWsI"
-    ],
-    "url": "https://github.com",
-    "technologies": [
-    {
-    "class": "devicon-nodejs-plain",
-    "name": "Node.js"
-    },
-    {
-    "class": "devicon-vuejs-plain",
-    "name": "Vue.js"
-    },
-    {
-    "class": "devicon-postgresql-plain",
-    "name": "PostgreSQL"
-    }
-    ]
-    },
-    {
-    "title": "Contrasseco",
-    "startDate": "2015",
-    "description": "Water flow monitoring device for pool motor pumps.",
-    "images": [
-    "images/portfolio/easy-pool/easypool.png",
-    "images/portfolio/adventure/p2.jpg"
-    ],
-    "url": "https://github.com",
-    "technologies": [
-    {
-    "class": "devicon-arduino-plain-wordmark colored"
-    },
-    {
-    "name": "C++"
-    },
-    {
-    "name": "Tinkercad"
-    }
-    ]
-    }
-    ],
+  ],
+
+
   "experience": [
     
   {
