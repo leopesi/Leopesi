@@ -13,6 +13,7 @@ phases:
       - echo Build completed!
 
 artifacts:
+  base-directory: build 
   files:
-    - 'build/**'   # Isso garante que todo o conteúdo da pasta build seja incluído no artefato.
+    - '**/*'   # Isso garante que todo o conteúdo da pasta build seja incluído no artefato.
   discard-paths: no # Garante que os arquivos são exportados sem a estrutura completa do diretório.
