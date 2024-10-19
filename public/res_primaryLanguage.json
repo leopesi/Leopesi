@@ -87,14 +87,14 @@
 		  {
 			"tag": "Meu Portifólio",
 			"coverPhoto": "images/portfolio/leopesi.com.br/capa.png",
-			"title": "Single Page Application (SPA), Saas / PaaS, criada com AWS CodePipeline, CodeBuild e servida no S3",
+			"title": "Automação de Deploy e Entrega de Aplicação na AWS Usando CI/CD",
 			"text": [
 			  {
 				"topic": "Camada SaaS",
 				"content": "Landing Page feita em React, utilizei componentes reutilizáveis e arquitetura baseada em estado. Os componentes são combinados com Bootstrap para criar uma interface responsiva e a estética mais agradável. Utilizei também o react-router-dom para navegar entre os diferentes componentes e manter a experiência mais fluida."
 			  },
 			  {
-				"topic": "Camada PaaS",
+				"topic": "Automação de Deploy e Entrega de Aplicação na AWS Usando CI/CD",
 				"content": "A aplicação foi feita utilizando uma série de tecnologias da AWS. Começando pelo AWS CodePipeline, a aplicação inicia seu ciclo de vida buscando o código no repositório GitHub. Depois, o AWS CodeBuild é acionado para compilar, preparar e gerar os artefatos da aplicação. Uma vez que a construção está completa, os artefatos são armazenados em um bucket do Amazon S3. O Amazon CloudFront é utilizado para criar uma entrega rápida e eficiente do site, que é acessado pelo domínio https://leopesi.com.br e gerencuado pelo Route53. O CloudFront também é configurado com um certificado SSL gerenciado pelo AWS Certificate Manager, garantindo seguranca nas requisições."
 			  },
 			  {

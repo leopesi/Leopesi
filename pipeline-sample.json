@@ -1,0 +1,90 @@
+{
+  "pipeline": {
+    "name": "leopesi_pipeline",
+    "roleArn": "YOUR_ROLE_ARN",
+    "artifactStore": {
+      "type": "S3",
+      "location": "leopesi.com.br"
+    },
+    "stages": [
+      {
+        "name": "Source",
+        "actions": [
+          {
+            "name": "Source",
+            "actionTypeId": {
+              "category": "Source",
+              "owner": "ThirdParty",
+              "provider": "GitHub",
+              "version": "1"
+            },
+            "runOrder": 1,
+            "configuration": {
+              "Owner": "leopesi",
+              "Repo": "leopesi",
+              "Branch": "refactoring",
+              "OAuthToken": "YOUR_OAUTH_TOKEN"
+            },
+            "outputArtifacts": [
+              {
+                "name": "SourceArtifact"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Build",
+        "actions": [
+          {
+            "name": "Build",
+            "actionTypeId": {
+              "category": "Build",
+              "owner": "AWS",
+              "provider": "CodeBuild",
+              "version": "1"
+            },
+            "runOrder": 1,
+            "configuration": {
+              "ProjectName": "MeuProjetoCodeBuild"
+            },
+            "inputArtifacts": [
+              {
+                "name": "SourceArtifact"
+              }
+            ],
+            "outputArtifacts": [
+              {
+                "name": "BuildArtifact"
+              }
+            ]
+          }
+        ]
+      },      
+      {
+        "name": "Deploy",
+        "actions": [
+          {
+            "name": "Deploy",
+            "actionTypeId": {
+              "category": "Deploy",
+              "owner": "AWS",
+              "provider": "S3",
+              "version": "1"
+            },
+            "runOrder": 1,
+            "configuration": {
+              "BucketName": "leopesi.com.br",
+              "Extract": "true"
+            },
+            "inputArtifacts": [
+              {
+                "name": "BuildArtifact"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
