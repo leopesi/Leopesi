@@ -309,6 +309,30 @@ header h1 {
 	border-radius: 3px 0 0 3px;
 }
 
+.modal-title {
+	font-size: 20px;;
+    font-weight: bold; /* Negrito */
+    text-align: center; /* Centralizar o título */
+    margin: 0; /* Remover margem padrão */
+    padding: 10px 20px; /* Espaçamento interno */
+    color: #0a0a0a; /* Cor do texto */
+    
+    background-color: #f8f9fa; /* Fundo leve */
+    border-radius: 5px 5px 0 0; /* Bordas arredondadas para combinar com o modal */
+}
+.git-icon {
+    display: flex;
+    justify-content: flex-end; /* Alinhar à direita */
+    padding: 10px; /* Espaçamento interno opcional */
+}
+
+.large-font {
+    font-size: 2rem; /* Ajuste o tamanho conforme necessário */
+    font-weight: bold; /* Negrito opcional */
+    color: #333; /* Cor neutra para o texto */
+    line-height: 1.4; /* Espaçamento entre linhas */
+}
+
 .modal-close {
 	text-align: right;
 	padding: 10px 15px 10px 15px;

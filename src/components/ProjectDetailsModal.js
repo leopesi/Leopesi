@@ -100,24 +100,40 @@ class ProjectDetailsModal extends Component {
         <span onClick={this.props.onHide} className="modal-close">
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
+       
         <div className="col-md-12">
+
           <div className="col-md-10 mx-auto">
-            <Modal.Header closeButton>
-              <Modal.Title className="modal-title">{title}</Modal.Title>
-              {url && (
-                <a
-                  href={url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="link-href"
-                >
-                  <i
-                    className="fas fa-external-link-alt"
-                    style={{ marginLeft: "20px" }}
-                  ></i>
-                </a>
-              )}
+          <div className="modal-close">
+ 
+              </div>
+            <Modal.Header>
+              <Modal.Title>
+                <div>
+                  <div className="large-font">
+                    {title}
+                  </div>
+                  <div className="git-icon">
+                    {url && (
+                      <a
+                        href={url}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="link-href"
+                      >
+                        <i class='fab fa-github fa-spin fa-2x'></i>
+                      </a>
+                    )}
+                  </div>
+                  
+                </div>
+                
+                
+                
+              </Modal.Title>
+
             </Modal.Header>
+            
             <Modal.Body className="modal-body">
               {renderText()}
               {renderVideos()}

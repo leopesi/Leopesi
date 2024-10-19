@@ -1,0 +1,985 @@
+{
+  "basic_info": {
+    "description_header": "Hi",
+    "description": "👋 My name is Leonardo Pereira, I'm a backend developer with a DevOps background. I have experience with system integration, process automation, and creating and managing infrastructure on AWS. I am proficient in Python, JavaScript, PostgreSQL, Docker, Git, GitLab, Terraform, and AWS services such as EC2, S3, ECS, ECR, Lambda, RDS, Route53, Cloudwatch...",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "UTN Project",
+      "startDate": "2022",
+      "description": "Node.js, Sequelize, Express, Bcrypt, Cors, JsonWebToken and backend application, and React, Axios and Redux on the frontend.",
+      "images": [
+        "images/portfolio/UTN/utn.png"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React.js"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    },
+    {
+      "title": "EasyPool",
+      "startDate": "2021",
+      "description": "EasyPool is an innovative SaaS platform that supports retailers in the vinyl pool construction industry, allowing them to create quotes quickly and securely.",
+      "images": [
+        "images/portfolio/easy-pool/EasyPool.jpg"
+      ],
+      "video": [
+        "https://www.youtube.com/embed/EFTK-K8jWsI"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-vuejs-plain",
+          "name": "Vue.js"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
+        }
+      ]
+    },
+    {
+      "title": "Contrasseco",
+      "startDate": "2015",
+      "description": "Water flow monitoring device for pool pumps.",
+      "images": [
+        "images/portfolio/easy-pool/easypool.png",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-arduino-plain-wordmark colored"
+        },
+        {
+          "name": "C++"
+        },
+        {
+          "name": "Tinkercad"
+        }
+      ]
+    }
+  ],
+
+
+  "experience": [
+    
+  {
+  "company": "Xcelis Consulting",
+  "title": "N2 Support Analyst",
+  "description": "Meeting the needs of company users in an agile and efficient manner. Responsible for ensuring the proper functioning of the wireless network, as well as administering Active Directory and managing Office 365, including Sharepoint, Exchange, and OneDrive. Other responsibilities include access control and user profile management, handling internal customer support remotely, and, when necessary, on-site. I am also in charge of asset control, license management, and user permissions. Additionally, I am responsible for creating and maintaining work instructions, aiming to provide clear and accurate guidance for the performed activities.",
+  "years": "03/2023 - Present",
+  "technologies": [
+  "Office 365",
+  "Advanced Excel",
+  "Sharepoint",
+  "Exchange",
+  "OneDrive",
+  "Active Directory"
+  ],
+  "mainProjects": [
+  {
+  "tag": "",
+  "coverPhoto": "",
+  "title": "",
+  "text": [
+  {
+  "topic": "",
+  "content": ""
+  },
+  {
+  "topic": "",
+  "content": ""
+  }
+  ],
+  "images": [
+  {
+  "titleImage": "",
+  "image": ""
+  }
+  ],
+  "videos": [
+  {
+  "titleVideo": "",
+  "video": ""
+  }
+  ],
+  "url": "",
+  "technologies": [
+  {
+  "class": ""
+  },
+  {
+  "name": ""
+  }
+  ]
+  }
+  ]
+  },
+  {
+    "company": "National Technological University - Buenos Aires",
+    "title": "Exchange Program",
+    "description": "During a period of 8 months, I decided to pause my career to invest in my professional development. I went on an exchange program in Argentina to study Spanish and pursue a university extension course in full-stack software development at the National Technological University of Buenos Aires. There, I was able to significantly enhance my knowledge in web programming and all stages of the software development process, empowering me to create incredible solutions using the best technologies available today. It was a unique and enriching experience.",
+    "years": "05/2022 - 12/2022",
+    "iconClass": "graduation",
+    "technologies": [
+    "JavaScript",
+    "Node.js",
+    "React.js",
+    "SQL",
+    "Spanish",
+    "Amazon S3 / EC2"
+    ],
+
+    "mainProjects": [
+      {
+      "tag": "UTN Project",
+      "coverPhoto": "images/portfolio/utn/utn.png",
+      "title": "UTN Web Developer Course Project",
+      "text": [
+      {
+      "topic": "",
+      "content": "I developed a SaaS application using JavaScript technologies such as Node.js and React. The aim of this project was to apply the skills I acquired during the extension course. The application features a user registration system, allowing different levels of access and providing a personalized experience for each user type."
+      },
+      {
+      "topic": "",
+      "content": "The user registration system was developed to ensure the security and privacy of personal information. Each user has a specific access level, which allows controlling permissions within the application."
+      },
+      {
+      "topic": "",
+      "content": "To store the data, I used a MySQL database, ensuring the security and integrity of user information. Additionally, I hosted the application on AWS S3, providing a scalable and reliable infrastructure."
+      },
+      {
+      "topic": "Technologies:",
+      "content": "• The application is built using Node.js, Sequelize, Express, Bcrypt, Cors, JsonWebToken on the back-end, and React, Axios, and Redux on the front-end.; • On the back-end, we have a user registration system with different access levels such as Public, User, Moderator, and Administrator.; • User authentication is done using JWT, and passwords are encrypted using bcrypt.; • The MySQL database is used to store customer information and their respective permanent addresses, with separate tables and a one-to-one relationship.; • On the front-end, React consumes the API through Axios, and the application state is managed by Redux."
+      },
+      {
+      "topic": "Route Testing",
+      "content": "https://www.postman.com/restless-water-10959/workspace/curso-utn-node-js/api/d1301b31-098b-4651-8d18-ee78cb941df8"
+      }
+      ],
+      "images": [
+      {
+      "titleImage": "Flowcharts",
+      "image": "images/portfolio/utn/1.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/2.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/3.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/4.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/5.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/6.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/7.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/8.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/9.jpg"
+      },
+      {
+      "titleImage": "",
+      "image": "images/portfolio/utn/10.jpg"
+      }
+      ],
+      "videos": [
+      {
+      "titleVideo": "",
+      "video": ""
+      }
+      ],
+      "pdfs": [
+      {
+      "titlePDF": "",
+      "pdf": ""
+      }
+      ],
+      "url": "https://github.com/leopesi/proyecto_UTN",
+      "technologies": [
+      {
+      "class": ""
+      },
+      {
+      "name": "JavaScript"
+      }
+      ]
+      }
+      ]   
+    },    
+    {
+      "company": "IREO Solutions and Services",
+      "title": "Technical Support",
+      "description": "As a customer support technician, I worked on resolving issues for users of the software sold by the company, providing assistance over the phone and web. Additionally, I was responsible for creating and communicating newsletters to the clients.",
+      "years": "06/2021 - 02/2022",
+      "technologies": [
+      "Office 365",
+      "Advanced Excel",
+      "Process mapping"
+      ],
+      "mainProjects": [
+      {
+      "tag": "",
+      "coverPhoto": "",
+      "title": "",
+      "text": [
+      {
+      "topic": "",
+      "content": ""
+      },
+      {
+      "topic": "",
+      "content": ""
+      }
+      ],
+      "images": [
+      {
+      "titleImage": "",
+      "image": ""
+      }
+      ],
+      "videos": [
+      {
+      "titleVideo": "",
+      "video": ""
+      }
+      ],
+      "url": "",
+      "technologies": [
+      {
+      "class": ""
+      },
+      {
+      "name": ""
+      }
+      ]
+      }
+      ]
+      },      
+      {
+        "company": "Eurocentres - London",
+        "title": "Exchange Program",
+        "description": "English exchange program at Eurocentres school during the vacation period",
+        "iconClass": "graduation",
+        "years": "05/2018",
+        "technologies": [
+        "English",
+        "Exchange",
+        "Culture"
+        ],
+        "mainProjects": [
+        {
+        "tag": "",
+        "coverPhoto": "",
+        "title": "",
+        "text": [
+        {
+        "topic": "",
+        "content": ""
+        },
+        {
+        "topic": "",
+        "content": ""
+        }
+        ],
+        "images": [
+        {
+        "titleImage": "",
+        "image": ""
+        }
+        ],
+        "videos": [
+        {
+        "titleVideo": "",
+        "video": ""
+        }
+        ],
+        "url": "",
+        "technologies": [
+        {
+        "class": ""
+        },
+        {
+        "name": ""
+        }
+        ]
+        }
+        ]
+        },
+    {
+      "company": "Campos Piscinas - São Paulo",
+      "title": "Project Manager - Managing Partner",
+      "description": "I have taken on a new and challenging project and become a partner in a company specializing in the construction of masonry swimming pools in Greater São Paulo, with 21 years of experience in the industry. With the aim of developing the project department, I have successfully completed over 400 construction projects and several innovative ones in a span of 7 years. This experience has enabled me to develop skills such as leadership, negotiation, conflict management, multidisciplinary team management, innovation, and resilience.",
+      "years": "03/2012 - 03/2021",
+      "technologies":[
+        "Business processes",
+        "PDCA",
+        "Excel",
+        "Balanced Score Card",
+        "Microsoft Project",
+        "Inventory management"
+      ],
+      "mainProjects": [
+        {
+          "tag": "ScoreCard",
+          "coverPhoto": "images/portfolio/bsc/bsc.png",
+          "title": "Performance Improvement Project.",
+          "text": [
+            
+      {
+      "topic": "Problem",
+      "content": "It has been observed that a significant percentage of swimming pool construction projects have execution flaws, resulting in rework, financial losses, and customer dissatisfaction."
+      },
+      {
+      "topic": "Objective",
+      "content": "To train technical-level employees and reinforce the culture of self-management. A mapping of project execution processes was conducted, along with a study to identify key performance indicators for the technical assembly teams, builders, and managers, aligned with the company's performance objectives."
+      },
+      {
+      "topic": "Dissemination",
+      "content": "A workshop was created to introduce the project, present the new evaluation methodology, and answer questions."
+      },
+      {
+      "topic": "Implementation",
+      "content": "After identifying the evaluation metrics and presenting the project to the company, each employee received individual and collective training. In collaboration with selected partner suppliers, Sebrae, and Senai de Cotia, a series of requalification training sessions were organized, including: • Hydraulic Installer – Senai; • Masonry Worker; • Installation and maintenance of vinyl pool liners – Viniplas; • Pool cleaning and maintenance – Genco; • Computational Modeling Applied to Civil Construction (Sketchup) - Senai; • Customer service – Sebrae."
+      },
+      {
+      "topic": "Evaluation",
+      "content": "A spreadsheet was created with individual metrics, and each employee began to be evaluated based on a set of organizational and personal metrics, such as attendance, cleanliness of the workplace, innovative ideas, efficiency, cost reduction, etc. Each metric had a specific weight, and the score for each metric was discussed between the employee and their manager in monthly individual meetings."
+      },
+      {
+      "topic": "Results",
+      "content": "Employee: An annual bonus, in addition to their salary, based on their individual score, with the potential to reach 1.5 times their salary. Campos Piscinas: We achieved zero turnover for 34 months, attendance rates dropped to acceptable levels, and a 40% reduction in project returns in the first year."
+      },
+      {
+      "topic": "Conclusion",
+      "content": "The performance improvement project at Campos Piscinas was a success, thanks to the implementation of the Balanced Scorecard as an evaluation and performance management methodology for employees. The company managed to increase efficiency, reduce costs, and improve customer satisfaction."
+      }
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        },
+        {
+          "tag": "Contrasseco",
+          "coverPhoto": "images/portfolio/contrasseco/arduino.jpg",
+          "title": "Water Flow Monitoring Device for Pool Water Pump.",
+          "text": [
+          {
+          "topic": "Problem:",
+          "content": "The pool industry faces a frequent problem of pool water pumps burning out, which occurs when the pump operates without water flowing through the pipes. This causes the rotor to overheat, leading to deformation and eventual complete failure of the water pump. Several factors can contribute to the pump running dry, including pipe blockage or suction drain obstruction. In extreme cases, children can get trapped by the suction at the pool's bottom drain, which can result in serious injuries or even death."
+          },
+          {
+          "topic": "Impact:",
+          "content": "This problem has negative impacts, such as delays in using the pool, additional costs for pump replacement or repair, and risks to the safety of pool users."
+          },
+          {
+          "topic": "Objective:",
+          "content": "To develop an automated monitoring and control system to prevent pool water pumps from running dry, ensuring people's safety and extending the equipment's lifespan."
+          },
+          {
+          "topic": "Resources:",
+          "content": "After evaluating various possibilities, we settled on the set of technologies for creating the test prototype:;• Microsoft Visio;• Arduino;• C++ Programming Language;• Tinkercad (3D Modeling Program);• Flow switch sensor;"
+          },
+          {
+          "topic": "Implementation:",
+          "content": "By installing a flow switch sensor on the water pump discharge, it is possible to detect when the water flow is interrupted, whether due to bottom drain or vacuum obstruction, air in the pipes, or any other reason. At that moment, the device activates the NO SAFE mode, which attempts to restore normal flow, as illustrated in the flowchart below. If the normal water flow is restored, the device returns to SAFE mode; otherwise, it triggers the SETUP mode, which turns off the water pump and activates a warning light."
+          },
+          {
+          "topic": "Evaluation:",
+          "content": "The device achieved unsatisfactory results due to the imprecision of the available sensors at the time, such as the flow switch sensor that did not allow for fine water passage detection. The algorithm developed for Arduino fulfilled the requirements of the operating flowchart. Other sensor options that could offer greater precision would significantly increase the final product cost, exceeding the expected product cost."
+          },
+          {
+          "topic": "Conclusion:",
+          "content": "The Contrasseco device by Campos Piscinas proved to be technically feasible, but the project was discontinued due to commercial infeasibility. In low scale production, the product would be too expensive for the market at that time."
+          }
+          ],
+          "images": [
+            {
+              "titleImage":"Flowchart",
+              "image": "images/portfolio/contrasseco/fluxograma.png"
+            },
+            {
+              "titleImage":"Prototype of Arduino.",
+              "image": "images/portfolio/contrasseco/arduino.jpg"
+            },
+            {
+              "titleImage":"Electronic Circuit.",
+              "image": "images/portfolio/contrasseco/esquema.png"
+            }
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
+          ],
+          "url": "https://github.com/leopesi/Contrasseco",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": "Arduino"
+            }
+          ]
+        },
+        {
+          "tag": "Lighting",
+          "coverPhoto": "images/portfolio/iluminacao/Led (2).jpg",
+          "title": "Underwater Lighting Device",
+          "text": [
+            {
+              "topic": "Problem:",
+              "content": "Submerged lighting in pools has always been a critical point in projects, as it is common for infiltration and device burnout to occur. This is due to the fact that lighting devices are typically sealed units with a translucent lens made of acrylic or glass, and failure can occur when the lens breaks, the seal fails, or, as has happened a few times, water penetrates through the electrical wiring. As a result, underwater lighting problems have led to a high rate of complaints and increased costs."
+              },
+              {
+              "topic": "Objective:",
+              "content": "Develop an underwater lighting device suitable for pool environments."
+              },
+              {
+              "topic": "Scope:",
+              "content": "• Device design: The new device must have an innovative design that prevents water infiltration and protects the electrical wiring, reducing the occurrence of failures.; • Materials: The materials used in the device construction must be of high quality and corrosion-resistant, ensuring a long lifespan and reducing the need for maintenance.; • Performance: The device must provide strong and uniform lighting, with color options and a minimum lighting angle of 120º.; • Testing: The device must undergo rigorous testing to ensure compliance with electrical safety and water resistance standards.; • Compatibility: The device must be compatible with existing pool lighting systems.; • Price: The device price must be competitive compared to other devices on the market."
+              },
+              {
+              "topic": "Design:",
+              "content": "• Material: The device will be made of stainless steel to ensure corrosion resistance caused by chlorine present in pool water.; • Mounting system: The device will be secured to the pool using screw or snap-fit with O-ring, following market standards. This will facilitate device installation and maintenance.; • Lighting: The device will use SMD LEDs, round with a diameter of 300mm, 3 RGB LEDs of 3W each, and a 12V resistor, ensuring a minimum power of 9W, to provide comprehensive and bright lighting in the pool. LED technology also provides energy savings and longer lifespan compared to other lighting technologies.; • Power supply: The device will be powered by a 12V power source, reducing the risk of electrical shock in the pool.; • Waterproofing: The device's design will be engineered to ensure no possibility of water infiltration, with proper sealing of electronic components and wiring. This will reduce failures and increase the device's lifespan.; The new underwater lighting device will have a durable and efficient design, ensuring strong and uniform lighting in the pool, with ease of installation and maintenance. Additionally, the guarantee of no water infiltration will minimize failures and enhance user safety in the pool."
+              },
+              {
+              "topic": "Prototyping:",
+              "content": "During the prototyping phase, the team faced several challenges in finding qualified suppliers that met the product specifications and could guarantee large-scale production.; • LED niche: We created technical drawings to ensure that the prototype would meet the compatibility and design requirements within the scope.; • PCB board: Another important step was creating the electronic schematic of the PCB board. The team conducted thorough research on suppliers in Brazil and China until finding one that met all the necessary specifications.; • Waterproofing: The team found an innovative solution by filling the entire niche with transparent epoxy resin, which offers excellent mechanical and heat resistance properties. This solution was crucial to ensure the device's protection against water entry, thus avoiding infiltration problems."
+              },
+              {
+              "topic": "Testing:",
+              "content": "After manufacturing the first batch of the product, the team began the testing phase to evaluate the quality and durability of the device. Firstly, we conducted resistance tests by leaving the LED continuously on for 7 days in a non-aqueous environment to assess its ability to withstand the heat generated during operation.; Additionally, we performed physical shock tests to evaluate the resilience of the resin and stainless steel niche.; The transparency of the resin was also tested through prolonged exposure to the sun to evaluate if its properties would degrade over time.; In summary, the evaluation phase was crucial to ensure the product's quality and durability. The resistance and physical shock tests allowed the team to verify the device's resilience to potential impacts and damage, while the resin transparency test ensured that the product could maintain its properties over time."
+              },
+              {
+              "topic": "Launch:",
+              "content": "With the production cost in low scale within the defined scope, we introduced the new product to the market through our clients, where we started installing them in all new projects. In a second phase, we expanded the product's sale to online retail, further extending its reach and visibility. With the success of sales, we secured a supply contract with a partner pool product distributor, ensuring greater distribution and reach for our product."
+              },
+              {
+              "topic": "Conclusion:",
+              "content": "The project was highly satisfactory as we managed to fulfill all the requirements defined in the scope and develop an innovative product with the use of epoxy resin, which provided increased safety and durability for users.; Additionally, the introduction of the new product to the market brought a new source of revenue for the company. The project's success is the result of the collaborative work of a highly skilled team that faced challenges and overcame difficulties throughout the entire process."
+              }
+
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": "images/portfolio/iluminacao/Led (2).jpg"
+            },
+            {
+              "titleImage": "Installation Illustration",
+              "image": "images/portfolio/iluminacao/DesenhoInstalação (2).jpg"
+            },
+            {
+              "titleImage": "Lighting Angle",
+              "image": "images/portfolio/iluminacao/Amplitude.jpg"
+            },
+            {
+              "titleImage": "Technical Drawing.",
+              "image": "images/portfolio/iluminacao/DesenhoDispositivo (1).jpg"
+            },
+            {
+              "titleImage": "",
+              "image": "images/portfolio/iluminacao/DesenhoDispositivo (2).jpg"
+            },
+            {
+              "titleImage": "PCB Design",
+              "image": "images/portfolio/iluminacao/PCBLED.jpg"
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        },
+        {
+          "tag": "EasyPool",
+          "coverPhoto": "images/portfolio/easy-pool/EasyPool.jpg",
+          "title": "Swimming Pool Quotation Tool.",
+          "text": [
+            {
+              "topic": "Problem:",
+              "content": "The swimming pool industry is constantly growing, requiring builders to have the ability to provide accurate and reliable quotes to ensure customer satisfaction and project profitability. However, creating a quote for a custom pool can be a complex task, involving various factors such as dimensions, materials, supplies, services, and payment methods. Currently, professionals in the industry face the challenge of preparing accurate quotes without proper technological tools, which can result in errors and losses for the builders."
+              },
+              {
+              "topic": "Objective:",
+              "content": "To develop software for the swimming pool industry that assists builders in creating accurate and efficient quotes, automating the involved processes. The goal is to ensure customer satisfaction, project profitability, enhance professionalism in the sector, and increase the competitiveness of professionals in the market."
+              },
+              {
+              "topic": "Scope:",
+              "content": "• Requirements analysis: Perform a detailed analysis of the software's functional and non-functional requirements, considering the needs of pool builders, clients, and the market. • Software design and development: Create a robust and scalable architecture for the software, utilizing cutting-edge technologies. • Testing and validation: Conduct rigorous testing of all software functionalities to ensure its quality and reliability, also validating the identified requirements. • Deployment and training: Implement the software, providing training and technical support to users, aiming to ensure its adoption and project success. • Maintenance and evolution: Perform corrective and evolutionary maintenance of the software to ensure its updates and adaptation to new market needs. • Expected outcomes: Develop specialized software for the swimming pool industry that assists builders in creating accurate and efficient quotes, automating the involved processes. The objective is to ensure customer satisfaction, project profitability, enhance professionalism in the sector, and increase the competitiveness of professionals in the market."
+              },
+              {
+              "topic": "MVP:",
+              "content": "Since it involves various inputs such as materials, labor, payment methods, and customization of pool measurements and shapes, an MVP (Minimum Viable Product) was created in Excel to simulate and test the functionalities."
+              },
+              {
+              "topic": "MVP Testing:",
+              "content": "• Objectives: Evaluate the performance and functionality of the MVP in different usage scenarios and gather feedback from end users and other stakeholders. • Criteria: The MVP should be able to generate quotes quickly, accurately, and reliably, considering the variables and specifications of each project. The MVP should be user-friendly and intuitive. • Tools: To conduct the tests, an Excel-based model will be used to simulate all quote scenarios, questionnaires will be employed to collect user feedback, and phone interviews will be conducted."
+              },
+              {
+              "topic": "Analysis:",
+              "content": "After conducting tests on the EasyPool tool, several relevant conclusions were drawn for its development. Firstly, it was identified that a UI and UX design project is necessary to enhance the user experience and ensure the tool achieves its objectives. This is because EasyPool has numerous features and configuration options, which can make it complex and challenging for some users to navigate. Additionally, it was observed that calculating custom pools requires extra and specific inputs for each project, such as perimeter calculation, maximum length, and maximum width, which need to be done manually. To streamline this process, it would be recommended to introduce suggested pool models with irregular shapes that can be adapted to each user's needs. Another point highlighted in the tests was the validation of formulas created for calculations of pool dimensions, equipment sizing, payment methods, materials list, etc. All formulas were reviewed and approved, ensuring the accuracy of calculations and the reliability of information provided by EasyPool."
+              }
+
+          ],
+          "images": [
+            {
+              "titleImage": "MVP - Budget Screen",
+              "image": "images/portfolio/easy-pool/planilha.png"
+            },
+            {
+              "titleImage": "MVP - Budget Screen",
+              "image": "images/portfolio/easy-pool/planilha2.png"
+            },
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "EasyPool - Presentation Video",
+              "video": "https://www.youtube.com/embed/EFTK-K8jWsI"
+            }
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "MVP - Material List",
+              "pdf": "images/portfolio/easy-pool/MVP - EasyPool - back-up.pdf"
+            },
+            {
+              "titlePDF": "MVP - Requirements Document",
+              "pdf": "images/portfolio/easy-pool/Documento de Requisitos EasyPool.pdf"
+            }    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": " Bradesco Cartões - Uberlândia ",
+      "title":"Project Manager",
+      "description":"As a Bradesco Cartões collaborator, I led a project to create new indicators to support managerial decisions. From data collection to result interpretation and monthly presentation in meetings with the board of directors, I was responsible for every step of the process. In this project, we created 71 new metrics using tools like QlikView and Excel's Pivot Table, enabling a more precise and detailed analysis of the company's performance. Through this initiative, I was able to enhance my skills in data management, information analysis, and communication with senior management.",
+      "years": "02/2011 - 02/2012",
+      "technologies":[
+        "Microsoft Project",
+        "Microsoft Office",
+        "Pivot Table",
+        "Data Analysis",
+        "Power BI"
+      ],
+      "mainProjects": [
+        {
+          "tag": "",
+          "coverPhoto": "",
+          "title": "",
+          "text": [
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": " ",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            }
+
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company": "CJ Selecta - Araguari",
+      "title": "Purchasing Analyst",
+      "description": "In the newly opened industry, I took an active part in creating the supplier portfolio and developing the initial contracts. My main activities included supplier analysis, stock control, contract negotiation, and performance monitoring.",
+      "years": "09/2010 - 02/2011",
+      "technologies":[
+        "Purchases",
+        "Contract administration",
+        "Stock management"
+        ],
+      "mainProjects": [
+        {
+          "tag": "",
+          "coverPhoto": "",
+          "title": "",
+          "text": [
+            {
+              "topic": "",
+              "content": ""
+            },
+            {
+              "topic": "",
+              "content": ""
+            }
+
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": "",
+              "video": ""
+            }
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "company":"Rotary International - Argentina",
+      "title":"IGE - Study Group Exchange",
+      "description": "Study exchange in the provinces of Buenos Aires and La Pampa - Argentina. IGE is a program of the Rotary International Foundation that aims to promote the exchange of experiences among professionals from various fields. On this occasion, I visited several companies and government institutions, attended introductory meetings at Rotary clubs in thirteen cities in the province of Buenos Aires, and participated in the Annual Interchange Congress in Santa Rosa - La Pampa.",
+      "iconClass": "graduation",
+      "years":"05/2010",
+      "technologies":[
+        "Spanish",
+        "Network",
+        "Exchange",
+        "Culture"
+        ],
+      "mainProjects": [
+        {
+          "tag": "",
+          "coverPhoto": "",
+          "title": "",
+          "text": [
+            {
+              "topic": "",
+              "content": ""
+            }
+
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": " ",
+              "video": ""
+            }
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        }
+      ]
+
+    },
+    {
+      "company":"Algar Tech - Uberlândia",
+      "title":"Process Analyst",
+      "description": "As a resource for process analysis and improvement, I have developed activities for various clients and participated in internal projects at Algar Tech. Subsequently, I was assigned to a project with Bradesco Cartões, where I utilized the BPMN Model technique to study and enhance the processes in the receivables anticipation department. In this project, we developed detailed work instructions, improved our approach to clients, and automated the generation of all reports using VBA. This entire experience has allowed me to develop leadership skills, enhance my understanding of business processes, and work collaboratively with multidisciplinary teams.",
+      "years":"04/2008 - 05/2010",
+      "technologies":[
+        "Microsoft Visio",
+        "Green Belt - SIX SIGMA",
+        "VBA"
+      ],
+      "mainProjects": [
+        {
+          "tag": "Taxi",
+          "coverPhoto": "images/portfolio/taxi/analiseProcesso.png",
+          "title": "Improvement in the Taxi Utilization Process",
+          "text": [
+          {
+          "topic": "Problem:",
+          "content": "Establishing an efficient and transparent process for authorizing and utilizing taxis by employees, with the aim of optimizing the use of these resources, reducing costs, and preventing misuse."
+          },
+          {
+          "topic": "Objective:",
+          "content": "Optimize taxi usage, reduce costs, and improve the quality of the service provided."
+          },
+          {
+          "topic": "Stakeholders:",
+          "content": "Planning, Compliance, Finance, and Processes."
+          },
+          {
+          "topic": "1 - Planning:",
+          "content": "Definition of activities with the project team, risk management and communication plan. As this project involved suspected misuse of the tool, the entire project was executed confidentially and in alignment with the Compliance department."
+          },
+          {
+          "topic": "2 - Execution:",
+          "content": "• Study of the authorization process to identify opportunities for redesigning the organizational structure and changing the work instructions; • Four-month audit of 100% of taxi usage authorizations submitted to finance for reimbursement; • Implementation of a new authorization policy, replacing the previous signature-based process with an authorization system in managers' SAP profiles. Now, to request authorization, a justification must be provided to the responsible manager for the designated profile."
+          },
+          {
+          "topic": "3 - Monitoring and Control:",
+          "content": "Over a period of six months, we continuously monitored the project's performance and evaluated the results obtained. Based on this analysis, necessary adjustments were made to ensure that the established objectives and goals were achieved."
+          },
+          {
+          "topic": "4 - Closure:",
+          "content": "The project was a great success, as it brought greater efficiency and confidence to the process. Thanks to the implementation of stricter criteria, we achieved a reduction of approximately 35% in the taxi utilization cost center of the company. This achievement was recognized at the 9th PGP-PGI Showcase 2009, where our project was awarded in the PGI (Idea Management Program) category by the Algar Group."
+          }
+          ],
+          "images": [
+          {
+          "titleImage": "",
+          "image": ""
+          }
+          ],
+          "videos": [
+          {
+          "titleVideo": "PGP/PGI Showcase",
+          "video": "https://www.youtube.com/embed/RknQ6UIzo2Q"
+          }
+          ],
+          "pdfs": [
+          {
+          "titlePDF": "",
+          "pdf": ""
+          }
+          ],
+          "url": "",
+          "technologies": [
+          {
+          "class": ""
+          },
+          {
+          "name": ""
+          }
+          ]
+        }
+      ]
+    },
+    {
+      "company":"Centro Universitário de Triângulo - Unitri",
+      "title":"Business Administration",
+      "description": "Bachelor of Business Administration",
+      "iconClass": "graduation",
+      "years":"2004 - 2008",
+      "technologies":[
+        ],
+      "mainProjects": [
+        {
+          "tag": "",
+          "title": "",
+          "coverPhoto": "",
+          "text": [
+            {
+              "topic": "",
+              "content": ""
+            }
+
+          ],
+          "images": [
+            {
+              "titleImage": "",
+              "image": ""
+            }
+            
+          ],
+          "videos": [
+            {
+              "titleVideo": " ",
+              "video": ""
+            }
+          ],
+          "pdfs": [
+            {
+              "titlePDF": "",
+              "pdf": ""
+            }    
+          ],
+          "url": "",
+          "technologies": [
+            {
+              "class": ""
+            },
+            {
+    
+              "name": ""
+            }
+          ]
+        }
+      ]
+
+    }
+  ]
+}
