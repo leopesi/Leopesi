@@ -86,7 +86,7 @@
 		  },
 		  {
 			"tag": "Meu Portifólio",
-			"coverPhoto": "images/portfolio/leopesi.com.br/capa.png",
+			"coverPhoto": "images/portfolio/leopesi.com.br/flow_capa.png",
 			"title": "Automação de deploy e entrega de aplicação web estática (React) na AWS usando CI/CD e DNS.",
 			"text": [
 				{
@@ -104,24 +104,16 @@
 			  {
 				"topic": "Tecnologias Utilizadas",
 				"content": "• React.js,;• Amazon CloudFront,;• AWS Certificate Manager,;• Route 53,;• AWS S3,;• AWS CodePipeline,;• AWS CodeBuild."
-			  },
-			  {
-				"topic": "",
-				"content": ""
-			  },
-			  {
-				"topic": "",
-				"content": ""
-			  },
-			  {
-				"topic": "",
-				"content": ""
 			  }
 			],
 			"images": [
+				{
+					"titleImage": "Fluxo",
+					"image": "images/portfolio/leopesi.com.br/flow.png"
+				},
 			  {
-				"titleImage": "",
-				"image": ""
+				"titleImage": "Pipeline",
+				"image": "images/portfolio/leopesi.com.br/pipeline.png"
 			  }
 			],
 			"videos": [
@@ -158,7 +150,7 @@
 				"content": "Infraestrutura (IaC) escrita com Terraform, integrada com GitLab (build/deploy) e versionada com git. Cria uma VPC que define a rede onde os recursos serão implementados. Em seguida, são configuradas as sub-redes públicas e privadas, seguidas pelo grupo de sub-redes do banco de dados.; Depois disso, são configurados os grupos de segurança para controlar o tráfego, incluindo o grupo de segurança do RDS, o do ECS e o do Load Balancer.; Com a rede e a segurança preparadas, a instância do banco de dados RDS é criada, juntamente com o EFS e access point.; Em seguida, a Role IAM necessário para a execução das tarefas ECS é configurado, seguido pela criação do cluster ECS e da Task Definition da aplicação. O Auto Scaling Target para o ECS é então configurado, permitindo a escalabilidade do ECS.; Finalmente, o grupo de destino para o ALB é criado e, por último, é processado o template. Essa sequência garante que todos os recursos necessários estejam prontos antes da criação dos serviços de aplicação e balanceamento de carga."
 				},
 				{
-				"topic": "Fluxo",
+				"topic": "Fluxo de Tráfego",
 				"content": " • O tráfego de internet entra no sistema através do ALB, que está nas sub-redes públicas. ; • O ALB distribui esse tráfego para as instâncias ECS rodando nas sub-redes privadas em ambas as zonas de disponibilidade (para alta disponibilidade e balanceamento). ; • As instâncias ECS podem se comunicar com o banco de dados RDS PostgreSQL, que está nas sub-redes privadas. ; • Para se conectar à internet para atualizações ou outros propósitos, as instâncias nas sub-redes privadas passam pelo NAT Gateway, que está em uma sub-rede pública. "
 				},
 				{
