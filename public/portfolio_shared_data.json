@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Leonardo Pereira",
-      "titles": [ "Developer", "Project Manager" ],
+      "titles": [ "Backend Developer", "CloudOps", "AWS Certified Developer - Associate" ],
       "social": [
         {
           "name": "github",
@@ -14,38 +14,65 @@
           "class": "fab fa-instagram"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "myProfile.jpg",
+      "practitioner": "AWS-Certified-Cloud-Practitioner.png",
+      "developer": "AWS-Certified-Developer-Associate.png"
     },
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
+          "name": "",
+          "class": "devicon-terraform-plain-wordmark colored",
           "level": "95"
         },
         {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
+          "name": " ",
+          "class": "devicon-amazonwebservices-plain-wordmark colored",
           "level": "95"
         },
         {
-          "name": "Node,js",
-          "class": "devicon-nodejs-plain",
-          "level": "80"
+          "name": " ",
+          "class": "devicon-azure-plain-wordmark colored",
+          "level": "50"
         },
         {
-          "name": "python",
-          "class": "devicon-python-plain",
+          "name": "",
+          "class": "devicon-nodejs-plain-wordmark colored",
+          "level": "100"
+        },
+        {
+          "name": "",
+          "class": "devicon-python-plain-wordmark colored",
           "level": "90"
         },
         {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
+          "name": "",
+          "class": "devicon-javascript-plain colored",
           "level": "70"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
+          "name": "",
+          "class": "devicon-postgresql-plain-wordmark",
+          "level": "70"
+        },
+        {
+          "name": "",
+          "class": "devicon-docker-plain-wordmark colored",
+          "level": "85"
+        },
+        {
+          "name": "",
+          "class": "devicon-git-plain-wordmark colored",
+          "level": "85"
+        },
+        {
+          "name": "",
+          "class": "devicon-gitlab-plain-wordmark colored",
+          "level": "85"
+        },
+        {
+          "name": "",
+          "class": "devicon-postman-plain colored",
           "level": "85"
         }
       ]

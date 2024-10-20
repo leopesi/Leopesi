@@ -1,0 +1,19 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo Installing dependencies...
+      - npm install # ou qualquer outro comando de dependência que seu projeto precise
+
+  build:
+    commands:
+      - echo Building the project...
+      - npm run build # ou o comando específico para o seu build (por exemplo, npm run build, mvn package, etc.)
+      - echo Build completed!
+
+artifacts:
+  base-directory: build 
+  files:
+    - '**/*'   # Isso garante que todo o conteúdo da pasta build seja incluído no artefato.
+  discard-paths: no # Garante que os arquivos são exportados sem a estrutura completa do diretório.
