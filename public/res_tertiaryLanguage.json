@@ -87,15 +87,19 @@
         {
           "tag": "My Portfolio",
           "coverPhoto": "images/portfolio/leopesi.com.br/capa.png",
-          "title": "Single Page Application (SPA), SaaS / PaaS, created with AWS CodePipeline, CodeBuild and served on S3",
+          "title": "Automatización de despliegue y entrega de una aplicación web estática (React) en AWS S3 utilizando CI/CD y DNS.",
           "text": [
             {
-              "topic": "SaaS Layer",
-              "content": "Landing Page made in React, I used reusable components and state-based architecture. The components are combined with Bootstrap to create a responsive interface and a more pleasant aesthetic. I also used react-router-dom to navigate between different components and maintain a smoother experience."
+              "topic":"Aplicación web estática con AWS S3 y CI/CD",
+              "content":"Aplicación web estática realizada en React, estilo landing page, que terminó convirtiéndose en mi portafolio personal, servida en un bucket de AWS S3 y automatización del proceso de build y deploy en AWS con CI/CD."
             },
             {
-              "topic": "PaaS Layer",
-              "content": "The application was made using a series of AWS technologies. Starting with AWS CodePipeline, the application begins its lifecycle by fetching the code from the GitHub repository. Then, AWS CodeBuild is triggered to compile, prepare, and generate the application artifacts. Once the build is complete, the artifacts are stored in an Amazon S3 bucket. Amazon CloudFront is used to create a fast and efficient delivery of the site, which is accessed through the domain https://leopesi.com.br and managed by Route53. CloudFront is also configured with an SSL certificate managed by AWS Certificate Manager, ensuring security in requests."
+              "topic": "Landing Page con React: Componentes reutilizables, Gestión de estado y Bootstrap",
+              "content": "Landing Page realizada en React, utilicé componentes reutilizables y arquitectura basada en estado. Los componentes se combinan con Bootstrap para crear una interfaz responsiva y una estética más agradable. Utilicé también react-router-dom para navegar entre los diferentes componentes y mantener la experiencia más fluida."
+            },
+            {
+              "topic": "Automatización de despliegue y entrega de aplicaciones en AWS usando CI/CD",
+              "content": "La infra fue realizada utilizando una serie de tecnologías de AWS. Comenzando por AWS CodePipeline, la aplicación inicia su ciclo de vida buscando el código en el repositorio GitHub. Luego, AWS CodeBuild es activado para compilar, preparar y generar los artefactos de la aplicación. Una vez que la construcción está completa, los artefactos se almacenan en un bucket de Amazon S3. Amazon CloudFront se utiliza para crear una entrega rápida y eficiente del sitio, que es accedido por el dominio https://leopesi.com.br y gestionado por Route53. CloudFront también está configurado con un certificado SSL gestionado por AWS Certificate Manager, garantizando seguridad en las solicitudes."
             },
             {
               "topic": "Technologies Used",
@@ -139,14 +143,14 @@
         {
           "tag": "Mantis_API",
           "coverPhoto": "images/portfolio/mantis_api/aws-architecture-capa.png",
-          "title": "Application, SaaS / PaaS, that uses AI to analyze, summarize and suggest personalized solutions for IT tickets.",
+          "title": "Application, that uses AI to analyze, summarize and suggest personalized solutions for IT tickets.",
           "text": [
             {
-              "topic": "SaaS Layer",
+              "topic": " Layer",
               "content": "IT support incident management tool. Integrated with the intranet (SharePoint) via iframe, it uses the Microsoft Graph API to capture the user account and makes a request to the MantisBT API to capture the tickets associated with the user and returns a list with the title and ticket number.; The user can request a ticket analysis and then another request is sent to the Gemini API with a script and the ticket json, which returns an analysis and summarizes each action applied in the case (If the user is from the support team, the analysis returns solution suggestions)."
             },
             {
-              "topic": "PaaS Layer",
+              "topic": " Layer",
               "content": "Infrastructure (IaC) written with Terraform, integrated with GitLab (build/deploy) and versioned with git. Creates a VPC that defines the network where resources will be implemented. Then, public and private subnets are configured, followed by the database subnet group.; After that, security groups are configured to control traffic, including the RDS security group, ECS, and Load Balancer.; With the network and security prepared, the RDS database instance is created, along with the EFS and access point.; Next, the necessary IAM Role for ECS tasks execution is configured, followed by the creation of the ECS cluster and the application Task Definition. The Auto Scaling Target for ECS is then configured, allowing ECS scalability.; Finally, the target group for the ALB is created and, lastly, the template is processed. This sequence ensures that all necessary resources are ready before creating the application and load balancing services."
             },
             {
