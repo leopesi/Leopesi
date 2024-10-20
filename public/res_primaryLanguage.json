@@ -1,7 +1,7 @@
 {
 	"basic_info": {
-	  "description_header": "Olá!",
-	  "description": "👋 Arquiteto de Soluções Cloud\napaixonado pelo mundo DevOps, com\numa base sólida em desenvolvimento web\n e uma vasta experiência em\ngestão de\ninfraestrutura em nuvem. Especialista\nem criar soluções criativas em ambientes escaláveis e\nresilientes, com foco em otimização e\neficiência, principalmente em AWS.\nExperiente em integração de\nsistemas, utilizando Node.js, Python,\nTerraform e uma ampla gama de\nserviços AWS, como EC2, ECS,\nLambda e RDS. Motivado a melhorar\ncontinuamente pipelines de deploy,\ngarantir a confiabilidade e\nautomatizar processos, contribuindo\npara entregas inteligentes.\nEntusiasta da cultura DevOps,\ncomprometido em promover a\ncolaboração entre equipes e acelerar\nciclos de desenvolvimento.\n",
+	  "description_header": "Olá, me chamo Leonardo e sou Arquiteto de Soluções Cloud apaixonado pelo mundo DevOps, possuo uma base sólida em desenvolvimento web e uma vasta experiência em gestão de infraestrutura em nuvem. Há algum tempo atrás eu resolvi criar esta página para servir de portifólio e agora, finalmente, publiquei, meio que no estilo MVP (Minimum Viable Product), pois ainda estou criando e melhorando. Estou documentando e publicando aqui alguns projetos que desenvolvi nos últimos tempos (Inclusive este do portifólio), além de novos projetos DevOps que vem por aí. Sou especialista em criar soluções criativas para ambientes escaláveis e resilientes, com foco em otimização e eficiência, principalmente no ambiente AWS onde cuido de algumas pipelines atualmente. Tenho experiencia com integração de sistemas multiplataforma, sou proficiente em tecnologias que destaco aqui o JavaScript, Python, RESTful APIs, Docker, Terraform, Gitlab e uma ampla gama de serviços AWS como EC2, ECS, Lambda, S3 e RDS, entre outras. Estou sempre motivado a buscar as novidades que a computação em nuvem traz assim como implementar melhorias nas pipelines para garantir a confiabilidade e fazer entregas inteligentes.",
+	  "description": "Observaçãozinha: Eu vou documentar todos os projetos e disponibilizar o repositório público no Github, mas no momento alguns estão ainda carentes de informação. ",
 	  "section_name": {
 		"about": "Um pouco sobre mim",
 		"projects": "Projetos",
@@ -286,9 +286,9 @@
 	  },
 	  {
 		"company": "Campos Piscinas - São Paulo",
-		"title": "Gerente de Projetos - Sócio Proprietário",
-		"description": "Assumi um novo e desafiador projeto e tornei-me sócio de uma empresa de construção de piscinas de alvenaria na Grande São Paulo, com 21 anos de mercado. Com a missão de desenvolver a área de projetos, entreguei, em 7 anos, mais de 400 projetos de construção e alguns de inovação. Essa experiência me permitiu desenvolver habilidades como liderança, negociação, gestão de conflitos, gestão de equipes multidisciplinares, inovação e resiliência.",
-		"years": "03/2012 - 03/2021",
+		"title": "",
+		"description": ".",
+		"years": "",
 		"technologies": [
 		  ""
 		],

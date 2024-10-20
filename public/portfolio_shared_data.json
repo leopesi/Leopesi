@@ -1,8 +1,13 @@
 {
     "basic_info": {
       "name": "Leonardo Pereira",
-      "titles": [ "Backend Developer", "CloudOps", "AWS Certified Developer - Associate" ],
+      "titles": [  "AWS Certified Developer - Associate","Arquiteto de Soluções Cloud", "DevOps", "Backend Developer" ],
       "social": [
+        {
+          "name": "github",
+          "url": "https://www.linkedin.com/in/leopesi/",
+          "class": "fab fa-linkedin-in"
+        },
         {
           "name": "github",
           "url": "https://github.com/leopesi",

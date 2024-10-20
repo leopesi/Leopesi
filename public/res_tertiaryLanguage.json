@@ -1,529 +1,495 @@
 {
-  "basic_info": {
-    "description_header": "Hello!",
-    "description": "👋 DevOps lover, Cloud Solutions Architect con un fuerte background en desarrollo web. Experiencia en gestión de infraestructura en la nube, especialmente en AWS. Creo soluciones escalables, resilientes y rentables utilizando Node.js, Python, Terraform y una variedad de servicios AWS (EC2, ECS, Lambda, RDS). Apasionado por CI/CD, confiabilidad y automatización. Un jugador de equipo comprometido a fomentar una cultura DevOps y acelerar los ciclos de desarrollo.",
+	"basic_info": {
+    "description_header": "Hola, me llamo Leonardo y soy Arquitecto de Soluciones Cloud apasionado por el mundo DevOps, poseo una sólida base en desarrollo web y una vasta experiencia en gestión de infraestructura en la nube. Hace un tiempo atrás decidí crear esta página como portafolio y ahora, finalmente, la he publicado, medio que al estilo MVP (Minimum Viable Product), ya que todavía estoy creando y mejorando. Estoy documentando y publicando aquí algunos proyectos que he desarrollado recientemente (incluyendo este del portafolio), además de nuevos proyectos DevOps que vienen por ahí. Soy especialista en crear soluciones creativas para entornos escalables y resilientes, con foco en optimización y eficiencia, principalmente en el ambiente AWS donde cuido de algunas pipelines actualmente. Tengo experiencia con integración de sistemas multiplataforma, soy proficiente en tecnologías que destaco aquí: JavaScript, Python, RESTful APIs, Docker, Terraform, Gitlab y una amplia gama de servicios AWS como EC2, ECS, Lambda, S3 y RDS, entre otros. Siempre estoy motivado a buscar las novedades que la computación en nube trae así como implementar mejoras en las pipelines para garantizar la confiabilidad y hacer entregas inteligentes.",
+    "description": "Una observacioncita: Voy a documentar todos los proyectos y disponibilizar el repositorio público en Github, pero por el momento algunos están aún carentes de información.",
     "section_name": {
-      "about": "A little about me",
-      "projects": "Projects",
-      "skills": "Skills",
-      "experience": "Experiences"
+        "about": "Un poco sobre mí",
+        "projects": "Proyectos",
+        "skills": "Skills",
+        "experience": "Experiencias"
     }
-  },
-  "projects": [
-    {
-      "title": "",
-      "startDate": "",
-      "description": "",
-      "images": [
-        ""
-      ],
-      "url": "",
-      "technologies": [
-        {
-          "class": "",
-          "name": ""
-        }
-      ]
-    }
-  ],
-  "experience": [
-    {
-      "company": "Xcelis Consulting",
-      "title": "",
-      "description": "",
-      "years": "03/2023 - present.",
-      "technologies": [
-        ""
-      ],
-      "mainProjects": [
-        {
-          "tag": "Under Construction...",
-          "coverPhoto": "images/portfolio/multicloud/diagrama.png",
-          "title": "SaaS / PaaS platform, powered by AI and cutting-edge technologies such as AWS, Docker, Terraform, Kubernetes",
-          "text": [
-            {
-              "topic": "Under construction...",
-              "content": "The application involves the automation and deployment of a cloud solution with a combination of SaaS and PaaS technologies. The AWS infrastructure is provisioned and managed using Terraform, and the application is deployed using Docker and Kubernetes. The process is automated with CI/CD practices and enhanced with AI assistants using OpenAI and Amazon Bedrock, as well as an exploration of MultiCloud strategies with Google Cloud and Microsoft Azure."
-            },
-            {
-              "topic": "Technologies Used",
-              "content": "• Node.js,;• Github,;• Docker,;• Terraform,;• Kubernetes,;• OpenAI,;• DynamoDB,;• AWS,;• S3,;• Lambda,;• Bedrock,;• ECR,;• CodePipeline,;• CodeBuild,;• Google BigQuery,;• Azure AI Language."
-            },
-            {
-              "topic": "",
-              "content": ""
-            },
-            {
-              "topic": "",
-              "content": ""
-            },
-            {
-              "topic": "",
-              "content": ""
-            }
-          ],
-          "images": [
-            {
-              "titleImage": "",
-              "image": ""
-            }
-          ],
-          "videos": [
-            {
-              "titleVideo": "",
-              "video": ""
-            }
-          ],
-          "url": "",
-          "technologies": [
-            {
-              "class": ""
-            },
-            {
-              "name": ""
-            }
-          ]
-        },
-        {
-          "tag": "My Portfolio",
-          "coverPhoto": "images/portfolio/leopesi.com.br/capa.png",
-          "title": "Automatización de despliegue y entrega de una aplicación web estática (React) en AWS S3 utilizando CI/CD y DNS.",
-          "text": [
-            {
-              "topic":"Aplicación web estática con AWS S3 y CI/CD",
-              "content":"Aplicación web estática realizada en React, estilo landing page, que terminó convirtiéndose en mi portafolio personal, servida en un bucket de AWS S3 y automatización del proceso de build y deploy en AWS con CI/CD."
-            },
-            {
-              "topic": "Landing Page con React: Componentes reutilizables, Gestión de estado y Bootstrap",
-              "content": "Landing Page realizada en React, utilicé componentes reutilizables y arquitectura basada en estado. Los componentes se combinan con Bootstrap para crear una interfaz responsiva y una estética más agradable. Utilicé también react-router-dom para navegar entre los diferentes componentes y mantener la experiencia más fluida."
-            },
-            {
-              "topic": "Automatización de despliegue y entrega de aplicaciones en AWS usando CI/CD",
-              "content": "La infra fue realizada utilizando una serie de tecnologías de AWS. Comenzando por AWS CodePipeline, la aplicación inicia su ciclo de vida buscando el código en el repositorio GitHub. Luego, AWS CodeBuild es activado para compilar, preparar y generar los artefactos de la aplicación. Una vez que la construcción está completa, los artefactos se almacenan en un bucket de Amazon S3. Amazon CloudFront se utiliza para crear una entrega rápida y eficiente del sitio, que es accedido por el dominio https://leopesi.com.br y gestionado por Route53. CloudFront también está configurado con un certificado SSL gestionado por AWS Certificate Manager, garantizando seguridad en las solicitudes."
-            },
-            {
-              "topic": "Technologies Used",
-              "content": "• React.js,;• Amazon CloudFront,;• AWS Certificate Manager,;• Route 53,;• AWS S3,;• AWS CodePipeline,;• AWS CodeBuild."
-            },
-            {
-              "topic": "",
-              "content": ""
-            },
-            {
-              "topic": "",
-              "content": ""
-            },
-            {
-              "topic": "",
-              "content": ""
-            }
-          ],
-          "images": [
-            {
-              "titleImage": "",
-              "image": ""
-            }
-          ],
-          "videos": [
-            {
-              "titleVideo": "",
-              "video": ""
-            }
-          ],
-          "url": "https://github.com/leopesi/leopesi/tree/refactoring",
-          "technologies": [
-            {
-              "class": ""
-            },
-            {
-              "name": ""
-            }
-          ]
-        },
-        {
-          "tag": "Mantis_API",
-          "coverPhoto": "images/portfolio/mantis_api/aws-architecture-capa.png",
-          "title": "Application, that uses AI to analyze, summarize and suggest personalized solutions for IT tickets.",
-          "text": [
-            {
-              "topic": " Layer",
-              "content": "IT support incident management tool. Integrated with the intranet (SharePoint) via iframe, it uses the Microsoft Graph API to capture the user account and makes a request to the MantisBT API to capture the tickets associated with the user and returns a list with the title and ticket number.; The user can request a ticket analysis and then another request is sent to the Gemini API with a script and the ticket json, which returns an analysis and summarizes each action applied in the case (If the user is from the support team, the analysis returns solution suggestions)."
-            },
-            {
-              "topic": " Layer",
-              "content": "Infrastructure (IaC) written with Terraform, integrated with GitLab (build/deploy) and versioned with git. Creates a VPC that defines the network where resources will be implemented. Then, public and private subnets are configured, followed by the database subnet group.; After that, security groups are configured to control traffic, including the RDS security group, ECS, and Load Balancer.; With the network and security prepared, the RDS database instance is created, along with the EFS and access point.; Next, the necessary IAM Role for ECS tasks execution is configured, followed by the creation of the ECS cluster and the application Task Definition. The Auto Scaling Target for ECS is then configured, allowing ECS scalability.; Finally, the target group for the ALB is created and, lastly, the template is processed. This sequence ensures that all necessary resources are ready before creating the application and load balancing services."
-            },
-            {
-              "topic": "Flow",
-              "content": " • Internet traffic enters the system through the ALB, which is in the public subnets. ; • The ALB distributes this traffic to ECS instances running in private subnets in both availability zones (for high availability and load balancing). ; • ECS instances can communicate with the RDS PostgreSQL database, which is in private subnets. ; • To connect to the internet for updates or other purposes, instances in private subnets go through the NAT Gateway, which is in a public subnet. "
-            },
-            {
-              "topic": "Benefits",
-              "content": "This architecture ensures high availability, scalability, and security by isolating sensitive services such as the database in private subnets and distributing traffic across multiple availability zones."
-            },
-            {
-              "topic": "Technologies Used",
-              "content": "• Python / Django,;• PostgreSQL,;• Microsoft Graph API,;• Gemini API,;• MantisBT API,;• Docker,;• Nginx,;• GitLab,;• Terraform,;• ECS (Fargate),;• ECR,;• RDS,;• EFS."
-            }
-          ],
-          "images": [
-            {
-              "titleImage": "Diagram",
-              "image": "images/portfolio/mantis_api/aws-architecture.jpg"
-            }
-          ],
-          "videos": [
-            {
-              "titleVideo": "",
-              "video": ""
-            }
-          ],
-          "url": "Technologies Used",
-          "technologies": [
-            {
-              "class": "Technologies Used"
-            },
-            {
-              "name": "Technologies Used"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "company": "Universidad Tecnológica Nacional - Buenos Aires",
-      "title": "Exchange",
-      "description": "",
-      "years": "",
-      "iconClass": "graduation",
-      "technologies": [
-        ""
-      ],
-      "mainProjects": [
-        {
-          "tag": "UTN Project",
-          "coverPhoto": "images/portfolio/utn/utn.png",
-          "title": "Node.js, Sequelize, Express, Bcrypt, Cors, JsonWebToken application and backend and frontend in React, Axios and Redux.",
-          "text": [
-            {
-              "topic": "",
-              "content": "The objective of this project was to put into practice some of the concepts covered in the university extension course in Web programming – Full Stack Developer, which I took in the second semester of 2022, at the Universidad Tecnologica de Buenos Aires (UTN). The application has a user registration system, allowing different levels of access and providing a personalized experience for each type of user."
-            },
-            {
-              "topic": "Technologies:",
-              "content": "• The application is built using Node.js, Sequelize, Express, Bcrypt, Cors, JsonWebToken on the backend, and React, Axios, and Redux on the frontend.; • On the backend, we have a user registration system with different levels of access, such as Public, User, Moderator, and Administrator.; • User authentication is done using JWT, and passwords are encrypted using bcrypt.; • The MySQL database is used to store customer information and their respective addresses, with separate tables and a one-to-one relationship.; • On the frontend, React consumes the API through Axios, and the application state is managed by Redux."
-            },
-            {
-              "topic": "Choice of Technologies",
-              "content": "Security and privacy: The use of bcrypt to encrypt passwords and JWT for authentication ensures the security of user information. ; •  Access levels: The user registration system with different access levels allows controlling the permissions of each user within the application, so each one has access only to the necessary information and functionalities. ; • Scalability: Node.js and React are scalable technologies that allow the application to be easily expanded. ; • Maintenance: The use of popular and well-documented technologies, such as Node.js, React, and MySQL, facilitates the maintenance of the application and the hiring of new developers."
-            },
-            {
-              "topic": "Route proof",
-              "content": "https://www.postman.com/restless-water-10959/workspace/curso-utn-node-js/api/d1301b31-098b-4651-8d18-ee78cb941df8"
-            }
-          ],
-          "images": [
-            {
-              "titleImage": "Route Flow",
-              "image": "images/portfolio/utn/1.jpg"
-            },
-            {
-              "titleImage": "",
-              "image": "images/portfolio/utn/2.jpg"
-            },
-            {
-              "titleImage": "",
-              "image": "images/portfolio/utn/3.jpg"
-            },
-            {
-              "titleImage": "",
-              "image": "images/portfolio/utn/4.jpg"
-            },
-            {
-              "titleImage": "",
-              "image": "images/portfolio/utn/5.jpg"
-            },
-            {
-              "titleImage": "",
-              "image": "images/portfolio/utn/6.jpg"
-            },
-            {
-              "titleImage": "",
-              "image": "images/portfolio/utn/7.jpg"
-            },
-            {
-              "titleImage": "",
-              "image": "images/portfolio/utn/8.jpg"
-            },
-            {
-              "titleImage": "",
-              "image": "images/portfolio/utn/9.jpg"
-            },
-            {
-              "titleImage": "",
-              "image": "images/portfolio/utn/10.jpg"
-            }
-          ],
-          "videos": [
-            {
-              "titleVideo": "",
-              "video": ""
-            }
-          ],
-          "pdfs": [
-            {
-              "titlePDF": "",
-              "pdf": ""
-            }
-          ],
-          "url": "https://github.com/leopesi/proyecto_UTN",
-          "technologies": [
-            {
-              "class": ""
-            },
-            {
-              "name": "JavaScript"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "company": "Campos Piscinas - São Paulo",
-      "title": "Project Manager - Co-owner",
-      "description": "",
-      "years": "03/2012 - 03/2021",
-      "technologies": [
-        ""
-      ],
-      "mainProjects": [
-        {
-          "tag": "Contrasseco",
-          "coverPhoto": "images/portfolio/contrasseco/arduino.jpg",
-          "title": "Embedded monitoring system for motor pump with C++ and Arduino",
-          "text": [
-            {
-              "topic": "Problem:",
-              "content": "The pool sector faces a frequent problem of motor pump burnout, which occurs when the pump runs dry, without water passing through the piping. This causes the rotor to overheat, leading to its deformation and eventually the complete failure of the motor pump. Several factors can contribute to the dry running of the motor pump, including clogged piping or suction drain obstruction. In some extreme cases, children can get stuck by suction in the pool's bottom drain, which can lead to serious injury or even death."
-            },
-            {
-              "topic": "Impact:",
-              "content": "This problem has negative impacts, such as delays in pool use, additional costs for motor pump replacement or repair, and risks to the safety of people using the pool."
-            },
-            {
-              "topic": "Objective:",
-              "content": "Develop an automated monitoring and control system to prevent the dry running of the motor pump in pools, ensuring the safety of people and prolonging the equipment's lifespan."
-            },
-            {
-              "topic": "Resources:",
-              "content": "After evaluating several possibilities, we arrived at the set of technologies for creating the test prototype:;• Microsoft Visio;• Arduino;• C++ Lineage;• Tinkercad (3D Modeling Program); • Flow switch sensor;"
-            },
-            {
-              "topic": "Implementation:",
-              "content": "With a flow switch installed in the motor pump discharge, it is possible to identify when the water flow is interrupted, either by obstruction of the bottom drain or vacuum, air in the piping, or any other reason. At this moment, the device's NO SAFE mode is activated, which makes some attempts to restore the normal flow, as illustrated in the flowchart below. If the normal water flow is restored, the device returns to SAFE mode; otherwise, SETUP mode is activated, which turns off the motor pump and activates an alert light."
-            },
-            {
-              "topic": "Evaluation:",
-              "content": "The device obtained unsatisfactory results due to the inaccuracy of the sensors available at the time, such as the flow switch sensor, which did not allow fine water passage. The algorithm developed for the Arduino met the requirements of the operating flowchart. Other sensor options that could offer greater precision would make the final product much more expensive, exceeding the product's cost expectations."
-            },
-            {
-              "topic": "Conclusion:",
-              "content": "The Contrasseco device from Campos Piscinas proved to be technically feasible, but the project was halted due to commercial unfeasibility, as in low scale it would be a very expensive product for the market at that time."
-            }
-          ],
-          "images": [
-            {
-              "titleImage": "Flowchart",
-              "image": "images/portfolio/contrasseco/fluxograma.png"
-            },
-            {
-              "titleImage": "Arduino Prototype",
-              "image": "images/portfolio/contrasseco/arduino.jpg"
-            },
-            {
-              "titleImage": "Electronic Scheme",
-              "image": "images/portfolio/contrasseco/esquema.png"
-            }
-          ],
-          "videos": [
-            {
-              "titleVideo": "",
-              "video": ""
-            }
-          ],
-          "pdfs": [
-            {
-              "titlePDF": "",
-              "pdf": ""
-            }
-          ],
-          "url": "https://github.com/leopesi/Contrasseco",
-          "technologies": [
-            {
-              "class": ""
-            },
-            {
-              "name": "Arduino"
-            }
-          ]
-        },
-        {
-          "tag": "Lighting",
-          "coverPhoto": "images/portfolio/iluminacao/Led (2).jpg",
-          "title": "",
-          "text": [
-            {
-              "topic": "Problem:",
-              "content": "Underwater lighting in pools has always been a critical point in projects, as it is common for infiltration and device burnout to occur. This is because lighting devices are usually shielded chambers with a translucent lens made of acrylic or glass, and failure can occur when the lens breaks, the shield seal fails, or, as has happened a few times, water penetrates through the electrical wiring. As a result, underwater lighting problems have led to a high rate of complaints and increased costs."
-            },
-            {
-              "topic": "Objective:",
-              "content": "Develop an underwater lighting device that is suitable for the pool environment."
-            },
-            {
-              "topic": "Escopo:",
-              "content": "• Device design: The new device must have an innovative design that prevents water infiltration and protects electrical wiring, reducing the occurrence of failures.; • Materials: The materials used in the construction of the device must be high quality and corrosion resistant, ensuring a long service life and reducing the need for maintenance.; • Performance: The device must provide strong and uniform lighting, with color options and a minimum lighting angle of 120º.; • Testing: The device must undergo rigorous testing to ensure it meets electrical safety and water resistance standards.; • Compatibility: The device must be compatible with existing pool lighting systems.; • Price: The device's price must be competitive compared to other devices on the market.;"
-            },
-            {
-              "topic": "Design:",
-              "content": "• Material: The device will be made of stainless steel to ensure resistance to corrosion caused by chlorine in pool water.; • Fixing system: The device will be attached to the pool by thread or oring fitting, following market standards. This will facilitate the installation and maintenance of the device.; • Lighting: The device will use SMD LEDs, round with a 300mm diameter, 3 RGB LEDs of 3W each and a resistor for 12V, ensuring a minimum power of 9W, providing comprehensive and bright lighting in the pool. LED technology also offers energy savings and a longer lifespan compared to other lighting technologies.; • Power supply: The device will be powered by a 12V power source, reducing the risk of electric shock in the pool.; • Waterproofing: The design of the device will ensure that there is no possibility of water infiltration, with proper sealing of the electronic components and wiring. This will reduce failures and increase the device's lifespan.; The new underwater lighting device will have a strong and efficient design, providing strong and uniform lighting in the pool, with easy installation and maintenance. Additionally, ensuring that there will be no water infiltration will minimize failures and increase pool user safety."
-            },
-            {
-              "topic": "Prototyping:",
-              "content": "During the prototyping phase, the team faced various challenges in finding qualified suppliers that met the product's specifications and could ensure large-scale production.; • LED niche: We made the technical drawing to ensure that the prototype would meet the compatibility and design requirements of the scope.; • PCB board: Another important step was the creation of the PCB board's electronic schematic. The team conducted a detailed supplier search in Brazil and China until they found one that met all necessary specifications.; • Waterproofing: The team found an innovative solution by filling the entire niche with transparent epoxy resin, which offers excellent mechanical properties and heat resistance. This solution was crucial to ensure the device's protection against water ingress, thus preventing infiltration issues.;"
-            },
-            {
-              "topic": "Testing:",
-              "content": "After the first batch of products was manufactured, the team began the testing phase to evaluate the quality and durability of the device. First, we performed endurance tests, keeping the LED on continuously for 7 days in a non-aquatic environment to assess its ability to withstand the heat generated by its own operation.; In addition, we conducted physical shock tests to assess the resistance of the resin and the stainless steel niche.; The transparency of the resin was also tested through prolonged sun exposure to assess whether its properties would be lost over time.; In summary, the evaluation phase was crucial to ensure the quality and durability of the product. The endurance and physical shock tests allowed the team to verify the device's resistance to potential impacts and damage, while the resin's transparency test ensured that the product could maintain its properties over time."
-            },
-            {
-              "topic": "Launch:",
-              "content": "With low-scale production costs within the scope's definition, we introduced the new product to the market through our clients, where we began installing them in all new projects. In a second phase, we expanded the product's sale to online retail, further increasing the reach and visibility of the device. With the success of sales, we closed a supply contract with a partner pool products distributor, ensuring greater distribution and reach for our product."
-            },
-            {
-              "topic": "Conclusion:",
-              "content": "The project was highly successful, as we were able to meet all the requirements defined in the scope and develop an innovative product, using epoxy resin, which provided greater safety and durability for users.; Additionally, the introduction of the new product to the market brought a new source of revenue for the company. The project's success is the result of the teamwork of a highly qualified team that knew how to face challenges and overcome difficulties throughout the entire process."
-            }
-          ],
-          "images": [
-            {
-              "titleImage": "",
-              "image": "images/portfolio/iluminacao/Led (2).jpg"
-            },
-            {
-              "titleImage": "Installation Illustration",
-              "image": "images/portfolio/iluminacao/DesenhoInstalação (2).jpg"
-            },
-            {
-              "titleImage": "Lighting Angle",
-              "image": "images/portfolio/iluminacao/Amplitude.jpg"
-            },
-            {
-              "titleImage": "Technical Drawing",
-              "image": "images/portfolio/iluminacao/DesenhoDispositivo (1).jpg"
-            },
-            {
-              "titleImage": "",
-              "image": "images/portfolio/iluminacao/DesenhoDispositivo (2).jpg"
-            },
-            {
-              "titleImage": "PCB Board Drawing",
-              "image": "images/portfolio/iluminacao/PCBLED.jpg"
-            }
-          ],
-          "videos": [
-            {
-              "titleVideo": "",
-              "video": ""
-            }
-          ],
-          "pdfs": [
-            {
-              "titlePDF": "",
-              "pdf": ""
-            }
-          ],
-          "url": "",
-          "technologies": [
-            {
-              "class": ""
-            },
-            {
-              "name": ""
-            }
-          ]
-        },
-        {
-          "tag": "EasyPool",
-          "coverPhoto": "images/portfolio/easy-pool/capa.png",
-          "title": "SaaS tool for pool budgeting built with Node.js, Vue.js, SQL...",
-          "text": [
-            {
-              "topic": "Problema:",
-              "content": "The pool industry is constantly growing, which requires builders to provide accurate and reliable budgets to ensure customer satisfaction and project profitability. However, preparing a budget for a custom pool can be a complex task, involving several factors such as dimensions, materials, supplies, services, and payment methods. Currently, professionals in the field face the challenge of preparing accurate budgets without the help of appropriate technological tools, which can result in budgeting errors and financial losses for the builder."
-            },
-            {
-              "topic": "Objective:",
-              "content": "Develop software for the pool sector that assists builders in preparing accurate and efficient budgets, automating the processes involved, aiming to ensure customer satisfaction and project profitability, deepen the sector's professionalization, and increase the competitiveness of professionals in the market."
-            },
-            {
-              "topic": "Scope:",
-              "content": "• Requirements analysis: Conduct a detailed analysis of the software's functional and non-functional requirements, considering the needs of pool builders, customers, and the market.; • Software design and development: Create a robust and scalable software architecture using cutting-edge technologies.; • Testing and validation: Conduct rigorous testing of all software functionalities to ensure its quality and reliability, while also validating the raised requirements.; • Deployment and training: Carry out the software deployment, offering training and technical support to users, aiming to ensure its adoption and project success.; • Maintenance and evolution: Perform corrective and evolutionary maintenance on the software to ensure its updates and adaptation to new market needs.; • Expected results: Develop specialized software for the pool sector that assists builders in preparing accurate and efficient budgets, automating the processes involved, aiming to ensure customer satisfaction and project profitability, deepen the sector's professionalization, and increase the competitiveness of professionals in the market.;"
-            },
-            {
-              "topic": "MVP:",
-              "content": "As this is a tool that brings together several inputs, labor, payment methods, and customization of pool dimensions and shapes, an MVP (minimum viable product) was created in Excel to simulate and test the functionalities."
-            },
-            {
-              "topic": "MVP Testing:",
-              "content": "• Objectives: Evaluate the performance and functionality of the MVP in different usage scenarios and gather feedback from end users and other stakeholders.; • Criteria: The MVP must be able to generate quotes quickly, accurately, and reliably, considering the variables and specifications of each project. The MVP must be easy to use and intuitive.; • Tools: To perform the tests, an Excel model will be used to simulate all quoting scenarios, questionnaires will be used to collect user feedback, and telephone interviews will be conducted."
-            },
-            {
-              "topic": "Analysis:",
-              "content": "After testing the EasyPool tool, some relevant conclusions were obtained for its development. First, it was found that it is necessary to create a UI and UX design to improve the user experience and ensure that the tool achieves its goals. This is because EasyPool has several features and configuration options, which can make its use complex and difficult for some users.; Additionally, it was observed that the calculation of custom pools requires extra and specific inputs for each project, such as the calculation of the perimeter, maximum length, and maximum width, which need to be done manually. To facilitate this process, it would be recommended to introduce suggested models of irregularly shaped pools, which could be adapted to the needs of each user.; Another highlight of the tests was the validation of the formulas created for calculating pool dimensions, equipment sizing, payment methods, material lists, etc. All formulas were checked and approved, ensuring the accuracy of the calculations and the reliability of the information provided by EasyPool."
-            }
-          ],
-          "images": [
-            {
-              "titleImage": "MVP - Quotation Screen",
-              "image": "images/portfolio/easy-pool/planilha.png"
-            },
-            {
-              "titleImage": "MVP - Payment Options",
-              "image": "images/portfolio/easy-pool/planilha2.png"
-            },
-            {
-              "titleImage": "",
-              "image": ""
-            }
-          ],
-          "videos": [
-            {
-              "titleVideo": "EasyPool - Presentation Video",
-              "video": "https://www.youtube.com/embed/EFTK-K8jWsI"
-            }
-          ],
-          "pdfs": [
-            {
-              "titlePDF": "MVP - Material List",
-              "pdf": "images/portfolio/easy-pool/MVP - EasyPool - back-up.pdf"
-            },
-            {
-              "titlePDF": "Requirements Document",
-              "pdf": "images/portfolio/easy-pool/Documento de Requisitos EasyPool.pdf"
-            }
-          ],
-          "url": "www.leopesi.com.br",
-          "technologies": [
-            {
-              "class": ""
-            },
-            {
-              "name": ""
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+},
+	"projects": [
+	  {
+		"title": "",
+		"startDate": "",
+		"description": "",
+		"images": [
+		  ""
+		],
+		"url": "",
+		"technologies": [
+		  {
+			"class": "",
+			"name": ""
+		  }
+		]
+	  }
+	],
+	"experience": [
+	  {
+		"company": "Xcelis Consulting",
+		"title": "",
+		"description": "",
+		"years": "03/2023 - até o momento.",
+		"technologies": [
+		  ""
+		],
+    "mainProjects": [
+      {
+        "tag": "En construcción...",
+        "coverPhoto": "images/portfolio/multicloud/diagrama.png",
+        "title": "Plataforma de e-commerce mejorada con IA e infraestructura avanzada como Docker, AWS, Terraform y Kubernetes",
+        "text": [
+          {
+            "topic": "En construcción...",
+            "content": "La aplicación involucra la automatización e implementación de una solución en la nube utilizando una combinación de tecnologías. La infraestructura de AWS se provisiona y gestiona utilizando Terraform y la aplicación se implementa utilizando Docker y Kubernetes. El proceso se automatiza con prácticas de CI/CD y se mejora con asistentes de IA utilizando OpenAI y Amazon Bedrock, además de una exploración de estrategias MultiCloud con Google Cloud y Microsoft Azure."
+          },
+          {
+            "topic": "Tecnologías Utilizadas",
+            "content": "• Node.js,;• Github,;• Docker,;• Terraform,;• Kubernetes,;• OpenAI,;• DynamoDB,;• AWS,;• S3,;• Lambda,;• Bedrock,;• ECR,;• CodePipeline,;• CodeBuild,;• Google BigQuery,;• Azure AI Language."
+          },
+          {
+            "topic": "",
+            "content": ""
+          },
+          {
+            "topic": "",
+            "content": ""
+          },
+          {
+            "topic": "",
+            "content": ""
+          }
+        ],
+        "images": [
+          {
+            "titleImage": "",
+            "image": ""
+          }
+        ],
+        "videos": [
+          {
+            "titleVideo": "",
+            "video": ""
+          }
+        ],
+        "url": "",
+        "technologies": [
+          {
+            "class": ""
+          },
+          {
+            "name": ""
+          }
+        ]
+      },
+      {
+        "tag": "Mi Portafolio",
+        "coverPhoto": "images/portfolio/leopesi.com.br/flow_capa.png",
+        "title": "Automatización del despliegue y entrega de una aplicación web estática (React) en AWS usando CI/CD y DNS.",
+        "text": [
+          {
+            "topic": "Aplicación web estática con AWS S3 y CI/CD",
+            "content": "Aplicación web estática construida con React, diseñada como una página de destino, que se convirtió en mi portafolio personal, servido en un bucket en AWS S3 y el proceso de construcción y despliegue está automatizado en AWS con CI/CD."
+          },
+          {
+            "topic": "Página de destino con React: Componentización, estado y Bootstrap.",
+            "content": "Página de destino construida con React, utilizando componentes reutilizables y arquitectura basada en estado. Los componentes se combinan con Bootstrap para crear una interfaz receptiva y con una estética agradable. También utilicé react-router-dom para navegar entre los diferentes componentes y mantener una experiencia más fluida."
+          },
+          {
+            "topic": "Automatización del Despliegue y Entrega en AWS Usando CI/CD",
+            "content": "La aplicación fue construida utilizando una serie de tecnologías de AWS. Comenzando con AWS CodePipeline, la aplicación comienza su ciclo de vida recuperando el código del repositorio de GitHub. Luego, AWS CodeBuild se activa para compilar, preparar y generar los artefactos de la aplicación. Una vez que se completa la construcción, los artefactos se almacenan en un bucket de Amazon S3. Amazon CloudFront se utiliza para entregar el sitio de forma rápida y eficiente, accedido a través del dominio https://leopesi.com.br, gestionado por Route 53. CloudFront también está configurado con un certificado SSL gestionado por AWS Certificate Manager, garantizando la seguridad en las solicitudes."
+          },
+          {
+            "topic": "Tecnologías Utilizadas",
+            "content": "• React.js,;• Amazon CloudFront,;• AWS Certificate Manager,;• Route 53,;• AWS S3,;• AWS CodePipeline,;• AWS CodeBuild."
+          }
+        ],
+        "images": [
+          {
+            "titleImage": "Flow",
+            "image": "images/portfolio/leopesi.com.br/flow.png"
+          },
+          {
+            "titleImage": "Pipeline",
+            "image": "images/portfolio/leopesi.com.br/pipeline.png"
+          }
+        ],
+        "videos": [
+          {
+            "titleVideo": "",
+            "video": ""
+          }
+        ],
+        "url": "https://github.com/leopesi/leopesi/tree/refactoring",
+        "technologies": [
+          {
+            "class": ""
+          },
+          {
+            "name": ""
+          }
+        ]
+      },
+      {
+        "tag": "Mantis_API",
+        "coverPhoto": "images/portfolio/mantis_api/capa.png",
+        "title": "Despliegue de aplicación Django con Infraestructura de AWS: Docker, Terraform y GitLab: Desde VPC hasta Load Balancer.",
+        "text": [
+          {
+            "topic": "Gestión de Incidentes e Integración con Automatización de Infraestructura",
+            "content": "Esta aplicación une dos mundos: la gestión de incidentes de TI y la automatización de infraestructura. Por un lado, tenemos una aplicación que integra SharePoint con MantisBT y la IA de Gemini, permitiendo a los usuarios realizar un seguimiento y analizar sus tickets de soporte con IA que analiza el incidente en función del perfil del usuario. Por otro lado, hay una infraestructura robusta provisionada automáticamente en AWS con Terraform y GitLab. Juntas, estas soluciones ofrecen una plataforma completa que optimiza tanto la gestión de problemas como la entrega de recursos de TI."
+          },
+          {
+            "topic": "Gestión de Incidentes con SharePoint vía Microsoft Graph API y MantisBT",
+            "content": "Herramienta de gestión de incidentes de soporte de TI con Python. Integrada en la intranet (SharePoint) a través de iframe, utiliza la API de Microsoft Graph para capturar la cuenta de Microsoft del usuario y realiza una solicitud a la API de MantisBT para recuperar los tickets asociados con el usuario, devolviendo una lista con el título y número del ticket. El usuario puede solicitar un análisis del ticket, y luego se envía otra solicitud a la API de Gemini con un script y el json del ticket, que devuelve un análisis y resume cada acción aplicada en el caso (Si el usuario es un Global Reader, devuelve un entorno de soporte con un análisis y sugerencias para resolver el incidente con una integración con la IA de la API de Gemini)."
+          },
+          {
+            "topic": "Despliegue Automático de Infraestructura en AWS con Terraform y GitLab: Desde VPC hasta Load Balancer",
+            "content": "Infraestructura (IaC) escrita con Terraform, integrada con GitLab (build/deploy), y versionada con git. Crea una VPC que define la red donde se desplegarán los recursos. Luego, se configuran subredes públicas y privadas, seguidas del grupo de subredes de la base de datos. Después de eso, se configuran los grupos de seguridad para controlar el tráfico, incluyendo el grupo de seguridad de RDS, ECS y Load Balancer. Con la red y la seguridad en su lugar, se crea la instancia de base de datos RDS, junto con el EFS y el punto de acceso. Luego, se configura el rol de IAM requerido para la ejecución de tareas de ECS, seguido de la creación del clúster de ECS y la definición de tareas de la aplicación. A continuación, se configura el objetivo de autoescalado de ECS, lo que permite la escalabilidad de ECS. Finalmente, se crea el grupo objetivo para el ALB y se procesa la plantilla. Esta secuencia asegura que todos los recursos necesarios estén listos antes de que se creen los servicios de la aplicación y el balanceo de carga."
+          },
+          {
+            "topic": "Flujo de Tráfico",
+            "content": " • El tráfico de Internet ingresa al sistema a través del ALB, que está en las subredes públicas.; • El ALB distribuye este tráfico a las instancias de ECS que se ejecutan en subredes privadas en ambas zonas de disponibilidad (para alta disponibilidad y balanceo de carga).; • Las instancias de ECS pueden comunicarse con la base de datos PostgreSQL RDS, que está en las subredes privadas.; • Para conectarse a Internet con fines de actualizaciones u otros propósitos, las instancias en las subredes privadas pasan a través del NAT Gateway, que está en una subred pública."
+          },
+          {
+            "topic": "Beneficios",
+            "content": "Esta arquitectura garantiza alta disponibilidad, escalabilidad y seguridad al aislar servicios sensibles como la base de datos en subredes privadas y distribuir el tráfico entre varias zonas de disponibilidad."
+          },
+          {
+            "topic": "Tecnologías Utilizadas",
+            "content": "• Python / Django,;• PostgreSQL,;• Microsoft Graph API,;• Gemini API,;• MantisBT API,;• Docker,;• Nginx,;• GitLab,;• Terraform,;• ECS (Fargate),;• ECR,;• RDS,;• EFS."
+          }
+        ],
+        "images": [
+          {
+            "titleImage": "Diagrama",
+            "image": "images/portfolio/mantis_api/aws-architecture.jpg"
+          }
+        ],
+        "videos": [
+          {
+            "titleVideo": "",
+            "video": ""
+          }
+        ],
+        "url": "Tecnologías Utilizadas",
+        "technologies": [
+          {
+            "class": "Tecnologías Utilizadas"
+          },
+          {
+            "name": "Tecnologías Utilizadas"
+          }
+        ]
+      }
+    ]
+	  },
+	  {
+		"company": "Universidad Tecnológica Nacional - Buenos Aires",
+		"title": "Intercâmbio",
+		"description": "",
+		"years": "",
+		"iconClass": "graduation",
+		"technologies": [
+		  ""
+		],
+		"mainProjects": [
+      {
+        "tag": "Proyecto UTN",
+        "coverPhoto": "images/portfolio/utn/utn.png",
+        "title": "Aplicación Node.js, Sequelize, Express, Bcrypt, Cors, JsonWebToken y backend con React, Axios y Redux en el front-end.",
+        "text": [
+          {
+            "topic": "",
+            "content": "El objetivo de este proyecto fue poner en práctica algunos de los conceptos abordados en el curso de extensión universitaria en Programación Web – Full Stack Developer, que completé en el segundo semestre de 2022 en la Universidad Tecnológica de Buenos Aires (UTN). La aplicación incluye un sistema de registro de usuarios, permitiendo diferentes niveles de acceso y proporcionando una experiencia personalizada para cada tipo de usuario."
+          },
+          {
+            "topic": "Tecnologías:",
+            "content": "• La aplicación está construida utilizando Node.js, Sequelize, Express, Bcrypt, Cors y JsonWebToken en el backend, y React, Axios y Redux en el front-end.; • En el backend, tenemos un sistema de registro de usuarios con diferentes niveles de acceso, como Público, Usuario, Moderador y Administrador.; • La autenticación de usuarios se realiza utilizando JWT, y las contraseñas se encriptan usando bcrypt.; • La base de datos MySQL se utiliza para almacenar la información de los clientes y sus respectivas direcciones, con tablas separadas y una relación uno a uno.; • En el front-end, React consume la API a través de Axios, y el estado de la aplicación se gestiona mediante Redux."
+          },
+          {
+            "topic": "Elección de Tecnologías",
+            "content": "Seguridad y privacidad: El uso de bcrypt para encriptar contraseñas y JWT para la autenticación asegura la seguridad de la información de los usuarios.; • Niveles de acceso: El sistema de registro de usuarios con diferentes niveles de acceso permite controlar los permisos de cada usuario dentro de la aplicación, asegurando que cada uno tenga acceso solo a la información y funcionalidades necesarias.; • Escalabilidad: Node.js y React son tecnologías escalables que permiten que la aplicación sea fácilmente ampliada.; • Mantenimiento: El uso de tecnologías populares y bien documentadas, como Node.js, React y MySQL, facilita el mantenimiento de la aplicación y la contratación de nuevos desarrolladores."
+          },
+          {
+            "topic": "Pruebas de rutas",
+            "content": "https://www.postman.com/restless-water-10959/workspace/curso-utn-node-js/api/d1301b31-098b-4651-8d18-ee78cb941df8"
+          }
+        ],
+        "images": [
+          {
+            "titleImage": "Flujo de rutas",
+            "image": "images/portfolio/utn/1.jpg"
+          },
+          {
+            "titleImage": "",
+            "image": "images/portfolio/utn/2.jpg"
+          }
+        ],
+        "videos": [
+          {
+            "titleVideo": "",
+            "video": ""
+          }
+        ],
+        "pdfs": [
+          {
+            "titlePDF": "",
+            "pdf": ""
+          }
+        ],
+        "url": "https://github.com/leopesi/proyecto_UTN",
+        "technologies": [
+          {
+            "class": ""
+          },
+          {
+            "name": "JavaScript"
+          }
+        ]
+      }
+    ]
+
+	  },
+	  {
+		"company": "Campos Piscinas - São Paulo",
+		"title": "",
+		"description": ".",
+		"years": "",
+		"technologies": [
+		  ""
+		],
+		"mainProjects": [
+		  {
+        "tag": "Contrasseco",
+        "coverPhoto": "images/portfolio/contrasseco/arduino.jpg",
+        "title": "Sistemas embebidos para monitoreo de bombas de agua con C++ y Arduino",
+        "text": [
+          {
+            "topic": "Problema:",
+            "content": "El sector de piscinas enfrenta un problema frecuente de quema de bombas de agua, que ocurre cuando la bomba trabaja en seco, sin el paso de agua a través de la tubería. Esto provoca el sobrecalentamiento del rotor, lo que lleva a su deformación y, eventualmente, a la falla completa de la bomba de agua. Varios factores pueden contribuir al funcionamiento en seco de la bomba, incluyendo bloqueos en las tuberías u obstrucciones en el desagüe de succión. En algunos casos extremos, los niños pueden quedar atrapados por la succión en el desagüe de fondo de la piscina, lo que puede resultar en lesiones graves o incluso la muerte."
+          },
+          {
+            "topic": "Impacto:",
+            "content": "Este problema tiene impactos negativos, como retrasos en el uso de la piscina, costos adicionales para el reemplazo o reparación de la bomba de agua y riesgos de seguridad para las personas que utilizan la piscina."
+          },
+          {
+            "topic": "Objetivo:",
+            "content": "Desarrollar un sistema de monitoreo y control automatizado para evitar el funcionamiento en seco de la bomba de agua en piscinas, garantizando la seguridad de las personas y prolongando la vida útil del equipo."
+          },
+          {
+            "topic": "Recursos:",
+            "content": "Después de evaluar varias posibilidades, llegamos al conjunto de tecnologías para la creación del prototipo de prueba:; • Microsoft Visio; • Arduino; • Linaje C++; • Tinkercad (Programa de modelado tridimensional); • Sensor de flujo de agua;"
+          },
+          {
+            "topic": "Implementación:",
+            "content": "Con un sensor de flujo instalado en la descarga de la bomba es posible identificar cuando se interrumpe el flujo de agua, ya sea por obstrucción del desagüe de fondo o aspiradora, aire en las tuberías u otra razón. En ese momento, se activa el modo NO SAFE, que intenta restablecer el flujo normal, como se ilustra en el siguiente diagrama de flujo. Si se restablece el flujo normal de agua, el dispositivo vuelve al modo SAFE; de lo contrario, se activa el modo SETUP, que apaga la bomba y enciende una luz de advertencia."
+          },
+          {
+            "topic": "Evaluación:",
+            "content": "El dispositivo obtuvo resultados poco satisfactorios debido a la imprecisión de los sensores disponibles en ese momento, como el sensor de flujo que no permitía una detección precisa del flujo de agua. El algoritmo desarrollado para Arduino cumplió con los requisitos del diagrama de flujo de operación. Otras opciones de sensores que pudieran ofrecer mayor precisión encarecerían mucho el producto final, superando el precio esperado para el producto."
+          },
+          {
+            "topic": "Conclusión:",
+            "content": "El dispositivo Contrasseco de Campos Piscinas demostró ser técnicamente viable, pero el proyecto fue detenido debido a la inviabilidad comercial, ya que a pequeña escala sería un producto demasiado caro para el mercado en ese momento."
+          }
+        ],
+        "images": [
+          {
+            "titleImage": "Diagrama de flujo",
+            "image": "images/portfolio/contrasseco/fluxograma.png"
+          },
+          {
+            "titleImage": "Prototipo de Arduino",
+            "image": "images/portfolio/contrasseco/arduino.jpg"
+          },
+          {
+            "titleImage": "Esquema electrónico",
+            "image": "images/portfolio/contrasseco/esquema.png"
+          }
+        ],
+        "videos": [
+          {
+            "titleVideo": "",
+            "video": ""
+          }
+        ],
+        "pdfs": [
+          {
+            "titlePDF": "",
+            "pdf": ""
+          }
+        ],
+        "url": "https://github.com/leopesi/Contrasseco",
+        "technologies": [
+          {
+            "class": ""
+          },
+          {
+            "name": "Arduino"
+          }
+        ]
+      },
+		  {
+			"tag": "Iluminação",
+			"coverPhoto": "images/portfolio/iluminacao/Led (2).jpg",
+			"title": "",
+			"text": [
+			  {
+				"topic": "Problema:",
+				"content": "A iluminação submersa em piscinas sempre foi um ponto crítico em projetos, uma vez que é comum ocorrer infiltração e queima de dispositivos. Isso se deve ao fato de que os dispositivos de iluminação são normalmente câmeras blindadas com uma lente translúcida feita de acrílico ou vidro, e a falha pode ocorrer quando a lente quebra, a vedação da blindagem falha ou, como já aconteceu algumas vezes, água penetra através da fiação elétrica. Como resultado, os problemas de iluminação subaquática levaram a uma taxa elevada de reclamações e aumento nos custos."
+			  },
+			  {
+				"topic": "Objetivo: ",
+				"content": "Desenvolver um dispositivo de iluminação subaquática que seja adequado ao ambiente de piscinas."
+			  },
+			  {
+				"topic": "Escopo:",
+				"content": "• Design do dispositivo: O novo dispositivo deve ter um design inovador que evite a infiltração de água e proteja a fiação elétrica, reduzindo a ocorrência de falhas.; • Materiais: Os materiais utilizados na construção do dispositivo devem ser de alta qualidade e resistentes à corrosão, garantindo uma longa vida útil e reduzindo a necessidade de manutenção.; • Desempenho: O dispositivo deve fornecer uma iluminação forte e uniforme, com opções de cor e um ângulo de iluminação mínimo de 120º.; • Testes: O dispositivo deve passar por testes rigorosos para garantir que atenda aos padrões de segurança elétrica e resistência à água.; • Compatibilidade: O dispositivo deve ser compatível com os sistemas de iluminação existentes em piscinas.; • Preço: O preço do dispositivo deve ser competitivo em relação a outros dispositivos no mercado.;"
+			  },
+			  {
+				"topic": "Design:",
+				"content": "• Material: O dispositivo será confeccionado em aço inoxidável para garantir a resistência à corrosão causada pelo cloro presente na água das piscinas.; • Sistema de fixação: O dispositivo será fixado à piscina por meio de rosca ou encaixe com oring, seguindo o padrão do mercado. Isso facilitará a instalação e manutenção do dispositivo.; • Iluminação: O dispositivo utilizará LEDs SMD, redondo com 300mm de diâmetro, 3 Leds RGB de 3W cada e resistor para 12 V, garantindo uma potência mínima de 9W, para fornecer uma iluminação abrangente e brilhante na piscina. A tecnologia LED também proporciona economia de energia e vida útil mais longa do que outras tecnologias de iluminação.; • Alimentação de energia: O dispositivo será alimentado por uma fonte de energia de 12V, reduzindo o risco de choque elétrico na piscina.; • Impermeabilidade: O design do dispositivo será projetado para garantir que não haja possibilidade de infiltração de água, com vedação adequada dos componentes eletrônicos e da fiação. Isso reduzirá a ocorrência de falhas e aumentará a vida útil do dispositivo.; O novo dispositivo de iluminação subaquática terá um design resistente e eficiente, que garantirá uma iluminação forte e uniforme na piscina, com facilidade de instalação e manutenção. Além disso, a garantia de que não haverá infiltração de água minimizará as falhas e aumentará a segurança dos usuários da piscina."
+			  },
+			  {
+				"topic": "Prototipagem: ",
+				"content": "Durante a fase de prototipagem, a equipe enfrentou diversos desafios para encontrar fornecedores qualificados que atendessem às especificações do produto e pudessem garantir a produção em larga escala.; • Nicho do led: Fizemos o desenho técnico para garantir que o protótipo cumpriria os requisitos de compatibilidade e design do escopo.; • Placa PCB: Outra etapa importante foi a criação do esquema eletrônico da placa PCB. A equipe realizou uma pesquisa detalhada de fornecedores no Brasil e na China até encontrar um  que atendesse todas as especificações necessárias.; • Impermeabilidade: A equipe conseguiu encontrar uma solução inovadora, preenchendo todo o nicho com resina epoxi transparente, que oferece ótimas propriedades mecânicas e de resistência ao calor. Essa solução foi crucial para garantir a proteção do dispositivo contra a entrada de água, evitando assim problemas com infiltração.;"
+			  },
+			  {
+				"topic": "Testes: ",
+				"content": "Após a fabricação do primeiro lote do produto, a equipe deu início à fase de testes para avaliar a qualidade e a durabilidade do dispositivo. Primeiramente, realizamos testes de resistência, deixando o LED ligado ininterruptamente por 7 dias em um ambiente não aquático para avaliar sua capacidade de resistir ao calor gerado pelo próprio funcionamento.; Além disso, fizemos testes de choque físico para avaliar a resistência da resina e do nicho em aço inoxidável.; A transparência da resina também foi testada através de uma exposição prolongada ao sol para avaliar se suas propriedades seriam perdidas ao longo do tempo.; Em resumo, a fase de avaliação foi crucial para garantir a qualidade e durabilidade do produto. Os testes de resistência e choque físico permitiram que a equipe verificasse a resistência do dispositivo a possíveis impactos e danos, enquanto o teste de transparência da resina garantiu que o produto pudesse manter suas propriedades ao longo do tempo."
+			  },
+			  {
+				"topic": "Lançamento: ",
+				"content": "Com o custo de produção em baixa escala dentro do definido no escopo, introduzimos o novo produto no mercado através de nossos cliente, onde passamos a instala-los em todos os novos projetos. Em uma segunda fase, expandimos a venda do produto para o varejo on-line, ampliando ainda mais o alcance e a visibilidade do dispositivo. Com o sucesso das vendas, fechamos um contrato de fornecimento com um distribuidor de produtos de piscina parceiro, garantindo assim uma maior distribuição e alcance do nosso produto."
+			  },
+			  {
+				"topic": "Conclusão: ",
+				"content": "O projeto foi altamente satisfatório, pois conseguimos cumprir todos os requisitos definidos no escopo e desenvolvemos um produto inovador, com a utilização da resina epóxi, que garantiu maior segurança e durabilidade para os usuários.; Além disso, a introdução do novo produto no mercado trouxe uma nova fonte de receita para a empresa. O sucesso do projeto é resultado do trabalho conjunto de uma equipe altamente qualificada, que soube enfrentar os desafios e superar as dificuldades ao longo de todo o processo."
+			  }
+			],
+			"images": [
+			  {
+				"titleImage": "",
+				"image": "images/portfolio/iluminacao/Led (2).jpg"
+			  },
+			  {
+				"titleImage": "Ilustração de Instalação",
+				"image": "images/portfolio/iluminacao/DesenhoInstalação (2).jpg"
+			  },
+			  {
+				"titleImage": "Ângulo de Iluminação",
+				"image": "images/portfolio/iluminacao/Amplitude.jpg"
+			  },
+			  {
+				"titleImage": "Desenho Técnico",
+				"image": "images/portfolio/iluminacao/DesenhoDispositivo (1).jpg"
+			  },
+			  {
+				"titleImage": "",
+				"image": "images/portfolio/iluminacao/DesenhoDispositivo (2).jpg"
+			  },
+			  {
+				"titleImage": "Desenho da Placa PCB",
+				"image": "images/portfolio/iluminacao/PCBLED.jpg"
+			  }
+			],
+			"videos": [
+			  {
+				"titleVideo": "",
+				"video": ""
+			  }
+			],
+			"pdfs": [
+			  {
+				"titlePDF": "",
+				"pdf": ""
+			  }
+			],
+			"url": "",
+			"technologies": [
+			  {
+				"class": ""
+			  },
+			  {
+				"name": ""
+			  }
+			]
+		  },
+		  {
+        "tag": "EasyPool",
+        "coverPhoto": "images/portfolio/easy-pool/capa.png",
+        "title": "Herramienta SaaS para presupuestos de piscinas hecha en Node.js, Vue.js, SQL",
+        "text": [
+          {
+            "topic": "Problema:",
+            "content": "La industria de las piscinas está en constante crecimiento, lo que exige que los constructores brinden presupuestos precisos y confiables para garantizar la satisfacción del cliente y la rentabilidad del proyecto. Sin embargo, la elaboración de un presupuesto para una piscina personalizada puede ser una tarea compleja, que involucra varios factores como dimensiones, materiales, insumos, servicios y formas de pago. Actualmente, los profesionales del sector enfrentan el desafío de elaborar presupuestos precisos sin la ayuda de herramientas tecnológicas adecuadas, lo que puede generar errores en la elaboración del presupuesto y pérdidas para el constructor."
+          },
+          {
+            "topic": "Objetivo:",
+            "content": "Desarrollar un software para el sector de piscinas que ayude a los constructores a elaborar presupuestos precisos y eficientes, automatizando los procesos involucrados, con el objetivo de garantizar la satisfacción del cliente y la rentabilidad del proyecto, profundizar la profesionalización del sector y aumentar la competitividad de los profesionales en el mercado."
+          },
+          {
+            "topic": "Alcance:",
+            "content": "• Análisis de requisitos: Realizar un análisis detallado de los requisitos funcionales y no funcionales del software, considerando las necesidades de los constructores de piscinas, clientes y del mercado.; • Diseño y desarrollo del software: Crear una arquitectura de software robusta y escalable, utilizando tecnologías de punta.; • Pruebas y validación: Realizar pruebas rigurosas en todas las funcionalidades del software para garantizar su calidad y fiabilidad, validando también los requisitos levantados.; • Implementación y capacitación: Implementar el software, ofreciendo capacitación y soporte técnico a los usuarios, garantizando su adopción y el éxito del proyecto.; • Mantenimiento y evolución: Realizar mantenimientos correctivos y evolutivos del software, para asegurar su actualización y adaptación a las nuevas necesidades del mercado.; • Resultados esperados: Desarrollar un software especializado para el sector de piscinas que ayude a los constructores a elaborar presupuestos precisos y eficientes, automatizando los procesos involucrados, con el objetivo de garantizar la satisfacción del cliente y la rentabilidad del proyecto, profundizar la profesionalización del sector y aumentar la competitividad de los profesionales en el mercado."
+          },
+          {
+            "topic": "MVP:",
+            "content": "Al tratarse de una herramienta que reúne varios insumos, mano de obra, formas de pago y personalización de las medidas y el formato de la piscina. Se creó un MVP (minimum value product) en Excel para simular y probar las funcionalidades."
+          },
+          {
+            "topic": "Pruebas del MVP:",
+            "content": "• Objetivos: Evaluar el desempeño y la funcionalidad del MVP en diferentes escenarios de uso y obtener retroalimentación de los usuarios finales y otras partes interesadas.; • Criterios: El MVP debe ser capaz de generar cotizaciones de forma rápida, precisa y confiable, considerando las variables y especificaciones de cada proyecto. El MVP debe ser fácil de usar e intuitivo.; • Herramientas: Para realizar las pruebas, se utilizará un modelo hecho en Excel para simular todos los escenarios de cotización, cuestionarios para recopilar retroalimentación de los usuarios y entrevistas telefónicas."
+          },
+          {
+            "topic": "Análisis:",
+            "content": "Después de realizar las pruebas en la herramienta EasyPool, se obtuvieron algunas conclusiones relevantes para su desarrollo. En primer lugar, se constató que es necesario crear un proyecto de UI y UX para mejorar la experiencia del usuario y garantizar que la herramienta alcance sus objetivos. Esto se debe a que EasyPool posee varios recursos y opciones de configuración, lo que puede hacer que su uso sea complejo y difícil para algunos usuarios.; Además, se observó que el cálculo de piscinas personalizadas requiere entradas adicionales y específicas de cada proyecto, como el cálculo del perímetro, la longitud máxima y la mayor anchura, que deben realizarse manualmente. Para facilitar este proceso, se recomendaría la introducción de modelos sugeridos de piscinas con formas irregulares, que podrían adaptarse a las necesidades de cada usuario.; Otro punto destacado en las pruebas fue la validación de las fórmulas creadas para los cálculos de las dimensiones de la piscina, el dimensionamiento de los equipos, las formas de pago, la lista de materiales, etc. Todas las fórmulas fueron verificadas y aprobadas, garantizando la precisión de los cálculos y la fiabilidad de la información proporcionada por EasyPool."
+          }
+        ],
+        "images": [
+          {
+            "titleImage": "MVP - Pantalla de Presupuesto",
+            "image": "images/portfolio/easy-pool/planilha.png"
+          },
+          {
+            "titleImage": "MVP - Opciones de Pago",
+            "image": "images/portfolio/easy-pool/planilha2.png"
+          },
+          {
+            "titleImage": "",
+            "image": ""
+          }
+        ],
+        "videos": [
+          {
+            "titleVideo": "EasyPool - Video de Presentación",
+            "video": "https://www.youtube.com/embed/EFTK-K8jWsI"
+          }
+        ],
+        "pdfs": [
+          {
+            "titlePDF": "MVP - Lista de Materiales",
+            "pdf": "images/portfolio/easy-pool/MVP - EasyPool - back-up.pdf"
+          },
+          {
+            "titlePDF": "Documento de Requisitos",
+            "pdf": "images/portfolio/easy-pool/Documento de Requisitos EasyPool.pdf"
+          }
+        ],
+        "url": "www.leopesi.com.br",
+        "technologies": [
+          {
+            "class": ""
+          },
+          {
+            "name": ""
+          }
+        ]
+      }
+      
+		]
+	  }
+	]
+  }
