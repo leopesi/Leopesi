@@ -1,6 +1,6 @@
-# Projeto Exemplo
+# Automação de deploy e entrega de aplicação web estática (React) na AWS usando CI/CD e DNS.
 
-Este é um projeto exemplo que demonstra como configurar e utilizar vários serviços da AWS para hospedar e gerenciar uma aplicação web estática feita com React.js.
+Aplicação web estática feita em React, estilo landing page, que acabou virando meu portifólio pessoal, servido em um bucket no AWS S3 e automatização do processo de build e deploy na AWS com CI/CD.
 
 ## Clonando e Rodando o Projeto Localmente
 
