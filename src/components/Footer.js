@@ -18,7 +18,14 @@ class Footer extends Component {
       <footer>
         <div className="col-md-12">
           <div className="social-links">{networks}</div>
-
+          <div class="-center">
+                      <a href="tel:+5511959397603" class="mr-3">
+                        <i class="fas fa-phone-alt"></i> +55 (11) 95939-7603
+                      </a>
+                      <a href="mailto:youremail@example.com" class="mr-3">
+                        <i class="fas fa-envelope"></i> rerileo@gmail.com
+                      </a>
+                    </div>
           <div className="copyright py-4 text-center">
             <div className="container">
               <small>
