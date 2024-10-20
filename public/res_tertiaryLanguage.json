@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hello!",
-    "description": "👋 Backend developer with a background in DevOps. I have experience with system integration, process automation, infrastructure creation and management on AWS. I am proficient in Python, JavaScript, Docker, Git, GitLab, Terraform, and AWS services such as CodePipeline, CodeBuild, EC2, S3, ECS, Lambda, RDS, Route53, Cloudwatch...",
+    "description": "👋 DevOps lover, Cloud Solutions Architect con un fuerte background en desarrollo web. Experiencia en gestión de infraestructura en la nube, especialmente en AWS. Creo soluciones escalables, resilientes y rentables utilizando Node.js, Python, Terraform y una variedad de servicios AWS (EC2, ECS, Lambda, RDS). Apasionado por CI/CD, confiabilidad y automatización. Un jugador de equipo comprometido a fomentar una cultura DevOps y acelerar los ciclos de desarrollo.",
     "section_name": {
       "about": "A little about me",
       "projects": "Projects",

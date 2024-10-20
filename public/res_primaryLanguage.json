@@ -1,7 +1,7 @@
 {
 	"basic_info": {
 	  "description_header": "Olá!",
-	  "description": "👋 Desenvolvedor backend com background em DevOps. Tenho experiência com integração de sistemas, automação de processos, criação e gerenciamento de infraestrutura na AWS. Sou proeficiente em Python, JavaScript, docker, git, gitlab, terraform e serviços AWS como CodePipeline, CodeBuild, EC2, S3, ECS, Lambda, RDS, Route53, Cloudwatch...",
+	  "description": "👋 Arquiteto de Soluções Cloud\napaixonado pelo mundo DevOps, com\numa base sólida em desenvolvimento web\n e uma vasta experiência em\ngestão de\ninfraestrutura em nuvem. Especialista\nem criar soluções criativas em ambientes escaláveis e\nresilientes, com foco em otimização e\neficiência, principalmente em AWS.\nExperiente em integração de\nsistemas, utilizando Node.js, Python,\nTerraform e uma ampla gama de\nserviços AWS, como EC2, ECS,\nLambda e RDS. Motivado a melhorar\ncontinuamente pipelines de deploy,\ngarantir a confiabilidade e\nautomatizar processos, contribuindo\npara entregas inteligentes.\nEntusiasta da cultura DevOps,\ncomprometido em promover a\ncolaboração entre equipes e acelerar\nciclos de desenvolvimento.\n",
 	  "section_name": {
 		"about": "Um pouco sobre mim",
 		"projects": "Projetos",
@@ -39,11 +39,11 @@
 		  {
 			"tag": "Em Contrução...",
 			"coverPhoto": "images/portfolio/multicloud/diagrama.png",
-			"title": "Plataforma Sass / Pass, impulsionada por IA e tecnologias de ponta como AWS, Docker, Terraform, Kubernetes",
+			"title": "Plataforma de e-commerce aprimorada por IA e infraestrutura de ponta como Docker, AWS, Terraform e Kubernetes",
 			"text": [
 			  {
 				"topic": "Em construção...",
-				"content": "A aplicação envolve a automação e implantação de um solução em nuvem com uma combinação de tecnologias SaaS e PaaS. A infraestrutura da AWS é provisionada e gerida usando Terraform e a aplicação é implantada utilizando Docker e Kubernetes. O processo é automatizado com práticas de CI/CD e aprimorada com assistentes de IA usando OpenAI e Amazon Bedrock, além de uma exploração de estratégias de MultiCloud com Google Cloud e Microsoft Azure."
+				"content": "A aplicação envolve a automação e implantação de um solução em nuvem com uma combinação de tecnologias. A infraestrutura da AWS é provisionada e gerida usando Terraform e a aplicação é implantada utilizando Docker e Kubernetes. O processo é automatizado com práticas de CI/CD e aprimorada com assistentes de IA usando OpenAI e Amazon Bedrock, além de uma exploração de estratégias de MultiCloud com Google Cloud e Microsoft Azure."
 			  },
 			  {
 				"topic": "Tecnologias Utilizadas",
@@ -87,10 +87,14 @@
 		  {
 			"tag": "Meu Portifólio",
 			"coverPhoto": "images/portfolio/leopesi.com.br/capa.png",
-			"title": "Automação de Deploy e Entrega de Aplicação na AWS Usando CI/CD",
+			"title": "Automação de deploy e entrega de aplicação web estática (React) na AWS usando CI/CD e DNS.",
 			"text": [
+				{
+				"topic": "Aplicação web estática com AWS S3 e CI/CD",
+				"content": "Aplicação web estática feita em React, estilo landing page, que acabou virando meu portifólio pessoal, servido em um bucket no AWS S3 e automatização do processo de build e deploy na AWS com CI/CD."
+				},
 			  {
-				"topic": "Camada SaaS",
+				"topic": "Landing Page com React: Componentização, Estado e Bootstrap.",
 				"content": "Landing Page feita em React, utilizei componentes reutilizáveis e arquitetura baseada em estado. Os componentes são combinados com Bootstrap para criar uma interface responsiva e a estética mais agradável. Utilizei também o react-router-dom para navegar entre os diferentes componentes e manter a experiência mais fluida."
 			  },
 			  {
@@ -138,29 +142,33 @@
 		  },
 		  {
 			"tag": "Mantis_API",
-			"coverPhoto": "images/portfolio/mantis_api/aws-architecture-capa.png",
-			"title": "Aplicação, SaaS / PaaS, que usa IA para analisar, resumir e sugerir soluções personalisadas para chamados de TI.",
+			"coverPhoto": "images/portfolio/mantis_api/capa.png",
+			"title": "Deploy app Django com Infra AWS: Docker, Terraform e GitLab: Do VPC ao Load Balancer.",
 			"text": [
-			  {
-				"topic": "Camada SaaS",
-				"content": "Ferramenta de gestão de incidentes de suporte de TI. Integrada à intranet (Sharepoint) via iframe, utiliza a Microsoft Graph API para captar a conta de usuário e faz uma requisição na API do MantisBT para captar os tickets associados ao usuário e retorna uma lista com o título e o número do ticket.; O usuário pode pedir uma análise do ticket e então uma outra requisição é enviada para a Gemini API com um script e o json do ticket, que retorna uma análise e resume cada ação aplicada no caso (Se o usuário for do time de suporte a análise retorna sugestões de solução)."
-			  },
-			  {
-				"topic": "Camada PaaS",
+				{
+				"topic": "Integração de Gestão de Incidentes e Automação de Infraestrutura",
+				"content": "Esta aplicação une dois mundos: gestão e análise de incidentes de TI com a automação da infraestrutura. De um lado, temos uma aplicação que integra SharePoint com MantisBT e a IA da Gemini, permitindo que os usuários acompanhem e analisem seus tickets de suporte com a IA fazendo uma análise do incidente de acordo com o perfil do usuário. Do outro, uma infraestrutura robusta e automaticamente provisionada na AWS com Terraform e GitLab. Juntas, essas soluções oferecem uma plataforma completa que otimiza tanto o gerenciamento de problemas quanto a entrega de recursos de TI."
+				},
+				{
+				"topic": "Gestão de Incidentes com SharePoint via Microsoft Graph API e MantisBT",
+				"content": "Ferramenta de gestão de incidentes de suporte de TI com Python. Integrada à intranet (Sharepoint) via iframe, utiliza a Microsoft Graph API para captar a Microsoft account do usuário e faz uma requisição na API do MantisBT para captar os tickets associados ao usuário e retorna uma lista com o título e o número do ticket.; O usuário pode pedir uma análise do ticket e então uma outra requisição é enviada para a Gemini API com um script e o json do ticket, que retorna uma análise e resume cada ação aplicada no caso (Se for  Global Reader retorna um ambiente de suporte com análise e sugestões de solução do incidente com uma integracação com a IA da Gemini API)."
+				},
+				{
+				"topic": "Deploy Automatizado de Infraestrutura AWS com Terraform e GitLab: Do VPC ao Load Balancer",
 				"content": "Infraestrutura (IaC) escrita com Terraform, integrada com GitLab (build/deploy) e versionada com git. Cria uma VPC que define a rede onde os recursos serão implementados. Em seguida, são configuradas as sub-redes públicas e privadas, seguidas pelo grupo de sub-redes do banco de dados.; Depois disso, são configurados os grupos de segurança para controlar o tráfego, incluindo o grupo de segurança do RDS, o do ECS e o do Load Balancer.; Com a rede e a segurança preparadas, a instância do banco de dados RDS é criada, juntamente com o EFS e access point.; Em seguida, a Role IAM necessário para a execução das tarefas ECS é configurado, seguido pela criação do cluster ECS e da Task Definition da aplicação. O Auto Scaling Target para o ECS é então configurado, permitindo a escalabilidade do ECS.; Finalmente, o grupo de destino para o ALB é criado e, por último, é processado o template. Essa sequência garante que todos os recursos necessários estejam prontos antes da criação dos serviços de aplicação e balanceamento de carga."
-			  },
-			  {
+				},
+				{
 				"topic": "Fluxo",
 				"content": " • O tráfego de internet entra no sistema através do ALB, que está nas sub-redes públicas. ; • O ALB distribui esse tráfego para as instâncias ECS rodando nas sub-redes privadas em ambas as zonas de disponibilidade (para alta disponibilidade e balanceamento). ; • As instâncias ECS podem se comunicar com o banco de dados RDS PostgreSQL, que está nas sub-redes privadas. ; • Para se conectar à internet para atualizações ou outros propósitos, as instâncias nas sub-redes privadas passam pelo NAT Gateway, que está em uma sub-rede pública. "
-			  },
-			  {
+				},
+				{
 				"topic": "Benefícios",
 				"content": "Essa arquitetura garante alta disponibilidade, escalabilidade e segurança, ao isolar serviços sensíveis como o banco de dados em sub-redes privadas e distribuir o tráfego em várias zonas de disponibilidade."
-			  },
-			  {
+				},
+				{
 				"topic": "Tecnologias Utilizadas",
 				"content": "• Python / Django,;• PostgreSQL,;• Microsoft Graph API,;• Gemini API,;• MantisBT API,;• Docker,;• Nginx,;• GitLab,;• Terraform,;• ECS (Fargate),;• ECR,;• RDS,;• EFS."
-			  }
+				}
 			],
 			"images": [
 			  {

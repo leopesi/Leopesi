@@ -108,30 +108,26 @@ class ProjectDetailsModal extends Component {
  
               </div>
             <Modal.Header>
-              <Modal.Title>
-                <div>
+              <div>
+                <div className="git-icon">
+                        {url && (
+                          <a
+                            href={url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            
+                            
+                          >
+                            <i class='fab fa-github fa-spin fa-3x'></i>
+                          </a>
+                        )}
+                </div>
+                <Modal.Title>
                   <div className="large-font">
                     {title}
                   </div>
-                  <div className="git-icon">
-                    {url && (
-                      <a
-                        href={url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="link-href"
-                      >
-                        <i class='fab fa-github fa-spin fa-2x'></i>
-                      </a>
-                    )}
-                  </div>
-                  
-                </div>
-                
-                
-                
-              </Modal.Title>
-
+                </Modal.Title>
+              </div>
             </Modal.Header>
             
             <Modal.Body className="modal-body">
