@@ -92,7 +92,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div>
-          <Header sharedData={this.state.sharedData.basic_info} />
+          <Header sharedData={this.state.sharedData.basic_info} sharedBasicInfo={this.state.sharedData.basic_info}/>
           <div className="col-md-12 mx-auto text-center language">
             <div
               className="language-icon-container  mr-4"
