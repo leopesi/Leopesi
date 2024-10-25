@@ -41,49 +41,50 @@ class Header extends Component {
     }, (props, prevProp) => true);
 
     return (
-      <header id="home" style={{ height: window.innerHeight - 140, display: 'block' }}>
-                      <div className="switch-container">
-                <Switch
-                  checked={this.state.checked}
-                  onChange={this.onThemeSwitchChange}
-                  offColor="#baaa80"
-                  onColor="#353535"
-                  className="react-switch mx-auto"
-                  width={90}
-                  height={40}
-                  uncheckedIcon={
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:owl"
-                      data-inline="false"
-                      style={{
-                        display: "block",
-                        height: "100%",
-                        fontSize: 25,
-                        textAlign: "end",
-                        marginLeft: "20px",
-                        color: "#353239",
-                      }}
-                    ></span>
-                  }
-                  checkedIcon={
-                    <span
-                      className="iconify"
-                      data-icon="noto-v1:sun-with-face"
-                      data-inline="false"
-                      style={{
-                        display: "block",
-                        height: "100%",
-                        fontSize: 25,
-                        textAlign: "end",
-                        marginLeft: "10px",
-                        color: "#353239",
-                      }}
-                    ></span>
-                  }
-                  id="icon-switch"
-                />
-              </div>
+      <header id="home" style={{ height: window.innerHeight - 130, display: 'block' }}>
+        <div className="switch-container" >
+          <Switch
+            checked={this.state.checked}
+            onChange={this.onThemeSwitchChange}
+            offColor="#baaa80"
+            onColor="#353535"
+            className="react-switch mx-auto"
+            width={90}
+            height={40}
+            uncheckedIcon={
+              <span
+                className="iconify"
+                data-icon="twemoji:owl"
+                data-inline="false"
+                style={{
+                  display: "block",
+                  height: "100%",
+                  fontSize: 25,
+                  textAlign: "end",
+                  marginLeft: "20px",
+                  color: "#353239",
+                  
+                }}
+              ></span>
+            }
+            checkedIcon={
+              <span
+                className="iconify"
+                data-icon="noto-v1:sun-with-face"
+                data-inline="false"
+                style={{
+                  display: "block",
+                  height: "100%",
+                  fontSize: 25,
+                  textAlign: "end",
+                  marginLeft: "10px",
+                  color: "#353239",
+                }}
+              ></span>
+            }
+            id="icon-switch"
+          />
+        </div>
         <div className="row aligner" style={{height: '100%'}}>
           
           <div className="col-md-12">
@@ -107,7 +108,7 @@ class Header extends Component {
                     <span style={{ cursor: "pointer" }}>
                       <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/ef2c11b4cbc44a0ab7bc1f037e88cabc" target="_blank" rel="noopener noreferrer">
                         <img
-                          className="img-fluid"
+                          class="img-fluid" width="auto"
                           src={developerpic}
                           alt="Certification placeholder"
                         />
@@ -118,7 +119,7 @@ class Header extends Component {
                     <span style={{ cursor: "pointer" }}>
                       <a href="https://cp.certmetrics.com/amazon/en/public/verify/credential/c6e3770689cf4e3da9473ad802b8f6c7" target="_blank" rel="noopener noreferrer">
                         <img
-                          className="img-fluid"
+                          class="img-fluid" width="auto"
                           src={practitionerpic}
                           alt="Certification placeholder"
                         />
